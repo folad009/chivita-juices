@@ -1,0 +1,30 @@
+.mainCarousel {
+    width: 100%;
+    margin: auto;
+  }
+  
+  .mainCarousel img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .thumbnailCarousel {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto 0;
+  }
+  
+  .thumbnailCarousel img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+  }
+  
+  .thumbnailCarousel .swiper-slide-thumb-active img {
+    opacity: 1;
+  }
+  
