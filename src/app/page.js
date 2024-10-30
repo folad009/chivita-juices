@@ -1,3 +1,4 @@
+"use client"
 import InstagramGallery from "@/components/common/InstagramCommunity";
 import StoreLocator from "@/components/common/StoreLocator";
 import ChivitaTrads from "@/components/home/ChivitaTrads";
