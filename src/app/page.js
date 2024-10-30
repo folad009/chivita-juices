@@ -1,5 +1,5 @@
 "use client"
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import InstagramGallery from "@/components/common/InstagramCommunity";
 import StoreLocator from "@/components/common/StoreLocator";
 import ChivitaTrads from "@/components/home/ChivitaTrads";
