@@ -10,7 +10,7 @@ const InstagramGallery = () => {
       <header className={styles.header}>
         <h2
           id="instagram-gallery-heading"
-          className={styles.heading}
+          className="text-3xl text-[#e30417] font-bold"
           style={{ fontFamily: "Bebas Neue, sans-serif" }}
         >
           Join Our Community

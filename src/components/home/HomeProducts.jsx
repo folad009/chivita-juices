@@ -61,7 +61,7 @@ const HomeProducts = () => {
      <section className="py-20 relative overflow-hidden">
       <div className="container text-center">
         <div className="mx-auto flex max-w-screen-lg flex-col gap-6">
-          <h1 className="text-3xl font-extrabold lg:text-6xl" style={{ fontFamily: 'Bebas Neue, sans-serif' }}>The <span className="text-[#007d26] hover:text-[#e30417]/90">Chivita</span> Brand</h1>
+          <h1 className="text-3xl font-extrabold lg:text-4xl" style={{ fontFamily: 'Bebas Neue, sans-serif' }}>The <span className="text-[#e30417]">Chivita</span> Brand</h1>
           <p className="text-balance text-zinc-600 lg:text-lg" style={{ fontFamily: "Azo Sans, sans-serif"}}>
             Our brands make every day a juicy delight. Check out our exciting range of products.
             There’s a tempting option for everyone, with exciting flavours and family favourites too.
@@ -70,7 +70,7 @@ const HomeProducts = () => {
         <button
           ref={buttonRef}
           style={{ fontFamily: 'Bebas Neue, sans-serif' }}
-          className="inline-flex items-center justify-center whitespace-nowrap text-[20px] font-bold ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-[#007d26] text-white hover:bg-[#e30417]/90 h-11 rounded-md px-8 mt-10"
+          className="inline-flex items-center justify-center whitespace-nowrap text-[20px] font-bold ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-[#e30417]  text-white hover:bg-[#007d26] h-11 rounded-md px-8 mt-10"
         >
           Discover all our products
         </button>
@@ -145,7 +145,7 @@ const HomeProducts = () => {
           { img: "Product-DPs-Chivita-Exotic-xxl.png", name: "Chivita Exotic", link: "/products/chivita-exotic" },
           { img: "Product-DPs-Chivita-Happy-Hour-xxl.png", name: "Chivita Happy Hour", link: "/products/chivita-happy-hour" },
           { img: "Product-DPs-Chivita-Ice-Tea-xxl.png", name: "Chivita Ice Tea", link: "/products/chivita-ice-tea" },
-          { img: "chivita-smart.png", name: "Chivita Smart Malt Drink", link: "/product-6" },
+          { img: "smart-malt-drink.png", name: "Chivita Smart Malt Drink", link: "/product-6" },
         ].map((product, index) => (
           <li
             key={index}
