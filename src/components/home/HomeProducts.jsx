@@ -81,7 +81,7 @@ const HomeProducts = () => {
   ref={(el) => (floatingVectorRefs.current[0] = el)}
   src="/assets/images/chivita-fruit-apple.png"
   className="
-    absolute top-10 left-10 w-32 h-32 opacity-90
+    absolute top-10 left-10 w-5 h-5 opacity-80
     sm:top-5 sm:left-5 sm:w-20 sm:h-20 sm:opacity-80
     md:top-8 md:left-8 md:w-32 md:h-32 md:opacity-85
   "
