@@ -45,7 +45,7 @@ export default function BreadcrumbRoundedElevatedTextIconPreview({ currentPage }
                       ? "flex max-w-[20ch] items-center gap-1 truncate whitespace-nowrap text-white transition-colors hover:text-red-500"
                       : index === breadcrumbs.length - 1
                       ? "pointer-events-none max-w-[20ch] truncate whitespace-nowrap text-white"
-                      : "flex max-w-[20ch] truncate whitespace-nowrap text-white font-bold transition-colors hover:text-red-500"
+                      : "flex max-w-[20ch] truncate whitespace-nowrap text-white font-black transition-colors hover:text-red-500"
                   }`}
                 >
                   {index === 0 && (
