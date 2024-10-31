@@ -95,8 +95,8 @@ const HomeProducts = () => {
           src="/assets/images/chivita-fruit-apple.png"
           className="
     absolute top-10 left-10 w-32 h-32 opacity-90
-    sm:top-5 sm:left-5 sm:w-20 sm:h-20 sm:opacity-80
-    md:top-8 md:left-8 md:w-28 md:h-28 md:opacity-85
+    sm:top-5 sm:left-5 sm:w-10 sm:h-10 sm:opacity-80
+    md:top-8 md:left-8 md:w-18 md:h-18 md:opacity-85
   "
         />
 
@@ -105,8 +105,8 @@ const HomeProducts = () => {
           src="/assets/images/water-melon-fruit.png"
           className="
     absolute top-20 right-10 w-32 h-32 opacity-90
-    sm:top-10 sm:right-5 sm:w-20 sm:h-20 sm:opacity-80
-    md:top-15 md:right-8 md:w-28 md:h-28 md:opacity-85
+    sm:top-10 sm:right-5 sm:w-14 sm:h-14 sm:opacity-80
+    md:top-15 md:right-8 md:w-18 md:h-18 md:opacity-85
   "
         />
 
@@ -115,8 +115,8 @@ const HomeProducts = () => {
           src="/assets/images/banana-fruit.png"
           className="
     absolute bottom-10 left-16 w-32 h-32 opacity-90
-    sm:bottom-5 sm:left-8 sm:w-20 sm:h-20 sm:opacity-80
-    md:bottom-8 md:left-12 md:w-28 md:h-28 md:opacity-85
+    sm:bottom-5 sm:left-8 sm:w-4 sm:h-4 sm:opacity-80
+    md:bottom-8 md:left-12 md:w-10 md:h-10 md:opacity-85
   "
         />
 
@@ -125,8 +125,8 @@ const HomeProducts = () => {
           src="/assets/images/strawberry-fruit.png"
           className="
     absolute bottom-20 right-40 w-20 h-20 opacity-90
-    sm:bottom-10 sm:right-20 sm:w-14 sm:h-14 sm:opacity-80
-    md:bottom-15 md:right-30 md:w-18 md:h-18 md:opacity-85
+    sm:bottom-10 sm:right-20 sm:w-4 sm:h-4 sm:opacity-80
+    md:bottom-15 md:right-30 md:w-10 md:h-10 md:opacity-85
   "
         />
 
@@ -135,8 +135,8 @@ const HomeProducts = () => {
           src="/assets/images/orange-fruit.png"
           className="
     absolute bottom-15 right-12 w-20 h-20 opacity-90
-    sm:bottom-8 sm:right-6 sm:w-14 sm:h-14 sm:opacity-80
-    md:bottom-10 md:right-8 md:w-18 md:h-18 md:opacity-85
+    sm:bottom-8 sm:right-6 sm:w-4 sm:h-4 sm:opacity-80
+    md:bottom-10 md:right-8 md:w-10 md:h-10 md:opacity-85
   "
         />
 
@@ -145,8 +145,8 @@ const HomeProducts = () => {
           src="/assets/images/mango-fruit.png"
           className="
     absolute bottom-15 left-48 w-20 h-20 opacity-90 
-    sm:bottom-10 sm:left-32 sm:w-16 sm:h-16 sm:opacity-80
-    md:bottom-12 md:left-40 md:w-18 md:h-18 md:opacity-85
+    sm:bottom-10 sm:left-32 sm:w-4 sm:h-4 sm:opacity-80
+    md:bottom-12 md:left-40 md:w-10 md:h-10 md:opacity-85
   "
         />
       </section>
