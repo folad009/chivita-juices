@@ -11,7 +11,7 @@ const ContactPage = () => {
       <section className="min-h-screen">
         <div className="container flex flex-col min-h-screen px-6 py-12 mx-auto">
           <div className="flex-1 lg:flex lg:items-center lg:-mx-6">
-            <div className="text-gray-800 lg:w-1/2 lg:mx-6">
+            <div className="text-gray-800 lg:w-1/2 lg:mx-6 pl-10">
               <div className="mt-6 space-y-8 md:mt-8">
                 <p className="flex items-start -mx-2">
                   <svg
@@ -59,35 +59,13 @@ const ContactPage = () => {
                   </svg>
 
                   <span
-                    className="mx-2 text-gray-800 truncate w-72 font-bold text-[18px]"
+                    className="mx-2 text-gray-800 truncate font-bold text-[18px]"
                     style={{ fontFamily: "Azo Sans, sans-serif" }}
                   >
-                    +234 903 387 2113
+                    +234 903 387 2113 | +234 809 761 2000
                   </span>
                 </p>
-                <p className="flex items-start -mx-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="w-7 h-7 mx-2 text-gray-800"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    stroke-width="2"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
-                    />
-                  </svg>
 
-                  <span
-                    className="mx-2 text-gray-800 truncate w-72 font-bold text-[18px]"
-                    style={{ fontFamily: "Azo Sans, sans-serif" }}
-                  >
-                    +234 809 761 2000
-                  </span>
-                </p>
                 <p className="flex items-start -mx-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -132,7 +110,9 @@ const ContactPage = () => {
                     className="mx-2 text-gray-800 truncate w-72 font-bold text-[18px]"
                     style={{ fontFamily: "Azo Sans, sans-serif" }}
                   >
-                    chicares@chilimited.com
+                    <a href="chicares@chilimited.com" className="hover:text-[#e30417]">
+                      chicares@chilimited.com
+                    </a>
                   </span>
                 </p>
               </div>

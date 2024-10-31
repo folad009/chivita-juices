@@ -16,18 +16,25 @@ const Card = ({ imgSrc, title, ingredients }) => {
       <div className="px-6 py-8 border border-t-0 rounded-b sm:px-8">
         <h5 className="mb-2 text-xl font-bold leading-none sm:text-2xl" style={{ fontFamily: 'Bebas Neue, sans-serif' }}>{title}</h5>
         <p className="mb-5 text-gray-700 text-[15px]" style={{ fontFamily: 'Azo Sans, sans-serif'}}><span className='font-bold'>Ingredients:</span><br/>{ingredients}</p>
-        <Link href="#" passHref>
-          <button
-            className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-[#e30417] hover:bg-[#0c8241] focus:shadow-outline focus:outline-none"
-            style={{ fontFamily: 'Azo Sans, sans-serif', fontWeight: 'bold' }}
-          >
-           Buy Now
-          </button>
-        </Link>
+        
       </div>
     </div>
   );
 };
+
+const StickyButton = () => {
+  return (
+    <Link href="#" passHref>
+      <button
+        className="fixed bottom-8 right-8 z-50 h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-[#e30417] hover:bg-[#0c8241] focus:shadow-outline focus:outline-none"
+        style={{ fontFamily: 'Azo Sans, sans-serif', fontWeight: 'bold' }}
+      >
+        Buy Now
+      </button>
+    </Link>
+  );
+};
+
 
 const RecipeOverview = () => {
     
@@ -97,6 +104,7 @@ const RecipeOverview = () => {
         ))}
       </div>
     </div>
+    <StickyButton />
     </>
     
   );

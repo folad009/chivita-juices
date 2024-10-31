@@ -6,8 +6,8 @@ const ChivitaHappyHour = () => {
       <div className="relative overflow-hidden">
         <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-10">
           <div className="max-w-2xl text-center mx-auto">
-            <h1 className="block text-6xl font-bold text-[#0c8241] dark:text-white" style={{ fontFamily: "Bebas Neue, sans-serif" }}>
-              Chivita Happy Hour Overview
+            <h1 className="block text-4xl font-bold text-[#e30417] dark:text-white" style={{ fontFamily: "Bebas Neue, sans-serif" }}>
+              Chivita Happy Hour
             </h1>
             <p
               className="leading-relaxed"
@@ -68,7 +68,7 @@ const ChivitaHappyHour = () => {
                     fontWeight: "bold",
                   }}
                 >
-                  215ml
+                  1 Litre | 125ml | 90ml
                 </div>
               </div>
             </div>
@@ -119,7 +119,7 @@ const ChivitaHappyHour = () => {
                     fontWeight: "bold",
                   }}
                 >
-                  125ml
+                   1 Litre | 125ml | 90ml
                 </div>
               </div>
             </div>

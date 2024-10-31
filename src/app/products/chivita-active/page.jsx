@@ -6,8 +6,8 @@ const ChivitaActive = () => {
       <div className="relative overflow-hidden">
         <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-10">
           <div className="max-w-2xl text-center mx-auto">
-            <h1 className="block text-6xl font-bold text-[#0c8241] dark:text-white" style={{ fontFamily: "Bebas Neue, sans-serif" }}>
-              Chivita Active Overview
+            <h1 className="block text-4xl font-bold text-[#e30417] dark:text-white" style={{ fontFamily: "Bebas Neue, sans-serif" }}>
+              Chivita Active
             </h1>
             <p
               className="leading-relaxed"
@@ -66,7 +66,7 @@ const ChivitaActive = () => {
                     fontWeight: "bold",
                   }}
                 >
-                  1 Litre | 315ml
+                  1 Litre | 315ml 
                 </div>
               </div>
             </div>
@@ -118,7 +118,7 @@ const ChivitaActive = () => {
                     fontWeight: "bold",
                   }}
                 >
-                  1 Litre{" "}
+                  1 Litre | 125ml | 315ml | 45ml | 330ml (Can)
                 </div>
               </div>
             </div>
@@ -149,7 +149,7 @@ const ChivitaActive = () => {
               className="leading-relaxed"
               style={{ fontFamily: "Azo Sans, sans-serif" }}
             >
-              Chivita Active Zest is made from the best quality fruits and
+              Chivita Active Carrot & Orange is made from the best quality fruits and
               vegetables, perfectly blended with the goodness of Vitamins and
               nutrients. Chivita Active Zest is a healthy and tasty way to get
               the regular dose of antioxidants and stamina for an active healthy
@@ -170,7 +170,7 @@ const ChivitaActive = () => {
                     fontWeight: "bold",
                   }}
                 >
-                  1 Litre{" "}
+                  1 Litre
                 </div>
               </div>
             </div>

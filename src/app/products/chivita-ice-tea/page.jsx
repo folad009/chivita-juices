@@ -6,8 +6,8 @@ const ChivitaIceTea = () => {
       <div className="relative overflow-hidden">
         <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-10">
           <div className="max-w-2xl text-center mx-auto">
-            <h1 className="block text-6xl font-bold text-[#0c8241] dark:text-white" style={{ fontFamily: "Bebas Neue, sans-serif" }}>
-              Chivita Ice Tea Overview
+            <h1 className="block text-4xl font-bold text-[#e30417] dark:text-white" style={{ fontFamily: "Bebas Neue, sans-serif" }}>
+              Chivita Ice Tea
             </h1>
             <p
               className="leading-relaxed"
@@ -65,7 +65,7 @@ const ChivitaIceTea = () => {
                     fontWeight: "bold",
                   }}
                 >
-                  1 Litre | 315ml
+                  1 Litre | 125ml | 315ml | 330 ml (Can Sparkling)
                 </div>
               </div>
             </div>

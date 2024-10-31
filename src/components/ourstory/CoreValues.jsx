@@ -10,7 +10,7 @@ const CoreValues = () => {
         className="inline-flex items-center rounded-full border px-20 py-2.5 text-[25px] font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground">
         OUR CORE VALUES
       </div>
-      <h2 className="mb-2 text-center text-3xl font-semibold lg:text-4xl text-[#e30417]" style={{ fontFamily: "Bebas Neue, sans-serif" }}>
+      <h2 className="mb-2 text-center text-4xl font-semibold text-[#e30417]" style={{ fontFamily: "Bebas Neue, sans-serif" }}>
         We are leaders in the Fruit Juice Category in Nigeria.
       </h2>
       <div className="mt-6 flex flex-col gap-6 lg:flex-row max-w-6xl">
