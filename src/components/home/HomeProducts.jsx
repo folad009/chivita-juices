@@ -1,4 +1,4 @@
-"use client";
+"use client"
 import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
@@ -58,134 +58,94 @@ const HomeProducts = () => {
 
   return (
     <>
-      <section className="py-20 relative overflow-hidden">
-        <div className="container text-center">
-          <div className="mx-auto flex max-w-screen-lg flex-col gap-6">
-            <h1
-              className="text-3xl font-extrabold lg:text-6xl"
-              style={{ fontFamily: "Bebas Neue, sans-serif" }}
-            >
-              The{" "}
-              <span className="text-[#007d26] hover:text-[#e30417]/90">
-                Chivita
-              </span>{" "}
-              Brand
-            </h1>
-            <p
-              className="text-balance text-zinc-600 lg:text-lg"
-              style={{ fontFamily: "Azo Sans, sans-serif" }}
-            >
-              Our brands make every day a juicy delight. Check out our exciting
-              range of products. There’s a tempting option for everyone, with
-              exciting flavours and family favourites too.
-            </p>
-          </div>
-          <button
-            ref={buttonRef}
-            style={{ fontFamily: "Bebas Neue, sans-serif" }}
-            className="inline-flex items-center justify-center whitespace-nowrap text-[20px] font-bold ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-[#007d26] text-white hover:bg-[#e30417]/90 h-11 rounded-md px-8 mt-10"
-          >
-            Discover all our products
-          </button>
+     <section className="py-20 relative overflow-hidden">
+      <div className="container text-center">
+        <div className="mx-auto flex max-w-screen-lg flex-col gap-6">
+          <h1 className="text-3xl font-extrabold lg:text-6xl" style={{ fontFamily: 'Bebas Neue, sans-serif' }}>The <span className="text-[#007d26] hover:text-[#e30417]/90">Chivita</span> Brand</h1>
+          <p className="text-balance text-zinc-600 lg:text-lg" style={{ fontFamily: "Azo Sans, sans-serif"}}>
+            Our brands make every day a juicy delight. Check out our exciting range of products.
+            There’s a tempting option for everyone, with exciting flavours and family favourites too.
+          </p>
         </div>
+        <button
+          ref={buttonRef}
+          style={{ fontFamily: 'Bebas Neue, sans-serif' }}
+          className="inline-flex items-center justify-center whitespace-nowrap text-[20px] font-bold ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-[#007d26] text-white hover:bg-[#e30417]/90 h-11 rounded-md px-8 mt-10"
+        >
+          Discover all our products
+        </button>
+      </div>
 
-        {/* Floating SVG elements */}
-        <img
-          ref={(el) => (floatingVectorRefs.current[0] = el)}
-          src="/assets/images/chivita-fruit-apple.png"
-          className="
+      {/* Floating SVG elements */}
+      <img
+  ref={(el) => (floatingVectorRefs.current[0] = el)}
+  src="/assets/images/chivita-fruit-apple.png"
+  className="
     absolute top-10 left-10 w-32 h-32 opacity-90
-    sm:top-5 sm:left-5 sm:w-10 sm:h-10 sm:opacity-80
-    md:top-8 md:left-8 md:w-18 md:h-18 md:opacity-85
+    sm:top-5 sm:left-5 sm:w-20 sm:h-20 sm:opacity-80
+    md:top-8 md:left-8 md:w-32 md:h-32 md:opacity-85
   "
-        />
+/>
 
-        <img
-          ref={(el) => (floatingVectorRefs.current[1] = el)}
-          src="/assets/images/water-melon-fruit.png"
-          className="
-    absolute top-20 right-10 w-32 h-32 opacity-90
-    sm:top-10 sm:right-5 sm:w-14 sm:h-14 sm:opacity-80
-    md:top-15 md:right-8 md:w-18 md:h-18 md:opacity-85
+<img
+  ref={(el) => (floatingVectorRefs.current[1] = el)}
+  src="/assets/images/water-melon-fruit.png"
+  className="
+    absolute top-20 right-10 w-5 h-5 opacity-90
+    sm:top-10 sm:right-5 sm:w-20 sm:h-20 sm:opacity-80
+    md:top-15 md:right-8 md:w-32 md:h-32 md:opacity-85
   "
-        />
+/>
 
-        <img
-          ref={(el) => (floatingVectorRefs.current[2] = el)}
-          src="/assets/images/banana-fruit.png"
-          className="
-    absolute bottom-10 left-16 w-32 h-32 opacity-90
-    sm:bottom-5 sm:left-8 sm:w-4 sm:h-4 sm:opacity-80
-    md:bottom-8 md:left-12 md:w-10 md:h-10 md:opacity-85
+<img
+  ref={(el) => (floatingVectorRefs.current[2] = el)}
+  src="/assets/images/banana-fruit.png"
+  className="
+    absolute bottom-10 left-16 w-5 h-5 opacity-90
+    sm:bottom-5 sm:left-8 sm:w-20 sm:h-20 sm:opacity-80
+    md:bottom-8 md:left-12 md:w-32 md:h-32 md:opacity-85
   "
-        />
+/>
 
-        <img
-          ref={(el) => (floatingVectorRefs.current[3] = el)}
-          src="/assets/images/strawberry-fruit.png"
-          className="
-    absolute bottom-20 right-40 w-20 h-20 opacity-90
-    sm:bottom-10 sm:right-20 sm:w-4 sm:h-4 sm:opacity-80
-    md:bottom-15 md:right-30 md:w-10 md:h-10 md:opacity-85
+<img
+  ref={(el) => (floatingVectorRefs.current[3] = el)}
+  src="/assets/images/strawberry-fruit.png"
+  className="
+    absolute bottom-20 right-40 w-5 h-5 opacity-90
+    sm:bottom-10 sm:right-20 sm:w-14 sm:h-14 sm:opacity-80
+    md:bottom-15 md:right-30 md:w-32 md:h-32 md:opacity-85
   "
-        />
+/>
 
-        <img
-          ref={(el) => (floatingVectorRefs.current[4] = el)}
-          src="/assets/images/orange-fruit.png"
-          className="
-    absolute bottom-15 right-12 w-20 h-20 opacity-90
-    sm:bottom-8 sm:right-6 sm:w-4 sm:h-4 sm:opacity-80
-    md:bottom-10 md:right-8 md:w-10 md:h-10 md:opacity-85
+<img
+  ref={(el) => (floatingVectorRefs.current[4] = el)}
+  src="/assets/images/orange-fruit.png"
+  className="
+    absolute bottom-15 right-12 w-5 h-5 opacity-90
+    sm:bottom-8 sm:right-6 sm:w-14 sm:h-14 sm:opacity-80
+    md:bottom-10 md:right-8 md:w-20 md:h-20 md:opacity-85
   "
-        />
+/>
 
-        <img
-          ref={(el) => (floatingVectorRefs.current[5] = el)}
-          src="/assets/images/mango-fruit.png"
-          className="
-    absolute bottom-15 left-48 w-20 h-20 opacity-90 
-    sm:bottom-10 sm:left-32 sm:w-4 sm:h-4 sm:opacity-80
-    md:bottom-12 md:left-40 md:w-10 md:h-10 md:opacity-85
+      <img
+  ref={(el) => (floatingVectorRefs.current[5] = el)}
+  src="/assets/images/mango-fruit.png"
+  className="
+    absolute bottom-15 left-48 w-5 h-5 opacity-90 
+    sm:bottom-10 sm:left-32 sm:w-16 sm:h-16 sm:opacity-80
+    md:bottom-12 md:left-40 md:w-20 md:h-20 md:opacity-85
   "
-        />
-      </section>
+/>
+    </section>
 
-      <ul
-        ref={productRef}
-        className="grid grid-cols-1 gap-6 px-8 md:grid-cols-2 lg:flex"
-      >
+      <ul ref={productRef} className="grid grid-cols-1 gap-6 px-8 md:grid-cols-2 lg:flex">
         {[
-          {
-            img: "Product-DPs-Chivita-Fruit-Juice-xxl.png",
-            name: "Chivita 100%",
-            link: "/products/chivita-100",
-          },
-          {
-            img: "Product-DPs-Chivita-Active-xxl.png",
-            name: "Chivita Active",
-            link: "/products/chivita-active",
-          },
-          {
-            img: "Product-DPs-Chivita-Exotic-xxl.png",
-            name: "Chivita Exotic",
-            link: "/products/chivita-exotic",
-          },
-          {
-            img: "Product-DPs-Chivita-Happy-Hour-xxl.png",
-            name: "Chivita Happy Hour",
-            link: "/products/chivita-happy-hour",
-          },
-          {
-            img: "Product-DPs-Chivita-Ice-Tea-xxl.png",
-            name: "Chivita Ice Tea",
-            link: "/products/chivita-ice-tea",
-          },
-          {
-            img: "chivita-smart.png",
-            name: "Chivita Smart Malt Drink",
-            link: "/product-6",
-          },
+          { img: "Product-DPs-Chivita-Fruit-Juice-xxl.png", name: "Chivita 100%", link: "/products/chivita-100"},
+          { img: "Product-DPs-Chivita-Active-xxl.png", name: "Chivita Active", link: "/products/chivita-active" },
+          { img: "Product-DPs-Chivita-Exotic-xxl.png", name: "Chivita Exotic", link: "/products/chivita-exotic" },
+          { img: "Product-DPs-Chivita-Happy-Hour-xxl.png", name: "Chivita Happy Hour", link: "/products/chivita-happy-hour" },
+          { img: "Product-DPs-Chivita-Ice-Tea-xxl.png", name: "Chivita Ice Tea", link: "/products/chivita-ice-tea" },
+          { img: "chivita-smart.png", name: "Chivita Smart Malt Drink", link: "/product-6" },
         ].map((product, index) => (
           <li
             key={index}
@@ -201,19 +161,11 @@ const HomeProducts = () => {
             />
             <div className="invisible absolute inset-0 flex items-end bg-gradient-to-t from-[#007d26] to-[#007d26]/10 p-5 opacity-0 transition-all duration-300 group-hover:visible group-hover:opacity-100 xl:p-10">
               <div className="translate-x-10 text-[#F8FCDD] transition-all delay-150 duration-500 group-hover:translate-x-0">
-                <span
-                  style={{ fontFamily: "Bebas Neue, sans-serif" }}
-                  className=" block text-wrap font-bricolageGrotesque text-3xl font-bold leading-[1.26] xl:text-[38px]"
-                >
+                <span style={{ fontFamily: 'Bebas Neue, sans-serif' }} className=" block text-wrap font-bricolageGrotesque text-3xl font-bold leading-[1.26] xl:text-[38px]">
                   {product.name}
                 </span>
-                <a
-                  href={product.link}
-                  style={{ fontFamily: "Bebas Neue, sans-serif" }}
-                  className="inline-flex items-center justify-center whitespace-nowrap text-[20px] font-bold ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-[#e30417] text-white hover:bg-[#007d26]/90 h-11 rounded-md px-8"
-                >
-                  Learn More
-                </a>
+                <a href={product.link} style={{ fontFamily: 'Bebas Neue, sans-serif' }}
+          className="inline-flex items-center justify-center whitespace-nowrap text-[20px] font-bold ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-[#e30417] text-white hover:bg-[#007d26]/90 h-11 rounded-md px-8">Learn More</a>
               </div>
             </div>
           </li>
