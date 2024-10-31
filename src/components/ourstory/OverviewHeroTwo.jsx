@@ -63,7 +63,7 @@ const OverviewHeroTwo = () => {
       <div className="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center">
         {/* Text Section */}
         <div ref={textRef} className="py-5 px-5">
-          <h1 className="block text-5xl font-bold text-gray-800  lg:leading-none dark:text-white" style={{ fontFamily: "Bebas Neue, sans-serif" }}>
+          <h1 className="block text-5xl font-bold text-gray-800 dark:text-white" style={{ fontFamily: "Bebas Neue, sans-serif" }}>
             Quality has {" "}
             <span className="bg-clip-text bg-gradient-to-tl from-[#e30417] to-[#e30417]/60 text-transparent">another name.</span>
           </h1>

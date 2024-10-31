@@ -7,7 +7,7 @@ const InstagramGallery = () => {
       className={styles.instagramGallery}
       aria-labelledby="instagram-gallery-heading"
     >
-      <header className={styles.header}>
+      {/*<header className={styles.header}>
         <h2
           id="instagram-gallery-heading"
           className="text-6xl text-[#e30417] font-bold"
@@ -22,7 +22,7 @@ const InstagramGallery = () => {
           Follow us on our social media channels to know about upcoming events,
           promotions, & news as they happen
         </p>
-        {/* Social Brands */}
+      
         <div className="space-x-10">
           <a
             className="size-10 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-black hover:bg-white/10 focus:outline-none focus:bg-white/10 disabled:opacity-50 disabled:pointer-events-none"
@@ -84,8 +84,8 @@ const InstagramGallery = () => {
             </svg>
           </a>
         </div>
-        {/* End Social Brands */}
-      </header>
+        
+      </header>*/}
 
       <div className={styles.marquee}>
         <div className={styles.marqueeContent}>
