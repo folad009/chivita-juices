@@ -110,7 +110,7 @@ const ContactPage = () => {
                     className="mx-2 text-gray-800 truncate w-72 font-bold text-[18px]"
                     style={{ fontFamily: "Azo Sans, sans-serif" }}
                   >
-                    <a href="chicares@chilimited.com" className="hover:text-[#e30417]">
+                    <a href="mailto:chicares@chilimited.com" className="hover:text-[#e30417]">
                       chicares@chilimited.com
                     </a>
                   </span>

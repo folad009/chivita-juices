@@ -31,7 +31,7 @@ const ChivitaTrads = () => {
                 <button
                   key={image.id}
                   type="button"
-                  className={`hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-start hover:bg-gray-200 focus:outline-none focus:bg-gray-200 p-4 md:p-5 rounded-xl ${
+                  className={`hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-start hover:bg-white focus:outline-none focus:bg-white p-4 md:p-5 rounded-xl ${
                     activeTab === image.id ? 'active' : ''
                   }`}
                   aria-selected={activeTab === image.id}
