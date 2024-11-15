@@ -2,18 +2,16 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/autoplay';
-import 'swiper/css/effect-cube';
 import 'swiper/css/pagination';
-import { Autoplay, EffectCube, Pagination } from 'swiper/modules';
+import { Autoplay, Pagination } from 'swiper/modules';
 import styles from '@/css/Carousel.module.css';
 
 const HomeSlider = () => {
   return (
     <div>
       <Swiper
-        modules={[Autoplay, EffectCube, Pagination]}
-        effect="cube" // 3D cube effect
-        autoplay={{ delay: 3000, disableOnInteraction: false }} // Set autoplay delay
+        modules={[Autoplay, Pagination]} 
+        autoplay={{ delay: 5000, disableOnInteraction: false }} // Set autoplay delay
         pagination={{ clickable: true }} // Dots for navigation
         slidesPerView={1}
         loop={true}

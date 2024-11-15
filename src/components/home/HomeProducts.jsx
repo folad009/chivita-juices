@@ -79,17 +79,17 @@ const HomeProducts = () => {
       {/* Floating SVG elements */}
       <img
   ref={(el) => (floatingVectorRefs.current[0] = el)}
-  src="/assets/images/chivita-fruit-apple.png"
+  src="/assets/images/chivita-orange-fruit.png"
   className="
     absolute top-10 left-10 w-5 h-5 opacity-80
-    sm:top-5 sm:left-5 sm:w-20 sm:h-20 sm:opacity-80
+    sm:top-5 sm:left-5 sm:w-14 sm:h-14 sm:opacity-80
     md:top-8 md:left-8 md:w-32 md:h-32 md:opacity-85
   "
 />
 
 <img
   ref={(el) => (floatingVectorRefs.current[1] = el)}
-  src="/assets/images/water-melon-fruit.png"
+  src="/assets/images/chivita-pineapple-juices.png"
   className="
     absolute top-20 right-10 w-5 h-5 opacity-90
     sm:top-10 sm:right-5 sm:w-20 sm:h-20 sm:opacity-80
@@ -99,7 +99,7 @@ const HomeProducts = () => {
 
 <img
   ref={(el) => (floatingVectorRefs.current[2] = el)}
-  src="/assets/images/banana-fruit.png"
+  src="/assets/images/chivita-banana-fruit.png"
   className="
     absolute bottom-10 left-16 w-5 h-5 opacity-90
     sm:bottom-5 sm:left-8 sm:w-20 sm:h-20 sm:opacity-80
@@ -109,7 +109,7 @@ const HomeProducts = () => {
 
 <img
   ref={(el) => (floatingVectorRefs.current[3] = el)}
-  src="/assets/images/strawberry-fruit.png"
+  src="/assets/images/chivita-apple-fruit.png"
   className="
     absolute bottom-20 right-40 w-5 h-5 opacity-90
     sm:bottom-10 sm:right-20 sm:w-14 sm:h-14 sm:opacity-80
@@ -119,7 +119,7 @@ const HomeProducts = () => {
 
 <img
   ref={(el) => (floatingVectorRefs.current[4] = el)}
-  src="/assets/images/orange-fruit.png"
+  src="/assets/images/chivita-strawberry-fruit.png"
   className="
     absolute bottom-15 right-12 w-5 h-5 opacity-90
     sm:bottom-8 sm:right-6 sm:w-14 sm:h-14 sm:opacity-80
@@ -129,7 +129,7 @@ const HomeProducts = () => {
 
       <img
   ref={(el) => (floatingVectorRefs.current[5] = el)}
-  src="/assets/images/mango-fruit.png"
+  src="/assets/images/chivita-mango-fruit.png"
   className="
     absolute bottom-15 left-48 w-5 h-5 opacity-90 
     sm:bottom-10 sm:left-32 sm:w-16 sm:h-16 sm:opacity-80
