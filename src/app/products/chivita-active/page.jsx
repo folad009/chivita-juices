@@ -40,7 +40,7 @@ const ChivitaActive = () => {
               className="mt-4 text-lg font-medium sm:text-xl"
               style={{ fontFamily: "Bebas Neue, sans-serif" }}
             >
-              Chivita Active Citrus Mixed
+              Chivita Active Citrus Mix
             </h1>
             <p
               className="leading-relaxed"

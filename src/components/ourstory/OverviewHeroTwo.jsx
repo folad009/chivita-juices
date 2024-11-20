@@ -67,7 +67,7 @@ const OverviewHeroTwo = () => {
             Quality has {" "}
             <span className="bg-clip-text bg-gradient-to-tl from-[#e30417] to-[#e30417]/60 text-transparent">another name.</span>
           </h1>
-          <p className="mt-3 text-[17px] text-gray-800 dark:text-neutral-400" style={{ fontFamily: "Azo Sans, sans-serif" }}>
+          <p className="mt-3 mb-5 text-[16px]  text-gray-800 dark:text-neutral-400" style={{ fontFamily: "Azo Sans, sans-serif", lineHeight: "1.8" }}>
             Incorporated in 1980, Chivita|Hollandia (CHI Limited) is a market
             leader in the food & beverage sector in Nigeria. Each of our product
             offerings within the fruit juice, value added dairy, and snacks
@@ -76,7 +76,7 @@ const OverviewHeroTwo = () => {
             quality.
           </p>
 
-          <p className="mt-3 text-[17px] text-gray-800 dark:text-neutral-400" style={{ fontFamily: "Azo Sans, sans-serif" }}>
+          <p className="mt-3 text-[16px] text-gray-800 dark:text-neutral-400" style={{ fontFamily: "Azo Sans, sans-serif", lineHeight: "1.8" }}>
             With our ISO 22000 certified state-of-the-art manufacturing
             facility, Chivita|Hollandia (CHI Limited) deploys advanced
             processing and internationally certified technology that automates

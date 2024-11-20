@@ -8,7 +8,7 @@ const ChivitaTrads = () => {
     {
       id: 1,
       src: "/assets/images/chivita-family-image.webp",
-      title: "Nutritious Goodness of Fruit at its Purest",
+      title: "Nutritious Goodness of Fruit",
       description: "Welcome to a world of the purest of juices, the freshest of fruits, and the greatest of pleasures.",
     },
     {

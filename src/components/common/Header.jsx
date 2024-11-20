@@ -2,12 +2,12 @@
 
 import Image from "next/image";
 import { useState, useMemo } from "react";
+import styles from '@/css/CustomButton.module.css'
 
 function ChivitaNavi() {
-  const [isProductsOpen, setIsProductsOpen] = useState(false);
+  const [isProductsHovered, setIsProductsHovered] = useState(false);
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  const toggleProducts = () => setIsProductsOpen(prev => !prev);
   const toggleMobileMenu = () => setMobileMenuOpen(prev => !prev);
 
   const productItems = useMemo(() => [
@@ -28,64 +28,81 @@ function ChivitaNavi() {
             width={100}
             height={50}
             alt="chivita juices"
-            className="w-auto h-7"
+            className="w-auto h-12"
             priority
           />
         </a>
 
         {/* Navigation Bar */}
         <nav className="relative hidden md:inline-flex space-x-9 font-bold" style={{ fontFamily: 'Bebas Neue, sans-serif' }}>
-          {/* Products Dropdown */}
-          <div className="relative">
-            <button
-              onClick={toggleProducts}
-              className="flex items-center rounded-md p-2  text-white text-[17px] border-none shadow-none hover:bg-[#CA9920] hover:text-white"
-              aria-expanded={isProductsOpen}
-            >
-              Products
-             
-               <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                className={`w-6 h-6 ml-1 mt-[-4px] transition-transform transform  ${isProductsOpen ? "rotate-180" : ""}`}
-              >
-                <polyline className="fill-white" points="6 9 12 15 18 9" />
-              </svg> 
-              
-            </button>
+  {/* Static Links */}
+  <a
+    href="/our-story"
+    className="rounded-md p-2 text-white text-[17px] border-none shadow-none hover:bg-[#0c8241] hover:text-white focus:bg-[#0c8241]"
+  >
+    Our Story
+  </a>
 
-            {isProductsOpen && (
-              <div className="absolute z-50 w-screen max-w-4xl p-3 mt-1 bg-white rounded shadow">
-                <div className="grid grid-cols-6 gap-2">
-                  {productItems.map(({ name, image, link }, idx) => (
-                    <a key={idx} href={link} className="flex flex-col items-center justify-center transition">
-                      <Image src={image} alt={name} width={50} height={50} />
-                      <span className="mt-2 text-center text-[12px]" style={{fontFamily: 'Azo Sans, sans-serif'}}>{name}</span>
-                    </a>
-                  ))}
-                </div>
-              </div>
-            )}
-          </div>
-          {/* Static Links */}
-          {["Our Story", "Recipes", "FAQs", "Journal", "Contact"].map((link, idx) => (
-            <a
-              key={idx}
-              href={`/${link.replace(/\s+/g, '-').toLowerCase()}`}
-              className="rounded-md p-2 text-white text-[17px] border-none shadow-none hover:bg-[#CA9920] hover:text-white focus:bg-[#CA9920]"
-            >
-              {link}
+  {/* Products Dropdown */}
+  <div
+    className="relative"
+    onMouseEnter={() => setIsProductsHovered(true)}
+    onMouseLeave={() => setIsProductsHovered(false)}
+  >
+    <button
+      className="flex items-center rounded-md p-2 text-white text-[17px] border-none shadow-none hover:bg-[#0c8241] hover:text-white"
+      aria-expanded={isProductsHovered}
+    >
+      Products  
+    </button>
+
+    {isProductsHovered && (
+      <div className="absolute z-50 w-screen max-w-2xl p-2 mt-1 bg-white rounded shadow">
+        <div className="grid grid-cols-6 gap-2">
+          {productItems.map(({ name, image, link }, idx) => (
+            <a key={idx} href={link} className="flex flex-col items-center justify-center transition">
+              <Image src={image} alt={name} width={50} height={50} />
+              <span className="mt-2 text-center text-[12px]" style={{ fontFamily: 'Azo Sans, sans-serif' }}>
+                {name}
+              </span>
             </a>
           ))}
-        </nav>
+        </div>
+      </div>
+    )}
+  </div>
+
+  {/* Other Static Links */}
+  <a
+    href="/recipes"
+    className="rounded-md p-2 text-white text-[17px] border-none shadow-none hover:bg-[#0c8241] hover:text-white focus:bg-[#0c8241]"
+  >
+    Recipes
+  </a>
+  <a
+    href="/journal"
+    className="rounded-md p-2 text-white text-[17px] border-none shadow-none hover:bg-[#0c8241] hover:text-white focus:bg-[#0c8241]"
+  >
+    Journal
+  </a>
+  <a
+    href="/contact"
+    className="rounded-md p-2 text-white text-[17px] border-none shadow-none hover:bg-[#0c8241] hover:text-white focus:bg-[#0c8241]"
+  >
+    Contact
+  </a>
+</nav>
+
 
         <div className="flex items-center space-x-1">
-          <a href="/contact" className="rounded-md p-3 bg-[#CA9920] text-white font-bold hover:bg-[#0c8241]" style={{ fontFamily: 'Bebas Neue, sans-serif' }}>Where To Buy</a>
+          <a href="/contact" className={styles.CustomButton} style={{ fontFamily: 'Bebas Neue, sans-serif' }}>
+            <span className={styles.span}>Where To Buy</span>
+          </a>
 
           {/* Mobile Menu Toggle */}
           <button
             onClick={toggleMobileMenu}
-            className="inline-flex md:hidden px-2  btn btn-sm"
+            className="inline-flex md:hidden px-2 btn btn-sm"
             aria-label="Open Menu"
             aria-expanded={isMobileMenuOpen}
           >

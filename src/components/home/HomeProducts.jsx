@@ -60,8 +60,8 @@ const HomeProducts = () => {
     <>
      <section className="py-20 relative overflow-hidden">
       <div className="container text-center">
-        <div className="mx-auto flex max-w-screen-lg flex-col gap-6">
-          <h1 className="text-6xl font-bold" style={{ fontFamily: 'Bebas Neue, sans-serif' }}>The <span className="text-[#e30417]">Chivita</span> Brand</h1>
+        <div className="mx-auto flex max-w-screen-xl flex-col items-center gap-6">
+          <img src="/assets/images/the-chivita-brand.png" className="w-[500px] items-center" />
           <p className="text-balance text-zinc-600 lg:text-lg" style={{ fontFamily: "Azo Sans, sans-serif"}}>
             Our brands make every day a juicy delight. Check out our exciting range of products.
             There’s a tempting option for everyone, with exciting flavours and family favourites too.
