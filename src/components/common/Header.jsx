@@ -37,6 +37,13 @@ function ChivitaNavi() {
         <nav className="relative hidden md:inline-flex space-x-9 font-bold" style={{ fontFamily: 'Bebas Neue, sans-serif' }}>
   {/* Static Links */}
   <a
+    href="https://chivitahollandia.com"
+    target="blank"
+    className="rounded-md p-2 text-white text-[17px] border-none shadow-none hover:bg-[#0c8241] hover:text-white focus:bg-[#0c8241]"
+  >
+    The Company
+  </a>
+  <a
     href="/our-story"
     className="rounded-md p-2 text-white text-[17px] border-none shadow-none hover:bg-[#0c8241] hover:text-white focus:bg-[#0c8241]"
   >

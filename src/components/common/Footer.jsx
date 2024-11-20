@@ -9,7 +9,7 @@ const products = [
   "Chivita Exotic",
   "Chivita Happy Hour",
   "Chivita Ice Tea",
-  "Chivita Smart",
+  "Chivita Smart Malt Drink",
 ];
 
 const aboutLinks = [
@@ -173,7 +173,7 @@ const MainFooter = () => {
           className="mb-6 text-sm text-center text-white md:mb-0"
           style={{ fontFamily: "Azo Sans, sans-serif" }}
         >
-          © Copyright 2024 CHI Limited - Chivita Juices. All Rights Reserved.
+          © Copyright 2024 - Chivita Juices. All Rights Reserved.
         </p>
       </div>
     </footer>
