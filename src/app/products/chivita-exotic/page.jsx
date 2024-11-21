@@ -34,105 +34,99 @@ const ChivitaExotic = () => {
         </div>
       </div>
 
-      <div className="max-w-2xl mx-auto my-5 rounded-xl bg-white p-4 ring ring-indigo-50 sm:p-6 lg:p-8">
-        <div className="flex items-start sm:gap-8">
-          <div>
-            <img src="/assets/images/product-image-dp/chivita-exotic.png" />
+      <div className="flex flex-col md:flex-row items-center md:items-start bg-gray-50 p-6 md:p-12 ">
+        <div className="md:w-1/2 flex justify-center mb-6 md:mb-0 bg-white rounded-2xl">
+          <div className="w-64 h-auto">
+            <img
+              src="/assets/images/product-image-dp/chivita-exotic.png"
+              alt="Chivita Exotic Pineapple Coconut"
+              className="object-contain"
+            />
           </div>
-          <div>
-            <h1
-              className="mt-4 text-lg font-medium sm:text-xl"
+        </div>
+
+        <div className="md:w-1/2 flex flex-col space-y-4 pl-10">
+          <h2
+            className="text-3xl font-bold text-gray-800"
+            style={{ fontFamily: "Bebas Neue, sans-serif" }}
+          >
+            Chivita Exotic Pineapple & Coconut
+          </h2>
+          <p
+            className="text-gray-600 text-lg leading-relaxed"
+            style={{ fontFamily: "Azo Sans, sans-serif" }}
+          >
+            A perfect blend of Sun-ripened Pineapple and Coconut water to give
+            you that irresistible Taste you love. Whether its drunk alone or
+            mixed with other drinks, what you get is a delicious pleasure of
+            exotic indulgence and an irresistible Taste.So delicious that you
+            cannot but enjoy every moment of life with it!
+          </p>
+
+          <div className="flex items-center">
+            <span
+              className="mr-3 font-bold"
               style={{ fontFamily: "Bebas Neue, sans-serif" }}
             >
-              Chivita Exotic Pineapple & Coconut
-            </h1>
-            <p
-              className="leading-relaxed"
-              style={{ fontFamily: "Azo Sans, sans-serif" }}
+              Sizes
+            </span>
+            <div
+              className="relative"
+              style={{
+                fontFamily: "Azo Sans, sans-serif",
+                fontWeight: "bold",
+              }}
             >
-              A perfect blend of Sun-ripened Pineapple and Coconut water to give
-              you that irresistible Taste you love. Whether its drunk alone or
-              mixed with other drinks, what you get is a delicious pleasure of
-              exotic indulgence and an irresistible Taste.So delicious that you
-              cannot but enjoy every moment of life with it!
-            </p>
-            <div className="flex mt-6 items-center pb-5 border-b-2 border-gray-100 mb-5">
-              <div className="flex items-center">
-                <span
-                  className="mr-3 font-bold"
-                  style={{ fontFamily: "Bebas Neue, sans-serif" }}
-                >
-                  Sizes
-                </span>
-                <div
-                  className="relative"
-                  style={{
-                    fontFamily: "Azo Sans, sans-serif",
-                    fontWeight: "bold",
-                  }}
-                >
-                  1 Litre | 500ml | 315ml | 125ml | 330 ml (Can Sparkling)
-                </div>
-              </div>
+              1 Litre | 500ml | 330 ml | 315ml | 125ml 
             </div>
-            <a
-              href="#"
-              style={{ fontFamily: "Bebas Neue, sans-serif" }}
-              className="inline-flex items-center justify-center whitespace-nowrap text-[20px] font-bold ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-[#e30417] text-white hover:bg-[#007d26]/90 h-11 rounded-md px-8"
-            >
-              Buy Now
-            </a>
           </div>
         </div>
       </div>
 
-      <div className="max-w-2xl mx-auto my-5 rounded-xl bg-white p-4 ring ring-indigo-50 sm:p-6 lg:p-8">
-        <div className="flex items-start sm:gap-8">
-          <div>
-            <img src="/assets/images/product-image-dp/chivita-exotic-multifruita.png" />
-          </div>
-          <div>
-            <h1
-              className="mt-4 text-lg font-medium sm:text-xl"
+      <div className="flex flex-col md:flex-row items-center md:items-start bg-gray-50 p-6 md:p-12 ">
+        <div className="md:w-1/2 flex flex-col space-y-4 pr-10">
+          <h2
+            className="text-3xl font-bold text-gray-800"
+            style={{ fontFamily: "Bebas Neue, sans-serif" }}
+          >
+            Chivita Exotic Multifruita
+          </h2>
+          <p
+            className="text-gray-600 text-lg leading-relaxed"
+            style={{ fontFamily: "Azo Sans, sans-serif" }}
+          >
+            In our quest to deliver a taste like no other, we find Chivita
+            Exotic Multifruita. Chivita Exotic Multifruita is a rare and unique
+            blend of 10 rich tropical fruits to deliver a distinctive taste
+            that’s too good not to share
+          </p>
+
+          <div className="flex items-center">
+            <span
+              className="mr-3 font-bold"
               style={{ fontFamily: "Bebas Neue, sans-serif" }}
             >
-              Chivita Exotic Multifruita
-            </h1>
-            <p
-              className="leading-relaxed"
-              style={{ fontFamily: "Azo Sans, sans-serif" }}
+              Sizes
+            </span>
+            <div
+              className="relative"
+              style={{
+                fontFamily: "Azo Sans, sans-serif",
+                fontWeight: "bold",
+              }}
             >
-              In our quest to deliver a taste like no other, we find Chivita
-              Exotic Multifruita. Chivita Exotic Multifruita is a rare and
-              unique blend of 10 rich tropical fruits to deliver a distinctive
-              taste that’s too good not to share
-            </p>
-            <div className="flex mt-6 items-center pb-5 border-b-2 border-gray-100 mb-5">
-              <div className="flex items-center">
-                <span
-                  className="mr-3 font-bold"
-                  style={{ fontFamily: "Bebas Neue, sans-serif" }}
-                >
-                  Sizes
-                </span>
-                <div
-                  className="relative"
-                  style={{
-                    fontFamily: "Azo Sans, sans-serif",
-                    fontWeight: "bold",
-                  }}
-                >
-                  1 Litre | 500ml | 315ml | 125ml | 330 ml (Can Sparkling)
-                </div>
-              </div>
+              1 Litre | 500ml | 330 ml | 315ml  | 125ml 
             </div>
-            <a
-              href="#"
-              style={{ fontFamily: "Bebas Neue, sans-serif" }}
-              className="inline-flex items-center justify-center whitespace-nowrap text-[20px] font-bold ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-[#e30417] text-white hover:bg-[#007d26]/90 h-11 rounded-md px-8"
-            >
-              Buy Now
-            </a>
+          </div>
+        </div>
+
+        <div className="md:w-1/2 flex justify-center mb-6 md:mb-0 bg-white rounded-2xl">
+          <div className="w-64 h-auto">
+            <img
+              src="/assets/images/product-image-dp/chivita-exotic-multifruita.png"
+              alt="Chivita Exotic"
+              className="object-contain"
+            />
           </div>
         </div>
       </div>
