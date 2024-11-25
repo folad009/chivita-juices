@@ -90,11 +90,11 @@ const OverviewHeroTwo = () => {
         {/* Image Section */}
         <div ref={imageRef} className="flex justify-center md:justify-end">
           <Image
-            src="/assets/images/Chivita-Range-new.png"
+            src="/assets/images/new-chivita-range.png"
             alt="Hero Image"
-            width={500}
-            height={500}
-            className="rounded-lg shadow-lg"
+            width={900}
+            height={900}
+           
           />
         </div>
       </div>

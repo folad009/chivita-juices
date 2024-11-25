@@ -7,7 +7,7 @@ const Chivita100 = () => {
         <div className="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-8 py-10">
           <div className="max-w-2xl text-center mx-auto">
             <h1 className="block text-4xl font-bold text-[#e30417] dark:text-white" style={{ fontFamily: "Bebas Neue, sans-serif" }}> 
-              Chivita 100%
+              Chivita 100% Juices
             </h1>
             <p
               className="leading-relaxed"

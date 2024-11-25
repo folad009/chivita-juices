@@ -145,7 +145,7 @@ const HomeProducts = () => {
           { img: "Product-DPs-Chivita-Exotic-xxl.png", name: "Chivita Exotic", link: "/products/chivita-exotic" },
           { img: "Product-DPs-Chivita-Happy-Hour-xxl.png", name: "Chivita Happy Hour", link: "/products/chivita-happy-hour" },
           { img: "Product-DPs-Chivita-Ice-Tea-xxl.png", name: "Chivita Ice Tea", link: "/products/chivita-ice-tea" },
-          { img: "smart-malt-drink.png", name: "Chivita Smart Malt Drink", link: "/product-6" },
+          { img: "just-sample2.jpg", name: "Chivita Smart Malt Drink", link: "/product-6" },
         ].map((product, index) => (
           <li
             key={index}
