@@ -140,7 +140,7 @@ const HomeProducts = () => {
 
       <ul ref={productRef} className="grid grid-cols-1 gap-6 px-8 md:grid-cols-2 lg:flex">
         {[
-          { img: "Product-DPs-Chivita-Fruit-Juice-xxl.png", name: "Chivita 100%", link: "/products/chivita-100"},
+          { img: "Product-DPs-Chivita-Fruit-Juice-xxl.png", name: "Chivita 100% Juices", link: "/products/chivita-100"},
           { img: "Product-DPs-Chivita-Active-xxl.png", name: "Chivita Active", link: "/products/chivita-active" },
           { img: "Product-DPs-Chivita-Exotic-xxl.png", name: "Chivita Exotic", link: "/products/chivita-exotic" },
           { img: "Product-DPs-Chivita-Happy-Hour-xxl.png", name: "Chivita Happy Hour", link: "/products/chivita-happy-hour" },
