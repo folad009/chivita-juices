@@ -34,7 +34,7 @@ const MainFooter = () => {
       }}
     >
       <div className="grid grid-cols-2 gap-10 mb-3 md:grid-cols-3 lg:grid-cols-12 lg:gap-20">
-        <div className="col-span-3">
+        <div className="col-span-2">
           <Link href="/">
             <Image
               src="/assets/images/chivita-logo-red.svg"
@@ -46,7 +46,7 @@ const MainFooter = () => {
           </Link>
         </div>
 
-        <nav className="col-span-1 md:col-span-1 lg:col-span-2">
+        <nav className="col-span-3 md:col-span-3 lg:col-span-3">
           <p
             className="mb-3 text-xl font-semibold tracking-wider text-[#e20417] uppercase"
             style={{ fontFamily: "Bebas Neue, sans-serif" }}
