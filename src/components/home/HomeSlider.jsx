@@ -18,13 +18,13 @@ const HomeSlider = () => {
         className={styles.mainCarousel}
       >
         <SwiperSlide>
+          <img src="/assets/images/chivita-slider1.png" alt="Slide 3" />
+        </SwiperSlide>
+        <SwiperSlide>
           <img src="/assets/images/Chivita-slider-1.png" alt="Slide 1" />
         </SwiperSlide>
         <SwiperSlide>
           <img src="/assets/images/Chivita-slider-2.png" alt="Slide 2" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="/assets/images/chivita-slider1.png" alt="Slide 3" />
         </SwiperSlide>
         <SwiperSlide>
           <img src="/assets/images/chivita-slider2.png" alt="Slide 4" />
