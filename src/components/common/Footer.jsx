@@ -14,7 +14,7 @@ const products = [
 
 const aboutLinks = [
   { name: "Our Story", href: "/our-story" },
-  { name: "Contact", href: "/contact" },
+  { name: "Contact Us", href: "/contact" },
 ];
 
 const policyLinks = [

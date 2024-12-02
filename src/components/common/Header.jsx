@@ -96,7 +96,7 @@ function ChivitaNavi() {
     href="/contact"
     className="rounded-md p-2 text-white text-[17px] border-none shadow-none hover:bg-[#0c8241] hover:text-white focus:bg-[#0c8241]"
   >
-    Contact
+    Contact us
   </a>
 </nav>
 

@@ -4,11 +4,14 @@
 // import LoadingScreen from "@/components/LoadingScreen";
 
 import StoreLocator from "@/components/common/StoreLocator";
+import BreadcrumbRoundedElevatedTextIconPreview from '@/components/common/BreadCrumb'
+
 
 const ContactPage = () => {
   return (
     <>
       <section className="min-h-screen">
+        <BreadcrumbRoundedElevatedTextIconPreview currentPage="Contact us" />
         <div className="container flex flex-col min-h-screen px-6 py-12 mx-auto">
           <div className="flex-1 lg:flex lg:items-center lg:-mx-6">
             <div className="text-gray-800 lg:w-1/2 lg:mx-6 pl-10">

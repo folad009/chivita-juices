@@ -21,7 +21,7 @@ const HomeProducts = () => {
         opacity: 1,
         y: 0,
         duration: 1,
-        stagger: 0.5, // Straggler effect
+        stagger: 0.9, // Straggler effect
         ease: "power3.out",
         scrollTrigger: {
           trigger: productRef.current,
@@ -61,7 +61,7 @@ const HomeProducts = () => {
      <section className="py-20 relative overflow-hidden">
       <div className="container text-center">
         <div className="mx-auto flex max-w-screen-xl flex-col items-center gap-6">
-          <img src="/assets/images/the-chivita-brand.png" className="w-[500px] items-center" />
+          <img src="/assets/images/the-chivita-brand.png" className="w-[300px] items-center" />
           <p className="text-balance text-zinc-600 lg:text-lg" style={{ fontFamily: "Azo Sans, sans-serif"}}>
             Our brands make every day a juicy delight. Check out our exciting range of products.
             There’s a tempting option for everyone, with exciting flavours and family favourites too.
@@ -101,9 +101,8 @@ const HomeProducts = () => {
   ref={(el) => (floatingVectorRefs.current[2] = el)}
   src="/assets/images/chivita-banana-fruit.png"
   className="
-    absolute bottom-10 left-16 w-5 h-5 opacity-90
-    sm:bottom-5 sm:left-8 sm:w-20 sm:h-20 sm:opacity-80
-    md:bottom-8 md:left-12 md:w-32 md:h-32 md:opacity-85
+    absolute bottom-28 left-16 w-32 h-32 opacity-90
+ 
   "
 />
 
@@ -111,9 +110,8 @@ const HomeProducts = () => {
   ref={(el) => (floatingVectorRefs.current[3] = el)}
   src="/assets/images/chivita-apple-fruit.png"
   className="
-    absolute bottom-20 right-40 w-5 h-5 opacity-90
-    sm:bottom-10 sm:right-20 sm:w-14 sm:h-14 sm:opacity-80
-    md:bottom-15 md:right-30 md:w-32 md:h-32 md:opacity-85
+    absolute bottom-40 right-40 w-28 h-28 opacity-90
+   
   "
 />
 
