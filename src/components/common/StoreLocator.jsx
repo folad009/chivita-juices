@@ -11,19 +11,19 @@ const StoreLocator = () => {
   const geocoderRef = useRef(null);
 
   const outlets = [
-    { name: "Abuja Retail Store", lat: 9.1022755, lng: 7.4073023 },
-    { name: "Ago Retail Store", lat: 6.5021488, lng: 3.3020167 },
-    { name: "Ajah Retail Store", lat: 6.4514589, lng: 3.5149542 },
-    { name: "Ajao Retail Store", lat: 6.5428234, lng: 3.3228634 },
-    { name: "Apapa Retail Store", lat: 6.4447801, lng: 3.3689611 },
-    { name: "Festac Retail Store", lat: 6.462299, lng: 3.2783391 },
-    { name: "Gbagada Retail Store", lat: 6.5549552, lng: 3.3868694 },
-    { name: "Ikeja Retail Store", lat: 6.5935606, lng: 3.3554485 },
-    { name: "Ikorodu Retail Store", lat: 6.6152568, lng: 3.4406124 },
-    { name: "Ikoyi Retail Store", lat: 6.4429792, lng: 3.418374 },
-    { name: "Lekki Retail Store", lat: 6.4481851, lng: 3.4780503 },
-    { name: "Ogudu Retail Store", lat: 6.57883, lng: 3.38747 },
-    { name: "Surulere Retail Store", lat: 6.4924382, lng: 3.353966 },
+    { name: "Abuja Retail Store", lat: 9.063593498830759, lng: 7.394575665829518 },
+    { name: "Ago Retail Store", lat: 6.502373949739234, lng: 3.30457123696112 },
+    { name: "Ajah Retail Store", lat: 6.4658830418171425, lng: 3.5598206523044253 },
+    { name: "Ajao Retail Store", lat: 6.543057890484462, lng: 3.3254382946333965 },
+    { name: "Apapa Retail Store", lat: 6.445556836009527, lng: 3.371603109976025 },
+    { name: "Festac Retail Store", lat: 6.462573564124769, lng: 3.2874732792888284 },
+    { name: "Gbagada Retail Store", lat: 6.555264295628385, lng: 3.3894335657975816 },
+    { name: "Ikeja Retail Store", lat: 6.5952815501416895, lng: 3.3561054927824805 },
+    { name: "Ikorodu Retail Store", lat: 6.6202633441640355, lng: 3.5104383087167923 },
+    { name: "Ikoyi Retail Store", lat: 6.4432670424316, lng: 3.420948894632309 },
+    { name: "Lekki Retail Store", lat: 6.448907669493031, lng: 3.4735432932044863 },
+    { name: "Ogudu Retail Store", lat: 6.57657905367744, lng: 3.390844485391692 },
+    { name: "Surulere Retail Store", lat: 6.4926513940454225, lng: 3.3565408946328454 },
   ];
 
   useEffect(() => {
