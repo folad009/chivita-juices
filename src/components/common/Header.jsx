@@ -103,7 +103,7 @@ function ChivitaNavi() {
 
         <div className="flex items-center space-x-1">
           <a href="/contact" className={styles.CustomButton} style={{ fontFamily: 'Bebas Neue, sans-serif' }}>
-            <span className={styles.span}>Where To Buy</span>
+            <span className={styles.span}>Find our stores</span>
           </a>
 
           {/* Mobile Menu Toggle */}
