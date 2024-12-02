@@ -226,7 +226,7 @@ const ContactPage = () => {
           
         </div>
       </section>
-      <StoreLocator />
+      {/*<StoreLocator />*/}
     </>
   );
 };
