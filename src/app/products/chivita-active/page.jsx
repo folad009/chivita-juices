@@ -13,10 +13,7 @@ const ChivitaActive = () => {
               className="leading-relaxed"
               style={{ fontFamily: "Azo Sans, sans-serif" }}
             >
-              Chivita Active is our innovative masterstroke, launched in 2010 as
-              a unique blend of six citrus juices. The brand was extended in
-              2016 with the launch of Fruit + Vegetable combos. Chivita Active
-              is a perfect partner on your journey to a healthy active life.
+              Chivita Active is our innovative masterstroke, launched in 2010 as a unique fruit juice blend of six citrus fruits. We extended the brand in 2016 with the launch of a Fruit + Vegetable combo, Carrot & Orange. Enriched with Vitamin C, Chivita Active has no preservatives, no artificial colours, and no artificial flavours. It is the perfect partner on your journey to an active, healthy life.
             </p>
           </div>
 
@@ -42,10 +39,7 @@ const ChivitaActive = () => {
             Chivita Active Citrus Mix
           </h2>
           <p className="text-gray-600 text-lg leading-relaxed" style={{ fontFamily: "Azo Sans, sans-serif" }}>
-            Chivita Active is a unique blend of six citrus fruits of
-            Tangerine, Grapefruit, Lemon, Manderine, Lime and Orange. Chivita
-            Active is enrished with Vitamin C to energize you all day – A
-            perfect partner on your journey to live a healthy active life.
+            Chivita Active is a unique blend of six citrus fruits of Orange, Lemon, Grapefruit, Mandarin, Tangerine, and Lime. Chivita Active is enriched with Vitamin C, a key requirement for tissue growth and repair. It’s the perfect partner on your journey to living a healthy, active, and productive life.
           </p>
 
           <div className="flex items-center">
@@ -75,11 +69,7 @@ const ChivitaActive = () => {
             Chivita Active Carrot & Orange
           </h2>
           <p className="text-gray-600 text-lg leading-relaxed" style={{ fontFamily: "Azo Sans, sans-serif" }}>
-            Chivita Active Carrot & Orange is made from the best quality fruits and
-            vegetables, perfectly blended with the goodness of Vitamins and
-            nutrients. Chivita Active Zest is a healthy and tasty way to get
-            the regular dose of antioxidants and stamina for an active healthy
-            lifestyle.
+            Chivita Active Carrot & Orange is made from a selection of fine fruits and vegetables which have been perfectly blended to retain nature’s goodness and the health benefits of the vitamins and nutrients contained therein. Our unique Carrot & Orange blend pairs together the carrot’s earthy sweetness with the orange’s tangy brightness in a perfect symphony of flavors, colours, and juicy delight. Fulfil your goal of an active, healthy life with our unique fruit and vegetable blend which has been further enriched with Vitamin C. 
           </p>
 
           <div className="flex items-center">
@@ -121,11 +111,7 @@ const ChivitaActive = () => {
             Chivita Active Zest
           </h2>
           <p className="text-gray-600 text-lg leading-relaxed" style={{ fontFamily: "Azo Sans, sans-serif" }}>
-            Chivita Active Zest is made from the best quality fruits and
-            vegetables, perfectly blended with the goodness of Vitamins and
-            nutrients. Chivita Active Zest is a healthy and tasty way to get
-            the regular dose of antioxidants and stamina for an active healthy
-            lifestyle.
+            Chivita Active Zest is a blend of Orange, Lemon, Pink Grapefruit, Mandarin, and Lime carefully crafted into a refreshing burst of citrus flavor and enriched with vitamin C. The intense flavor is light and refreshing, with a balanced touch of sweetness, just enough to lift your spirits without overwhelming your senses. Indulge in a sip of sunshine in a bottle… a pleasant reminder that sometimes, less is more.
           </p>
 
           <div className="flex items-center">

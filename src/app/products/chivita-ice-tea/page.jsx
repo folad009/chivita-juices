@@ -13,10 +13,7 @@ const ChivitaIceTea = () => {
               className="leading-relaxed"
               style={{ fontFamily: "Azo Sans, sans-serif" }}
             >
-              Chivita Ice Tea Lemon is a blend of natural tea extracts with fruity flavours. 
-              Launched originally as Chi Ice Tea in 2009, its the first RTD Ice Tea to be introduced 
-              into the Nigerian market. Chivita Ice Tea Lemon is your go to drink for natural refreshment 
-              and rejuvenation.
+              Chivita Ice Tea Lemon is a blend of natural tea extracts with the fruity lemon flavour. Launched in 2009, Chivita Ice Tea is the first ready-to-drink Ice Tea to be locally produced and launched into the Nigerian market. When you need that pick-me-up rejuvenating drink with a natural zingy lemon taste, Chivita Ice Tea Lemon is your go-to drink.
             </p>
           </div>
 
@@ -53,9 +50,7 @@ const ChivitaIceTea = () => {
             className="text-gray-600 text-lg leading-relaxed"
             style={{ fontFamily: "Azo Sans, sans-serif" }}
           >
-           Chivita Ice Tea Lemon  is a blend of natural tea extracts with fruity flavours. 
-              Launched originally as Chi Ice Tea in 2009, its the first RTD Ice Tea to be introduced into 
-              the Nigerian market. Chivita Ice Tea Lemon is your go to drink for natural refreshment and rejuvenation.
+            Chivita Ice Tea Lemon is a blend of natural tea extracts with the fruity lemon flavour. Launched in 2009, Chivita Ice Tea is the first ready-to-drink Ice Tea to be locally produced and launched into the Nigerian market. When you need that pick-me-up rejuvenating drink with a natural zingy lemon taste, Chivita Ice Tea Lemon is your go-to drink.
           </p>
 
           <div className="flex items-center">

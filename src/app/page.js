@@ -8,13 +8,13 @@ import HomeSlider from "@/components/home/HomeSlider";
 import LoadingScreen from "@/components/common/LoadingScreen";
 
 export default function Home() {
-  const [loading, setLoading] = useState(true); // Initialize loading state
+  const [loading, setLoading] = useState(true); 
 
   useEffect(() => {
     // Simulate a loading effect
-    const timer = setTimeout(() => setLoading(false), 1500); // Adjust timeout as needed
+    const timer = setTimeout(() => setLoading(false), 1500); 
 
-    return () => clearTimeout(timer); // Cleanup timer on unmount
+    return () => clearTimeout(timer); 
   }, []);
 
   return (

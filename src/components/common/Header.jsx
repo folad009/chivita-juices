@@ -11,12 +11,12 @@ function ChivitaNavi() {
   const toggleMobileMenu = () => setMobileMenuOpen(prev => !prev);
 
   const productItems = useMemo(() => [
-    { name: "Chivita 100%", image: "/assets/images/products-dp/chivita-100-fruit-juice.png", link: "/products/chivita-100" },
-    { name: "Chivita Active", image: "/assets/images/products-dp/chivita-active-dp-1.png", link: "/products/chivita-active" },
-    { name: "Chivita Exotic", image: "/assets/images/products-dp/chivita-exotic.png", link: "/products/chivita-exotic" },
-    { name: "Chivita Happy Hour", image: "/assets/images/products-dp/chivita-happy-hour-new.png", link: "/products/chivita-happy-hour" },
-    { name: "Chivita Ice Tea", image: "/assets/images/products-dp/chivita-ice-tea-neww.png", link: "/products/chivita-ice-tea" },
-    { name: "Chivita Smart Malt Drink", image: "/assets/images/products-dp/chivita-smart.png", link: "#" }
+    { name: "Chivita Juice", image: "/assets/images/products-navs-thumbnails/chivita-navigation-thumbnails-1.png", link: "/products/chivita-100" },
+    { name: "Chivita Active", image: "/assets/images/products-navs-thumbnails/chivita-navigation-thumbnails-2.png", link: "/products/chivita-active" },
+    { name: "Chivita Exotic", image: "/assets/images/products-navs-thumbnails/chivita-navigation-thumbnails-3.png", link: "/products/chivita-exotic" },
+    { name: "Chivita Happy Hour", image: "/assets/images/products-navs-thumbnails/chivita-navigation-thumbnails-4.png", link: "/products/chivita-happy-hour" },
+    { name: "Chivita Ice Tea", image: "/assets/images/products-navs-thumbnails/chivita-navigation-thumbnails-5.png", link: "/products/chivita-ice-tea" },
+    { name: "Chivita Smart Malt Drink", image: "/assets/images/products-navs-thumbnails/chivita-navigation-thumbnails-6.png", link: "/products/chivita-smart-malt-drink" }
   ], []);
 
   return (

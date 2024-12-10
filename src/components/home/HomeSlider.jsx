@@ -18,19 +18,19 @@ const HomeSlider = () => {
         className={styles.mainCarousel}
       >
         <SwiperSlide>
-          <img src="/assets/images/chivita-slider1.png" alt="Slide 3" />
+          <img src="/assets/images/chivita-slider1.png" alt="chivita juices" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/assets/images/Chivita-slider-1.png" alt="Slide 1" />
+          <img src="/assets/images/Chivita-slider-1.png" alt="chivita juices" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/assets/images/Chivita-slider-2.png" alt="Slide 2" />
+          <img src="/assets/images/Chivita-slider-2.png" alt="chivita juices" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/assets/images/chivita-slider2.png" alt="Slide 4" />
+          <img src="/assets/images/chivita-slider2.png" alt="chivita juices" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/assets/images/chivita-slider3.png" alt="Slide 5" />
+          <img src="/assets/images/chivita-slider3.png" alt="chivita juices" />
         </SwiperSlide>
         {/* Add more slides as needed */}
       </Swiper>
