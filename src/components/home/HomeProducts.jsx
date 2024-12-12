@@ -136,26 +136,26 @@ const HomeProducts = () => {
 />
     </section>
 
-      <ul ref={productRef} className="grid grid-cols-1 gap-6 px-8 md:grid-cols-2 lg:flex">
+   <ul ref={productRef} className="grid grid-cols-1 gap-6 px-8 md:grid-cols-2 lg:flex">
         {[
           { img: "Product-DPs-Chivita-Fruit-Juice-xxl.png", name: "Chivita 100% Juice", link: "/products/chivita-100"},
           { img: "Product-DPs-Chivita-Active-xxl.png", name: "Chivita Active", link: "/products/chivita-active" },
           { img: "Product-DPs-Chivita-Exotic-xxl.png", name: "Chivita Exotic", link: "/products/chivita-exotic" },
           { img: "Product-DPs-Chivita-Happy-Hour-xxl.png", name: "Chivita Happy Hour", link: "/products/chivita-happy-hour" },
           { img: "Product-DPs-Chivita-Ice-Tea-xxl.png", name: "Chivita Ice Tea", link: "/products/chivita-ice-tea" },
-          { img: "just-sample2.jpg", name: "Chivita Smart Malt Drink", link: "/product-6" },
+          
         ].map((product, index) => (
           <li
             key={index}
             ref={(el) => (productItemsRef.current[index] = el)}
-            className="group relative overflow-hidden rounded-[10px] transition-all duration-500 hover:flex-grow-[5] lg:flex lg:flex-shrink-0 lg:flex-grow lg:basis-0"
+            className="group relative overflow-hidden rounded-[2px] transition-all duration-500 hover:flex-grow-[5] lg:flex lg:flex-shrink-0 lg:flex-grow lg:basis-0"
           >
             <img
               src={`/assets/images/products-packs/${product.img}`}
               alt={product.name}
               width="700px"
               height="450"
-              className="h-[450px] w-full object-cover object-center"
+              className="h-[450px] w-full object-cover object-center border-green-100 border-2"
             />
             <div className="invisible absolute inset-0 flex items-end bg-gradient-to-t from-[#007d26] to-[#007d26]/10 p-5 opacity-0 transition-all duration-300 group-hover:visible group-hover:opacity-100 xl:p-10">
               <div className="translate-x-10 text-[#F8FCDD] transition-all delay-150 duration-500 group-hover:translate-x-0">

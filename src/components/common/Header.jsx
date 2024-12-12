@@ -11,7 +11,7 @@ function ChivitaNavi() {
   const toggleMobileMenu = () => setMobileMenuOpen(prev => !prev);
 
   const productItems = useMemo(() => [
-    { name: "Chivita Juice", image: "/assets/images/products-navs-thumbnails/chivita-navigation-thumbnails-1.png", link: "/products/chivita-100" },
+    { name: "Chivita Fruit Juice", image: "/assets/images/products-navs-thumbnails/chivita-navigation-thumbnails-1.png", link: "/products/chivita-100" },
     { name: "Chivita Active", image: "/assets/images/products-navs-thumbnails/chivita-navigation-thumbnails-2.png", link: "/products/chivita-active" },
     { name: "Chivita Exotic", image: "/assets/images/products-navs-thumbnails/chivita-navigation-thumbnails-3.png", link: "/products/chivita-exotic" },
     { name: "Chivita Happy Hour", image: "/assets/images/products-navs-thumbnails/chivita-navigation-thumbnails-4.png", link: "/products/chivita-happy-hour" },
@@ -64,7 +64,7 @@ function ChivitaNavi() {
     </button>
 
     {isProductsHovered && (
-      <div className="absolute z-50 w-screen max-w-2xl p-2 mt-1 bg-white rounded shadow">
+      <div className="absolute z-50 w-screen max-w-4xl p-2 mt-1 -left-48 bg-white rounded shadow">
         <div className="grid grid-cols-6 gap-2">
           {productItems.map(({ name, image, link }, idx) => (
             <a key={idx} href={link} className="flex flex-col items-center justify-center transition">
@@ -102,7 +102,7 @@ function ChivitaNavi() {
 
 
         <div className="flex items-center space-x-1">
-          <a href="/contact" className={styles.CustomButton} style={{ fontFamily: 'Bebas Neue, sans-serif' }}>
+          <a href="/storelocator" className={styles.CustomButton} style={{ fontFamily: 'Bebas Neue, sans-serif' }}>
             <span className={styles.span}>Find our stores</span>
           </a>
 

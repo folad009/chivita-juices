@@ -26,6 +26,7 @@ const StoreLocator = () => {
     { name: "Surulere Retail Store", lat: 6.4926513940454225, lng: 3.3565408946328454 },
   ];
 
+
   useEffect(() => {
     const initMap = () => {
       const map = new window.google.maps.Map(mapRef.current, {
@@ -89,12 +90,12 @@ const StoreLocator = () => {
   };
 
   return (
-    <div style={{ height: "80vh", position: "relative" }}>
+    <div style={{ height: "80vh", position: "relative", marginTop: '20px' }}>
       {/* Dropdown */}
       <div
         style={{
           position: "absolute",
-          top: "10%",
+          top: "12%",
           left: "50%",
           transform: "translate(-50%, -50%)",
           zIndex: 10,
@@ -106,10 +107,9 @@ const StoreLocator = () => {
       >
         <label
           htmlFor="storeSelect"
-          className="text-xl font-bold text-[#e30417] text-center"
-          style={{ fontFamily: "Bebas Neue, sans-serif" }}
+          className="text-xl font-bold text-[#e30417] font-sans"
         >
-          Chivita Retail Stores Locator
+          Chivita|Hollandia Shoppe Retail Stores Locator
         </label>
         <select
           id="storeSelect"
