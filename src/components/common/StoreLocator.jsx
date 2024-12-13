@@ -109,7 +109,7 @@ const StoreLocator = () => {
           htmlFor="storeSelect"
           className="text-xl font-bold text-[#e30417] font-sans"
         >
-          Chivita|Hollandia Shoppe Retail Stores Locator
+          Chivita|Hollandia Shoppe Locator
         </label>
         <select
           id="storeSelect"

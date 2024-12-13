@@ -5,11 +5,8 @@ const Journal = () => {
     <div  className="py-12">
     <div className="xl:container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
       <div className="mb-12 space-y-2 text-center">
-        <h2 className="text-3xl font-bold text-gray-800 md:text-4xl dark:text-white">Sharing is Caring</h2>
-        <p className="lg:mx-auto lg:w-6/12 text-gray-600 dark:text-gray-300">
-          Quam hic dolore cumque voluptate rerum beatae et quae, tempore sunt, debitis dolorum officia
-          aliquid explicabo? Excepturi, voluptate?
-        </p>
+        <h2 className="text-4xl font-bold text-gray-800 md:text-4xl dark:text-white">Chivita Journal</h2>
+        
       </div>
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         <div className="group p-6 sm:p-8 rounded-3xl bg-white border border-gray-100 dark:shadow-none dark:border-gray-700 dark:bg-gray-800 bg-opacity-50 shadow-2xl shadow-gray-600/10">

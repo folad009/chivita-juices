@@ -16,7 +16,15 @@ const ChivitaExotic = () => {
               className="leading-relaxed"
               style={{ fontFamily: "Azo Sans, sans-serif" }}
             >
-              Chivita Exotic is our range of distinctive blends of tropical fruits. Every sip of our Chivita Exotic fruit juices lures you into a state of sensory indulgence which offers a memorable experience of guiltless pleasure. Enjoy a secret escape to your definition of tropical paradise… relish the taste of sun-kissed fruits bursting with natural sweetness, hear the gentle waves of the sea, feel the soft sand beneath your feet. A glass of any of the Chivita Exotic variants is your definition of tropical paradise in your hands. 
+              Chivita Exotic is our range of distinctive blends of tropical
+              fruits. Every sip of our Chivita Exotic fruit juices lures you
+              into a state of sensory indulgence which offers a memorable
+              experience of guiltless pleasure. Enjoy a secret escape to your
+              definition of tropical paradise… relish the taste of sun-kissed
+              fruits bursting with natural sweetness, hear the gentle waves of
+              the sea, feel the soft sand beneath your feet. A glass of any of
+              the Chivita Exotic variants is your definition of tropical
+              paradise in your hands.
             </p>
           </div>
 
@@ -52,7 +60,14 @@ const ChivitaExotic = () => {
             className="text-gray-600 text-lg leading-relaxed"
             style={{ fontFamily: "Azo Sans, sans-serif" }}
           >
-            Chivita Exotic Pineapple & Coconut fruit nectar is a perfect blend of sun-ripened Pineapple and Coconut water to give you that irresistible taste you love. The first sip is pure indulgence like a bright, exciting splash of sunshine on your taste buds. Our rich combination of tangy pineapple with the milky coconut transports you to a moment of tranquility and warm comfort. Slow down, indulge yourself, and savour the smooth, velvety taste of our unique creation. 
+            Chivita Exotic Pineapple & Coconut fruit nectar is a perfect blend
+            of sun-ripened Pineapple and Coconut water to give you that
+            irresistible taste you love. The first sip is pure indulgence like a
+            bright, exciting splash of sunshine on your taste buds. Our rich
+            combination of tangy pineapple with the milky coconut transports you
+            to a moment of tranquility and warm comfort. Slow down, indulge
+            yourself, and savour the smooth, velvety taste of our unique
+            creation.
           </p>
 
           <div className="flex items-center">
@@ -60,7 +75,7 @@ const ChivitaExotic = () => {
               className="mr-3 font-bold"
               style={{ fontFamily: "Bebas Neue, sans-serif" }}
             >
-              Sizes
+              Sizes:
             </span>
             <div
               className="relative"
@@ -69,7 +84,25 @@ const ChivitaExotic = () => {
                 fontWeight: "bold",
               }}
             >
-              1 Litre | 500ml | 330 ml | 315ml | 125ml 
+              1 Litre | 500ml | 315ml | 125ml
+            </div>
+          </div>
+
+          <div className="flex items-center">
+            <span
+              className="mr-3 font-bold"
+              style={{ fontFamily: "Bebas Neue, sans-serif" }}
+            >
+              Cans:
+            </span>
+            <div
+              className="relative"
+              style={{
+                fontFamily: "Azo Sans, sans-serif",
+                fontWeight: "bold",
+              }}
+            >
+              330ml
             </div>
           </div>
         </div>
@@ -87,7 +120,16 @@ const ChivitaExotic = () => {
             className="text-gray-600 text-lg leading-relaxed"
             style={{ fontFamily: "Azo Sans, sans-serif" }}
           >
-            In our quest to develop unique tropical fruit juice experiences, we created a taste like no other in our Chivita Exotic Multifruita. Chivita Exotic Multifruita is a rare and distinct blend of 10 tropical fruits which deliver a distinctive taste and indulgent drinking pleasure. Yes, we bring you the unique blend of Apple, Pineapple, Orange, Guava, Apricot, Banana, Mango, Passion Fruit, Lemon, and Black Carrot exotic fruits into a unique mix that screams “paradise redefined”. Escape into our world of pure pleasure and relish the blend of vibrant tang, sharp sweetness, smooth velvet, creamy texture come together into an experience to treasure!
+            In our quest to develop unique tropical fruit juice experiences, we
+            created a taste like no other in our Chivita Exotic Multifruita.
+            Chivita Exotic Multifruita is a rare and distinct blend of 10
+            tropical fruits which deliver a distinctive taste and indulgent
+            drinking pleasure. Yes, we bring you the unique blend of Apple,
+            Pineapple, Orange, Guava, Apricot, Banana, Mango, Passion Fruit,
+            Lemon, and Black Carrot exotic fruits into a unique mix that screams
+            “paradise redefined”. Escape into our world of pure pleasure and
+            relish the blend of vibrant tang, sharp sweetness, smooth velvet,
+            creamy texture come together into an experience to treasure!
           </p>
 
           <div className="flex items-center">
@@ -95,7 +137,7 @@ const ChivitaExotic = () => {
               className="mr-3 font-bold"
               style={{ fontFamily: "Bebas Neue, sans-serif" }}
             >
-              Sizes
+              Size:
             </span>
             <div
               className="relative"
@@ -104,7 +146,7 @@ const ChivitaExotic = () => {
                 fontWeight: "bold",
               }}
             >
-              1 Litre | 500ml | 330 ml | 315ml  | 125ml 
+              1 Litre
             </div>
           </div>
         </div>

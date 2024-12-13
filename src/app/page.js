@@ -1,7 +1,6 @@
 "use client"
 import { useState, useEffect } from 'react';
 import InstagramGallery from "@/components/common/InstagramCommunity";
-import StoreLocator from "@/components/common/StoreLocator";
 import ChivitaTrads from "@/components/home/ChivitaTrads";
 import HomeProducts from "@/components/home/HomeProducts";
 import HomeSlider from "@/components/home/HomeSlider";
@@ -24,7 +23,6 @@ export default function Home() {
       <HomeProducts />
       <ChivitaTrads />
       <InstagramGallery />
-      <StoreLocator />
     </>
   );
 }

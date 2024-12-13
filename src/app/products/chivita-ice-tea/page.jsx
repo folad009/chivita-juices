@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const ChivitaIceTea = () => {
   return (
@@ -6,14 +6,22 @@ const ChivitaIceTea = () => {
       <div className="relative overflow-hidden">
         <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-10">
           <div className="max-w-2xl text-center mx-auto">
-            <h1 className="block text-4xl font-bold text-[#e30417] dark:text-white" style={{ fontFamily: "Bebas Neue, sans-serif" }}>
+            <h1
+              className="block text-4xl font-bold text-[#e30417] dark:text-white"
+              style={{ fontFamily: "Bebas Neue, sans-serif" }}
+            >
               Chivita Ice Tea
             </h1>
             <p
               className="leading-relaxed"
               style={{ fontFamily: "Azo Sans, sans-serif" }}
             >
-              Chivita Ice Tea Lemon is a blend of natural tea extracts with the fruity lemon flavour. Launched in 2009, Chivita Ice Tea is the first ready-to-drink Ice Tea to be locally produced and launched into the Nigerian market. When you need that pick-me-up rejuvenating drink with a natural zingy lemon taste, Chivita Ice Tea Lemon is your go-to drink.
+              Chivita Ice Tea Lemon is a blend of natural tea extracts with the
+              fruity lemon flavour. Launched in 2009, Chivita Ice Tea is the
+              first ready-to-drink Ice Tea to be locally produced and launched
+              into the Nigerian market. When you need that pick-me-up
+              rejuvenating drink with a natural zingy lemon taste, Chivita Ice
+              Tea Lemon is your go-to drink.
             </p>
           </div>
 
@@ -26,7 +34,6 @@ const ChivitaIceTea = () => {
           </div>
         </div>
       </div>
-
 
       <div className="flex flex-col md:flex-row items-center md:items-start bg-gray-50 p-6 md:p-12 ">
         <div className="md:w-1/2 flex justify-center mb-6 md:mb-0 bg-white rounded-2xl">
@@ -44,13 +51,18 @@ const ChivitaIceTea = () => {
             className="text-3xl font-bold text-gray-800"
             style={{ fontFamily: "Bebas Neue, sans-serif" }}
           >
-            Chivita Ice Tea Lemon 
+            Chivita Ice Tea Lemon
           </h2>
           <p
             className="text-gray-600 text-lg leading-relaxed"
             style={{ fontFamily: "Azo Sans, sans-serif" }}
           >
-            Chivita Ice Tea Lemon is a blend of natural tea extracts with the fruity lemon flavour. Launched in 2009, Chivita Ice Tea is the first ready-to-drink Ice Tea to be locally produced and launched into the Nigerian market. When you need that pick-me-up rejuvenating drink with a natural zingy lemon taste, Chivita Ice Tea Lemon is your go-to drink.
+            Chivita Ice Tea Lemon is a blend of natural tea extracts with the
+            fruity lemon flavour. Launched in 2009, Chivita Ice Tea is the first
+            ready-to-drink Ice Tea to be locally produced and launched into the
+            Nigerian market. When you need that pick-me-up rejuvenating drink
+            with a natural zingy lemon taste, Chivita Ice Tea Lemon is your
+            go-to drink.
           </p>
 
           <div className="flex items-center">
@@ -58,7 +70,7 @@ const ChivitaIceTea = () => {
               className="mr-3 font-bold"
               style={{ fontFamily: "Bebas Neue, sans-serif" }}
             >
-              Sizes
+              Sizes:
             </span>
             <div
               className="relative"
@@ -67,14 +79,31 @@ const ChivitaIceTea = () => {
                 fontWeight: "bold",
               }}
             >
-             1 Litre | 330 ml | 315ml | 125ml  
+              1 Litre | 315ml | 125ml
+            </div>
+          </div>
+
+          <div className="flex items-center">
+            <span
+              className="mr-3 font-bold"
+              style={{ fontFamily: "Bebas Neue, sans-serif" }}
+            >
+              Cans:
+            </span>
+            <div
+              className="relative"
+              style={{
+                fontFamily: "Azo Sans, sans-serif",
+                fontWeight: "bold",
+              }}
+            >
+              330ml
             </div>
           </div>
         </div>
       </div>
-
     </>
-  )
-}
+  );
+};
 
 export default ChivitaIceTea;

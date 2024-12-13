@@ -74,7 +74,7 @@ const Chivita100 = () => {
               className="mr-3 font-bold"
               style={{ fontFamily: "Bebas Neue, sans-serif" }}
             >
-              Size
+              Size:
             </span>
             <div
               className="relative"
@@ -119,7 +119,7 @@ const Chivita100 = () => {
               className="mr-3 font-bold"
               style={{ fontFamily: "Bebas Neue, sans-serif" }}
             >
-              Size
+              Size:
             </span>
             <div
               className="relative"
@@ -180,7 +180,7 @@ const Chivita100 = () => {
               className="mr-3 font-bold"
               style={{ fontFamily: "Bebas Neue, sans-serif" }}
             >
-              Size
+              Size:
             </span>
             <div
               className="relative"
@@ -228,7 +228,7 @@ const Chivita100 = () => {
               className="mr-3 font-bold"
               style={{ fontFamily: "Bebas Neue, sans-serif" }}
             >
-              Size
+              Size:
             </span>
             <div
               className="relative"

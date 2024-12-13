@@ -16,7 +16,14 @@ const ChivitaHappyHour = () => {
               className="leading-relaxed"
               style={{ fontFamily: "Azo Sans, sans-serif" }}
             >
-             Chivita Happy Hour is made for those who seek refreshment with a sweet fruity taste experience.  Our Chivita Happy Hour products provide an enjoyable drinking experience for those who prefer a less intense, yet hydrating fruity beverage. Chivita Happy Hour is your best choice to turn ordinary everyday moments into exceptionally happy times. So, whenever you want to get groovy and have fun, rock and enjoy the refreshing taste of Chivita Happy Hour. 
+              Chivita Happy Hour is made for those who seek refreshment with a
+              sweet fruity taste experience. Our Chivita Happy Hour products
+              provide an enjoyable drinking experience for those who prefer a
+              less intense, yet hydrating fruity beverage. Chivita Happy Hour is
+              your best choice to turn ordinary everyday moments into
+              exceptionally happy times. So, whenever you want to get groovy and
+              have fun, rock and enjoy the refreshing taste of Chivita Happy
+              Hour.
             </p>
           </div>
 
@@ -52,7 +59,14 @@ const ChivitaHappyHour = () => {
             className="text-gray-600 text-lg leading-relaxed"
             style={{ fontFamily: "Azo Sans, sans-serif" }}
           >
-            Chivita Happy Hour Orange Safari is a refreshing Orange fruit flavoured drink that creates a vibrant, sensory experience which engages your senses and excites your taste buds. Travel to safari land and give your mood a boost with the tasty Chivita Happy Hour Orange Safari. Every sip you take of our Chivita Happy Hour Orange Safari fruit flavoured drink bursts into a thrilling flavor that is guaranteed to make you happy, keep you smiling, and get you excited all day, every day!
+            Chivita Happy Hour Orange Safari is a refreshing Orange fruit
+            flavoured drink that creates a vibrant, sensory experience which
+            engages your senses and excites your taste buds. Travel to safari
+            land and give your mood a boost with the tasty Chivita Happy Hour
+            Orange Safari. Every sip you take of our Chivita Happy Hour Orange
+            Safari fruit flavoured drink bursts into a thrilling flavor that is
+            guaranteed to make you happy, keep you smiling, and get you excited
+            all day, every day!
           </p>
 
           <div className="flex items-center">
@@ -60,7 +74,7 @@ const ChivitaHappyHour = () => {
               className="mr-3 font-bold"
               style={{ fontFamily: "Bebas Neue, sans-serif" }}
             >
-              Sizes
+              Sizes:
             </span>
             <div
               className="relative"
@@ -87,7 +101,14 @@ const ChivitaHappyHour = () => {
             className="text-gray-600 text-lg leading-relaxed"
             style={{ fontFamily: "Azo Sans, sans-serif" }}
           >
-            Want a happy, tasty experience fruit flavoured experience in a variety of flavours? We got you covered with our Chivita Happy Hour Tasty Tango mixed fruit flavoured drink. The delicious mix of tropical fruit flavours – Mango, Apple, Pineapple, Orange, and Passion Fruit – is guaranteed to get you stepping on the dance floor once the drink hits your taste buds. Let’s take you to an exciting tropical location as you tango with our Chivita Happy Hour Tasty Tango fruit flavoured drink. 
+            Want a happy, tasty experience fruit flavoured experience in a
+            variety of flavours? We got you covered with our Chivita Happy Hour
+            Tasty Tango mixed fruit flavoured drink. The delicious mix of
+            tropical fruit flavours – Mango, Apple, Pineapple, Orange, and
+            Passion Fruit – is guaranteed to get you stepping on the dance floor
+            once the drink hits your taste buds. Let’s take you to an exciting
+            tropical location as you tango with our Chivita Happy Hour Tasty
+            Tango fruit flavoured drink.
           </p>
 
           <div className="flex items-center">
@@ -95,7 +116,7 @@ const ChivitaHappyHour = () => {
               className="mr-3 font-bold"
               style={{ fontFamily: "Bebas Neue, sans-serif" }}
             >
-              Size
+              Size:
             </span>
             <div
               className="relative"
@@ -104,7 +125,7 @@ const ChivitaHappyHour = () => {
                 fontWeight: "bold",
               }}
             >
-               125ml 
+              125ml
             </div>
           </div>
         </div>
