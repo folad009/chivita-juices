@@ -4,7 +4,7 @@ const Chivita100 = () => {
   return (
     <>
       <div className="relative overflow-hidden">
-        <div className="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-8 py-10">
+        <div className="max-w-[200rem] mx-36 px-4 sm:px-6 lg:px-8 py-10">
           <div className="max-w-2xl text-center mx-auto">
             <h1
               className="block text-4xl font-bold text-[#e30417] dark:text-white"

@@ -130,7 +130,7 @@ const ChivitaActive = () => {
         <div className="md:w-1/2 flex justify-center mb-6 md:mb-0 bg-white rounded-2xl">
           <div className="w-64 h-auto">
             <img
-              src="/assets/images/product-image-dp/chivita-citrus-mix.png"
+              src="/assets/images/product-image-dp/chivita-carrot-orange-1l.png"
               alt="Chivita Orange Carrot"
               className="object-contain"
             />
