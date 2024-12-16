@@ -31,9 +31,9 @@ const Overview = () => {
   </div>
   <div className="container relative mx-auto">
     <div className="items-center flex flex-wrap">
-      <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+      <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto">
         <div className="pr-12">
-          <h1 className="text-white font-semibold text-5xl" style={{ fontFamily: "Bebas Neue, sans-serif" }}>
+          <h1 className="text-white font-semibold text-5xl text-center" style={{ fontFamily: "Bebas Neue, sans-serif" }}>
             Chivita Juices Story
               </h1>
         </div>
@@ -77,8 +77,8 @@ const Overview = () => {
       </div>
 
       {/* Box 2 */}
-      <div className="card w-full md:w-4/12 px-4 text-center">
-        <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg h-full">
+      <div className="card w-full md:w-4/12 px-4 mb-8 text-center">
+        <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 mt-6 shadow-lg rounded-lg h-full">
           <div className="px-4 py-5 flex-auto">
             <h6 className="text-4xl font-semibold text-[#e30417]" style={{ fontFamily: "Bebas Neue, sans-serif" }}>Our Consumers</h6>
             <p className="mt-2 mb-4 text-gray-800" style={{ fontFamily: "Azo Sans, sans-serif" }}>

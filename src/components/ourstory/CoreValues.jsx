@@ -7,7 +7,7 @@ const CoreValues = () => {
       <div className="container">
         <div className="flex flex-col items-center gap-6">
           <h2
-            className="mb-2 text-center text-6xl font-semibold text-[#e30417]"
+            className="mb-2 mx-5 text-center text-5xl font-semibold text-[#e30417]"
             style={{ fontFamily: "Bebas Neue, sans-serif" }}
           >
             We are leaders in the Fruit Juice Category in Nigeria.
@@ -44,7 +44,7 @@ const CoreValues = () => {
               <img
                 src="/assets/images/fruits-1.jpg"
                 alt=""
-                className="pt-24 w-full"
+                className="pt-14 pb-10 w-full"
               />
             </div>
             <div className="flex flex-col justify-between gap-14 lg:w-1/3">

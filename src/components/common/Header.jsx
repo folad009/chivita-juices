@@ -145,7 +145,7 @@ function ChivitaNavi() {
                 </svg>
               </button>
               {/* Mobile Links */}
-              {["Our Story", "Recipes", "FAQ", "Journal", "Contact"].map((link, idx) => (
+              {["Our Story", "Recipes", "Journal", "Contact"].map((link, idx) => (
                 <a
                   key={idx}
                   href={`/${link.replace(/\s+/g, '-').toLowerCase()}`}

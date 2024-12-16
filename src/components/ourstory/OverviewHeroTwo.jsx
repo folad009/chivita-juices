@@ -64,11 +64,11 @@ const OverviewHeroTwo = () => {
       <div className="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center">
         {/* Text Section */}
         <div ref={textRef} className="py-5 px-5">
-          <h1 className="block text-5xl font-bold text-gray-800 dark:text-white" style={{ fontFamily: "Bebas Neue, sans-serif" }}>
+          <h1 className="block text-5xl font-bold text-gray-800 dark:text-white text-center" style={{ fontFamily: "Bebas Neue, sans-serif" }}>
             Quality has {" "}
             <span className="bg-clip-text bg-gradient-to-tl from-[#e30417] to-[#e30417]/60 text-transparent">another name.</span>
           </h1>
-          <p className="mt-3 mb-5 text-[16px]  text-gray-800 dark:text-neutral-400 text-justify" style={{ fontFamily: "Azo Sans, sans-serif", lineHeight: "1.8" }}>
+          <p className="mt-3 mb-5 text-[16px]  text-gray-800 dark:text-neutral-400 text-center" style={{ fontFamily: "Azo Sans, sans-serif", lineHeight: "1.8" }}>
             Incorporated in 1980, Chivita|Hollandia (CHI Limited) has grown to become a market
             leader in the food & beverage sector in Nigeria. Each of our product
             offerings within the fruit juices, value added-dairy, and snacks
@@ -77,7 +77,7 @@ const OverviewHeroTwo = () => {
             quality.
           </p>
 
-          <p className="mt-3 text-[16px] text-gray-800 dark:text-neutral-400 text-justify" style={{ fontFamily: "Azo Sans, sans-serif", lineHeight: "1.8" }}>
+          <p className="mt-3 text-[16px] text-gray-800 dark:text-neutral-400 text-center" style={{ fontFamily: "Azo Sans, sans-serif", lineHeight: "1.8" }}>
             With our ISO 22000 certified state-of-the-art manufacturing
             facility, Chivita|Hollandia (CHI Limited) deploys advanced
             processing and internationally certified technology that automates
