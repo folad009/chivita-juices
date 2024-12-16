@@ -81,7 +81,7 @@ const HomeProducts = () => {
   ref={(el) => (floatingVectorRefs.current[0] = el)}
   src="/assets/images/chivita-orange-fruit.png"
   className="
-    absolute top-10 left-10 w-5 h-5 opacity-80
+    absolute top-10 left-10 w-14 h-14 opacity-80
     sm:top-5 sm:left-5 sm:w-14 sm:h-14 sm:opacity-80
     md:top-8 md:left-8 md:w-32 md:h-32 md:opacity-85
   "
@@ -91,7 +91,7 @@ const HomeProducts = () => {
   ref={(el) => (floatingVectorRefs.current[1] = el)}
   src="/assets/images/chivita-pineapple-juices.png"
   className="
-    absolute top-20 right-10 w-5 h-5 opacity-90
+    absolute top-4 right-10 w-14 h-14 opacity-90
     sm:top-10 sm:right-5 sm:w-20 sm:h-20 sm:opacity-80
     md:top-15 md:right-8 md:w-32 md:h-32 md:opacity-85
   "
@@ -101,8 +101,9 @@ const HomeProducts = () => {
   ref={(el) => (floatingVectorRefs.current[2] = el)}
   src="/assets/images/chivita-banana-fruit.png"
   className="
-    absolute bottom-28 left-16 w-32 h-32 opacity-90
- 
+    absolute bottom-28 left-16 w-14 h-14 opacity-90
+    sm:bottom-10 sm:left-5 sm:w-20 sm:h-20 sm:opacity-80
+    md:bottom-32 md:left-14 md:w-32 md:h-32 md:opacity-85
   "
 />
 
@@ -110,8 +111,9 @@ const HomeProducts = () => {
   ref={(el) => (floatingVectorRefs.current[3] = el)}
   src="/assets/images/chivita-apple-fruit.png"
   className="
-    absolute bottom-40 right-40 w-28 h-28 opacity-90
-   
+    absolute bottom-24 right-10 w-14 h-14 opacity-90
+    sm:bottom-15 sm:right-9 sm:w-20 sm:h-20 sm:opacity-80
+    md:bottom-20 md:right-36 md:w-32 md:h-32 md:opacity-99
   "
 />
 
@@ -119,7 +121,7 @@ const HomeProducts = () => {
   ref={(el) => (floatingVectorRefs.current[4] = el)}
   src="/assets/images/chivita-strawberry-fruit.png"
   className="
-    absolute bottom-15 right-12 w-5 h-5 opacity-90
+    absolute bottom-15 right-12 w-14 h-14 opacity-90
     sm:bottom-8 sm:right-6 sm:w-14 sm:h-14 sm:opacity-80
     md:bottom-10 md:right-8 md:w-20 md:h-20 md:opacity-85
   "
@@ -129,7 +131,7 @@ const HomeProducts = () => {
   ref={(el) => (floatingVectorRefs.current[5] = el)}
   src="/assets/images/chivita-mango-fruit.png"
   className="
-    absolute bottom-15 left-48 w-5 h-5 opacity-90 
+    absolute bottom-15 left-48 w-14 h-14 opacity-90 
     sm:bottom-10 sm:left-32 sm:w-16 sm:h-16 sm:opacity-80
     md:bottom-12 md:left-40 md:w-20 md:h-20 md:opacity-85
   "

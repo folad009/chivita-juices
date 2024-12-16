@@ -145,7 +145,7 @@ function ChivitaNavi() {
                 </svg>
               </button>
               {/* Mobile Links */}
-              {["Our Story", "Recipes", "FAQ", "Blog", "Contact"].map((link, idx) => (
+              {["Our Story", "Recipes", "FAQ", "Journal", "Contact"].map((link, idx) => (
                 <a
                   key={idx}
                   href={`/${link.replace(/\s+/g, '-').toLowerCase()}`}
@@ -156,8 +156,8 @@ function ChivitaNavi() {
               ))}
               <p className="pl-3 text-xs font-semibold text-gray-500 uppercase">Products</p>
               <div className="grid grid-cols-2 gap-1">
-                {productItems.map(({ name }, idx) => (
-                  <a key={idx} href="#" className="px-3 py-2 text-[15px] transition rounded hover:bg-gray-200">
+                {productItems.map(({ name, link }, idx) => (
+                  <a key={idx} href={link} className="px-3 py-2 text-[15px] transition rounded hover:bg-gray-200">
                     {name}
                   </a>
                 ))}
