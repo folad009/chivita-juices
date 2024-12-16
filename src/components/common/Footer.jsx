@@ -28,7 +28,7 @@ const policyLinks = [
 const MainFooter = () => {
   return (
     <footer
-      className="px-4 py-12 mx-auto max-w-7xl border-t border-[#CA9920]"
+      className="px-4 py-12 mx-auto max-w-full border-t border-[#CA9920]"
       style={{
         backgroundImage: `url('/assets/images/chivita-green-golden-hill.svg')`,
         backgroundSize: "cover",
@@ -209,7 +209,7 @@ const MainFooter = () => {
 
         <div className="col-span-3">
           <p
-            className="mb-3 text-xl font-semibold tracking-wider text-[#e20417] uppercase"
+            className="mb-3 text-xl font-semibold tracking-wider text-[#e20417] uppercase sm:text-white"
             style={{ fontFamily: "Bebas Neue, sans-serif" }}
           >
             Subscribe to Our Newsletter
