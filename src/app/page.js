@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 import InstagramGallery from "@/components/common/InstagramCommunity";
 import ChivitaTrads from "@/components/home/ChivitaTrads";
-import HomeProducts from "@/components/home/HomeProducts";
+//import HomeProducts from "@/components/home/HomeProducts";
 import HomeSlider from "@/components/home/HomeSlider";
 import LoadingScreen from "@/components/common/LoadingScreen";
 import ProductCarousel from '@/components/home/ProductsCarousel';
@@ -21,7 +21,7 @@ export default function Home() {
     <>
       {loading && <LoadingScreen />}
       <HomeSlider />
-      <HomeProducts />
+      {/*<HomeProducts />*/}
       <ProductCarousel />
       <ChivitaTrads />
       <InstagramGallery />
