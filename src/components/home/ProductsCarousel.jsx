@@ -27,8 +27,10 @@ export default function ProductCarousel() {
       <Swiper
         slidesPerView={3}
         spaceBetween={10}
+        loop={true}
         freeMode={true}
         pagination={{ clickable: true }}
+        
         breakpoints={{
           320: {
             slidesPerView: 1,
@@ -47,25 +49,26 @@ export default function ProductCarousel() {
             spaceBetween: 10,
           },
         }}
-        modules={[Pagination, FreeMode]}
+        modules={[Pagination, FreeMode,]}
         className="mySwiper"
-        style={{ width: '100%', maxWidth: '1700px', margin: '0 auto' }}
+        style={{ width: '100%', maxWidth: '1700px', margin: '0 auto', paddingBottom: '40px' }}
       >
         {prdPacks.map((product, index) => (
           <SwiperSlide key={index}>
           <div className="product-slide" style={{ position: 'relative' }}>
             <img src={product.img} alt={product.name} className="product-image" style={{ width: '100%', display: 'block' }} />
             <div style={{
-              position: 'absolute',
-              bottom: '10%',
-              left: '50%',
-              transform: 'translateX(-50%)',
-              textAlign: 'center',
-              color: 'white',
-              backgroundColor: 'rgba(0, 0, 0, 0.6)',
-              padding: '10px',
-              borderRadius: '8px',
-            }}>
+                position: 'absolute',
+                bottom: '-1%',
+                left: '50%',
+                transform: 'translateX(-50%)',
+                textAlign: 'center',
+                color: 'white',
+                background: 'linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 125, 38, 0.9))',
+                padding: '10px',
+                borderRadius: '1px',
+                width: '100%',
+              }}>
               <p className="product-name" style={{ margin: '0', fontFamily: 'Bebas Neue, sans-serif', fontSize: '1.5rem', fontWeight: 'bold' }}>{product.name}</p>
               <a href={product.link} style={{
                 display: 'inline-block',
@@ -77,7 +80,7 @@ export default function ProductCarousel() {
                 borderRadius: '5px',
                 fontFamily: 'Bebas Neue, sans-serif',
                 fontSize: '1rem',
-              }}>Learn More</a>
+              }} className=' hover:bg-[#007d26]'>Learn More</a>
             </div>
           </div>
         </SwiperSlide>

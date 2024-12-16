@@ -6,7 +6,7 @@ import Link from "next/link";
   /* TO DO: Put it correct format */
 }
 const products = [
-  "Chivita Fruit Juices",
+  "Chivita Fruit Juice",
   "Chivita Active",
   "Chivita Exotic",
   "Chivita Ice Tea",
