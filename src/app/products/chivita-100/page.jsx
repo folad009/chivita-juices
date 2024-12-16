@@ -3,40 +3,30 @@ import React from "react";
 const Chivita100 = () => {
   return (
     <>
-      <div className="relative overflow-hidden">
-        <div className="max-w-[200rem] mx-36 px-4 sm:px-6 lg:px-8 py-10">
-          <div className="max-w-2xl text-center mx-auto">
-            <h1
-              className="block text-4xl font-bold text-[#e30417] dark:text-white"
-              style={{ fontFamily: "Bebas Neue, sans-serif" }}
-            >
-              Chivita Fruit Juice
-            </h1>
-            <p
-              className="leading-relaxed"
-              style={{ fontFamily: "Azo Sans, sans-serif" }}
-            >
-              Chivita Fruit Juice is Mother Nature’s gift of juices made from
-              fresh fruits and packed in aseptic packaging. It is fruit juice in
-              its wholesome form, containing all the goodness and nutrients of
-              nature’s fruits with no preservatives, artificial colours,
-              artificial flavours, or added sugar. With Chivita every moment
-              becomes special, good living becomes achievable, and milestones
-              become memorable. With every sip, you're embracing a healthy
-              lifestyle and creating moments to cherish. Enjoy a glass of
-              Chivita Fruit Juice today!
-            </p>
-          </div>
-
-          <div className="mt-10 relative max-w-5xl mx-auto">
-            <img
-              className="w-full object-cover h-96 sm:h-[480px] rounded-xl"
-              src="/assets/images/CHivita-Range.png"
-              alt=""
-            />
-          </div>
+      <section className="bg-center bg-no-repeat bg-cover bg-[url('/assets/images/chivita-juices-bg-pages-1.jpg')] bg-gray-700 bg-blend-multiply">
+        <div className="px-4  max-w-lg text-left py-24 lg:py-24">
+          <h1
+            className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl dark:text-white"
+            style={{ fontFamily: "Bebas Neue, sans-serif" }}
+          >
+            Chivita Fruit Juice
+          </h1>
+          <p
+            className="mb-8 text-[16px] font-normal text-gray-300 lg:text-[16px] leading-relaxed"
+            style={{ fontFamily: "Azo Sans, sans-serif" }}
+          >
+            Chivita Fruit Juice is Mother Nature’s gift of juices made from
+            fresh fruits and packed in aseptic packaging. It is fruit juice in
+            its wholesome form, containing all the goodness and nutrients of
+            nature’s fruits with no preservatives, artificial colours,
+            artificial flavours, or added sugar. With Chivita every moment
+            becomes special, good living becomes achievable, and milestones
+            become memorable. With every sip, you're embracing a healthy
+            lifestyle and creating moments to cherish. Enjoy a glass of Chivita
+            Fruit Juice today!
+          </p>
         </div>
-      </div>
+      </section>
 
       <div className="flex flex-col md:flex-row items-center md:items-start bg-gray-50 p-6 md:p-12 ">
         <div className="md:w-1/2 flex justify-center mb-6 md:mb-0 bg-white rounded-2xl">
