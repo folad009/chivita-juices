@@ -5,6 +5,7 @@ import ChivitaTrads from "@/components/home/ChivitaTrads";
 import HomeProducts from "@/components/home/HomeProducts";
 import HomeSlider from "@/components/home/HomeSlider";
 import LoadingScreen from "@/components/common/LoadingScreen";
+import ProductCarousel from '@/components/home/ProductsCarousel';
 
 export default function Home() {
   const [loading, setLoading] = useState(true); 
@@ -21,6 +22,7 @@ export default function Home() {
       {loading && <LoadingScreen />}
       <HomeSlider />
       <HomeProducts />
+      <ProductCarousel />
       <ChivitaTrads />
       <InstagramGallery />
     </>

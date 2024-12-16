@@ -8,7 +8,7 @@ import React from 'react'
 const ourStory = () => {
   return (
     <>
-    <BreadcrumbRoundedElevatedTextIconPreview currentPage="Our Story" />
+   
     <Overview />
     <OverviewHero />
     <OverviewHeroTwo/>
