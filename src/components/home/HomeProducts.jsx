@@ -136,7 +136,7 @@ const HomeProducts = () => {
 />
     </section>
 
-   <ul ref={productRef} className="grid grid-cols-1 gap-6 px-8 md:grid-cols-2 lg:flex">
+   {/*<ul ref={productRef} className="grid grid-cols-1 gap-6 px-8 md:grid-cols-2 lg:flex">
         {[
           { img: "Product-DPs-Chivita-Fruit-Juice-xxl.png", name: "Chivita 100% Juice", link: "/products/chivita-100"},
           { img: "Product-DPs-Chivita-Active-xxl.png", name: "Chivita Active", link: "/products/chivita-active" },
@@ -168,7 +168,7 @@ const HomeProducts = () => {
             </div>
           </li>
         ))}
-      </ul>
+      </ul>*/}
     </>
   );
 };
