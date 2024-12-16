@@ -3,20 +3,20 @@ import React from "react";
 const ChivitaHappyHour = () => {
   return (
     <>
-      <div className="relative overflow-hidden">
-        <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-10">
-          <div className="max-w-2xl text-center mx-auto">
-            <h1
-              className="block text-4xl font-bold text-[#e30417] dark:text-white"
-              style={{ fontFamily: "Bebas Neue, sans-serif" }}
-            >
-              Chivita Happy Hour
-            </h1>
-            <p
-              className="leading-relaxed"
-              style={{ fontFamily: "Azo Sans, sans-serif" }}
-            >
-              Chivita Happy Hour is made for those who seek refreshment with a
+
+    <section className="bg-center bg-no-repeat bg-cover bg-[url('/assets/images/chivita-juices-bg-pages-1.jpg')] bg-gray-700 bg-blend-multiply">
+        <div className="px-4  max-w-lg text-left py-24 lg:py-24">
+          <h1
+            className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl dark:text-white"
+            style={{ fontFamily: "Bebas Neue, sans-serif" }}
+          >
+            Chivita Happy Hour
+          </h1>
+          <p
+            className="mb-8 text-[16px] font-normal text-gray-300 lg:text-[16px] leading-relaxed"
+            style={{ fontFamily: "Azo Sans, sans-serif" }}
+          >
+            Chivita Happy Hour is made for those who seek refreshment with a
               sweet fruity taste experience. Our Chivita Happy Hour products
               provide an enjoyable drinking experience for those who prefer a
               less intense, yet hydrating fruity beverage. Chivita Happy Hour is
@@ -24,18 +24,10 @@ const ChivitaHappyHour = () => {
               exceptionally happy times. So, whenever you want to get groovy and
               have fun, rock and enjoy the refreshing taste of Chivita Happy
               Hour.
-            </p>
-          </div>
-
-          <div className="mt-10 relative max-w-5xl mx-auto">
-            <img
-              className="w-full object-cover h-96 sm:h-[480px] rounded-xl"
-              src="/assets/images/CHivita-Range.png"
-              alt=""
-            />
-          </div>
+          </p>
         </div>
-      </div>
+      </section>    
+  
 
       <div className="flex flex-col md:flex-row items-center md:items-start bg-gray-50 p-6 md:p-12 ">
         <div className="md:w-1/2 flex justify-center mb-6 md:mb-0 bg-white rounded-2xl">

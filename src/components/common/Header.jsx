@@ -14,8 +14,8 @@ function ChivitaNavi() {
     { name: "Chivita Fruit Juice", image: "/assets/images/products-navs-thumbnails/chivita-navigation-thumbnails-1.png", link: "/products/chivita-100" },
     { name: "Chivita Active", image: "/assets/images/products-navs-thumbnails/chivita-navigation-thumbnails-2.png", link: "/products/chivita-active" },
     { name: "Chivita Exotic", image: "/assets/images/products-navs-thumbnails/chivita-navigation-thumbnails-3.png", link: "/products/chivita-exotic" },
-    { name: "Chivita Happy Hour", image: "/assets/images/products-navs-thumbnails/chivita-navigation-thumbnails-4.png", link: "/products/chivita-happy-hour" },
     { name: "Chivita Ice Tea", image: "/assets/images/products-navs-thumbnails/chivita-navigation-thumbnails-5.png", link: "/products/chivita-ice-tea" },
+    { name: "Chivita Happy Hour", image: "/assets/images/products-navs-thumbnails/chivita-navigation-thumbnails-4.png", link: "/products/chivita-happy-hour" },
     { name: "Chivita Smart Malt Drink", image: "/assets/images/products-navs-thumbnails/chivita-navigation-thumbnails-6.png", link: "/products/chivita-smart-malt-drink" }
   ], []);
 

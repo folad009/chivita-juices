@@ -3,20 +3,19 @@ import React from "react";
 const ChivitaSmartMalt = () => {
   return (
     <>
-      <div className="relative overflow-hidden">
-        <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-10">
-          <div className="max-w-2xl text-center mx-auto">
-            <h1
-              className="block text-4xl font-bold text-[#e30417] dark:text-white"
-              style={{ fontFamily: "Bebas Neue, sans-serif" }}
-            >
-              Chivita Smart Malt Drink
-            </h1>
-            <p
-              className="leading-relaxed"
-              style={{ fontFamily: "Azo Sans, sans-serif" }}
-            >
-              Chivita Smart Malt Drink is our new innovation and newest addition
+     <section className="bg-center bg-no-repeat bg-cover bg-[url('/assets/images/chivita-smart-malt-pg.jpg')] bg-gray-700 bg-blend-multiply">
+        <div className="px-4  max-w-lg text-left py-24 lg:py-24">
+          <h1
+            className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl dark:text-white"
+            style={{ fontFamily: "Bebas Neue, sans-serif" }}
+          >
+            Chivita Smart Malt Drink
+          </h1>
+          <p
+            className="mb-8 text-[16px] font-normal text-gray-300 lg:text-[16px] leading-relaxed"
+            style={{ fontFamily: "Azo Sans, sans-serif" }}
+          >
+           Chivita Smart Malt Drink is our new innovation and newest addition
               to the Chivita range. Packed with Vitamins A, E and the B-Vitamins
               from Malted Sorghum, Chivita Smart Malt is designed to help young
               ones unlock the energy they need for their daily activities. It is
@@ -25,18 +24,10 @@ const ChivitaSmartMalt = () => {
               their smartest and achieve optimal physical, mental, emotional,
               and psychological growth and development. So be sure to get your
               pack of Energy to learn, work, and play.
-            </p>
-          </div>
-
-          <div className="mt-10 relative max-w-5xl mx-auto">
-            <img
-              className="w-full object-cover h-96 sm:h-[480px] rounded-xl"
-              src="/assets/images/CHivita-Range.png"
-              alt=""
-            />
-          </div>
+          </p>
         </div>
-      </div>
+      </section>
+
 
       <div className="flex flex-col md:flex-row items-center md:items-start bg-gray-50 p-6 md:p-12 ">
         <div className="md:w-1/2 flex justify-center mb-6 md:mb-0 bg-white rounded-2xl">
