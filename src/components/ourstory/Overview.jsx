@@ -27,7 +27,7 @@ const Overview = () => {
     style={{
       backgroundImage: "url(/assets/images/chivita-story-background.jpg)"
     }}>
-    <span id="blackOverlay" className="w-full h-full absolute opacity-75 bg-black"></span>
+    <span id="blackOverlay" className="w-full h-full absolute opacity-45 bg-black"></span>
   </div>
   <div className="container relative mx-auto">
     <div className="items-center flex flex-wrap">

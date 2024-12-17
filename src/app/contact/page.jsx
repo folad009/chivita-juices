@@ -40,7 +40,7 @@ const ContactPage = () => {
                   </svg>
 
                   <span
-                    className="mx-2 text-[#f9f9f9] truncate w-72 font-bold"
+                    className="mx-2 text-[#f9f9f9] truncate w-72 text-[18px]"
                     style={{ fontFamily: "Azo Sans, sans-serif" }}
                   >
                     No 14 Chivita Avenue, <br /> Ajao Estate, Lagos
@@ -66,7 +66,7 @@ const ContactPage = () => {
                   </svg>
 
                   <span
-                    className="mx-2 text-[#f9f9f9] truncate font-bold text-[18px]"
+                    className="mx-2 text-[#f9f9f9] truncate  text-[18px]"
                     style={{ fontFamily: "Azo Sans, sans-serif" }}
                   >
                     +234 903 387 2113 | +234 809 761 2000
@@ -90,7 +90,7 @@ const ContactPage = () => {
                   </svg>
 
                   <span
-                    className="mx-2 text-[#f9f9f9] truncate w-72 font-bold text-[18px]"
+                    className="mx-2 text-[#f9f9f9] truncate w-72  text-[18px]"
                     style={{ fontFamily: "Azo Sans, sans-serif" }}
                   >
                     +234 800 244 2273 (TOLL FREE)
@@ -114,7 +114,7 @@ const ContactPage = () => {
                   </svg>
 
                   <span
-                    className="mx-2 text-[#f9f9f9] truncate w-72 font-bold text-[18px]"
+                    className="mx-2 text-[#f9f9f9] truncate w-72  text-[18px]"
                     style={{ fontFamily: "Azo Sans, sans-serif" }}
                   >
                     <a
@@ -128,7 +128,7 @@ const ContactPage = () => {
               </div>
 
               <div className="mt-6 md:mt-8">
-                <h3 className="text-[#f9f9f9] text-[18px] font-bold mb-5">
+                <h3 className="text-[#f9f9f9] text-[18px] mb-5">
                   Follow us on our social media channels to know about upcoming
                   events, promotions, & news as they happen
                 </h3>

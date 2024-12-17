@@ -2,9 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-{
-  /* TO DO: Put it correct format */
-}
+
 const products = [
   "Chivita Fruit Juice",
   "Chivita Active",
@@ -28,14 +26,14 @@ const policyLinks = [
 const MainFooter = () => {
   return (
     <footer
-      className="px-4 py-12 mx-auto max-w-full border-t border-[#CA9920]"
-      style={{
-        backgroundImage: `url('/assets/images/chivita-green-golden-hill.svg')`,
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
-      }}
+    className="px-4 py-12 mx-auto max-w-full border-t border-[#CA9920]"
+    style={{
+      backgroundImage: `url('/assets/images/chivita-green-golden-hill.svg')`,
+      backgroundSize: "cover",
+      backgroundRepeat: "no-repeat",
+    }}
     >
-      <div className="grid grid-cols-2 gap-10 mb-3 md:grid-cols-3 lg:grid-cols-12 lg:gap-20">
+      <div className="grid grid-cols-1 gap-10 mb-3 md:grid-cols-3 lg:grid-cols-12 lg:gap-8">
         <div className="col-span-2">
           <Link href="/">
             <Image
@@ -48,7 +46,7 @@ const MainFooter = () => {
           </Link>
         </div>
 
-        <nav className="col-span-3 md:col-span-3 lg:col-span-3">
+        <nav className="col-span-2">
           <p
             className="mb-3 text-xl font-semibold tracking-wider text-[#e20417] uppercase"
             style={{ fontFamily: "Bebas Neue, sans-serif" }}
@@ -72,7 +70,7 @@ const MainFooter = () => {
           </ul>
         </nav>
 
-        <nav className="col-span-1 md:col-span-1 lg:col-span-2">
+        <nav className="col-span-2">
           <p
             className="mb-3 text-xl font-semibold tracking-wider text-[#e20417] uppercase"
             style={{ fontFamily: "Bebas Neue, sans-serif" }}
@@ -94,7 +92,7 @@ const MainFooter = () => {
           </ul>
         </nav>
 
-        <nav className="col-span-2 md:col-span-1 lg:col-span-2">
+        <nav className="col-span-2">
           <p
             className="mb-3 text-xl font-semibold tracking-wider text-[#e20417] uppercase"
             style={{ fontFamily: "Bebas Neue, sans-serif" }}
@@ -209,28 +207,27 @@ const MainFooter = () => {
 
         <div className="col-span-3">
           <p
-            className="mb-3 text-xl font-semibold tracking-wider text-[#e20417] uppercase sm:text-white"
-            style={{ fontFamily: "Bebas Neue, sans-serif" }}
+            className="mb-3 text-xl font-semibold tracking-wider text-[#e20417] uppercase" style={{ fontFamily: "Bebas Neue, sans-serif" }}
           >
             Subscribe to Our Newsletter
           </p>
-          <form>
-            <label htmlFor="hero-input" className="sr-only">
-              Subscribe
+          <form className="flex flex-col md:flex-row gap-3">
+            <label htmlFor="subscribe-email" className="sr-only">
+              Email Address
             </label>
             <input
-              type="text"
-              id="hero-input"
-              name="hero-input"
-              className="py-3 px-4 bg-gray-100 border border-gray-200 rounded block focus:ring-blue-500 focus:border-blue-500 text-gray-700 w-[90%] text-[12px]"
+              type="email"
+              id="subscribe-email"
+              name="subscribe-email"
+              className="flex-grow px-4 py-2 border border-gray-300 rounded-lg focus:ring-[#e20417] focus:border-[#e20417] text-sm"
               placeholder="Share your email address"
             />
-            <a
-              className="mt-2 w-full sm:w-auto whitespace-nowrap p-3 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-[#e30417] text-white hover:bg-[#e30417] focus:outline-none focus:bg-[#e30417] disabled:opacity-50 disabled:pointer-events-none"
-              href="#"
+           <button
+              type="submit"
+              className="px-6 py-2 text-sm font-medium text-white bg-[#e20417] rounded-lg hover:bg-[#c90315] transition-all"
             >
-              Subscribe Now
-            </a>
+              Subscribe
+            </button>
           </form>
         </div>
       </div>

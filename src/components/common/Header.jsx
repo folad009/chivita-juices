@@ -2,11 +2,15 @@
 
 import Image from "next/image";
 import { useState, useMemo } from "react";
+import { usePathname } from "next/navigation";
 import styles from '@/css/CustomButton.module.css'
 
 function ChivitaNavi() {
   const [isProductsHovered, setIsProductsHovered] = useState(false);
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const pathname = usePathname()
+  
 
   const toggleMobileMenu = () => setMobileMenuOpen(prev => !prev);
 
@@ -18,6 +22,8 @@ function ChivitaNavi() {
     { name: "Chivita Happy Hour", image: "/assets/images/products-navs-thumbnails/chivita-navigation-thumbnails-4.png", link: "/products/chivita-happy-hour" },
     { name: "Chivita Smart Malt Drink", image: "/assets/images/products-navs-thumbnails/chivita-navigation-thumbnails-6.png", link: "/products/chivita-smart-malt-drink" }
   ], []);
+
+  const isCurrentPage = (path) => pathname === path
 
   return (
     <header className="z-30 w-full px-2 py-4 bg-[#e30417] sm:px-4 border-b border-[#007D26]">
@@ -45,7 +51,7 @@ function ChivitaNavi() {
   </a>
   <a
     href="/our-story"
-    className="rounded-md p-2 text-white text-[17px] border-none shadow-none hover:bg-[#0c8241] hover:text-white focus:bg-[#0c8241]"
+    className={`rounded-md p-2 text-white text-[17px] border-none shadow-none hover:bg-[#0c8241] hover:text-white ${isCurrentPage("/our-story") ? "bg-[#0c8241]" : ""}`}
   >
     Our Story
   </a>
@@ -82,19 +88,19 @@ function ChivitaNavi() {
   {/* Other Static Links */}
   <a
     href="/recipes"
-    className="rounded-md p-2 text-white text-[17px] border-none shadow-none hover:bg-[#0c8241] hover:text-white focus:bg-[#0c8241]"
+    className={`rounded-md p-2 text-white text-[17px] border-none shadow-none hover:bg-[#0c8241] hover:text-white ${isCurrentPage("/recipes") ? "bg-[#0c8241]" : ""}`}
   >
     Recipes
   </a>
   <a
     href="/journal"
-    className="rounded-md p-2 text-white text-[17px] border-none shadow-none hover:bg-[#0c8241] hover:text-white focus:bg-[#0c8241]"
+    className={`rounded-md p-2 text-white text-[17px] border-none shadow-none hover:bg-[#0c8241] hover:text-white ${isCurrentPage("/journal") ? "bg-[#0c8241]" : ""}`}
   >
     Journal
   </a>
   <a
     href="/contact"
-    className="rounded-md p-2 text-white text-[17px] border-none shadow-none hover:bg-[#0c8241] hover:text-white focus:bg-[#0c8241]"
+    className={`rounded-md p-2 text-white text-[17px] border-none shadow-none hover:bg-[#0c8241] hover:text-white ${isCurrentPage("/contact") ? "bg-[#0c8241]" : ""}`}
   >
     Contact us
   </a>
