@@ -63,7 +63,7 @@ function ChivitaNavi() {
     onMouseLeave={() => setIsProductsHovered(false)}
   >
     <button
-      className="flex items-center rounded-md p-2 text-white text-[17px] border-none shadow-none hover:bg-[#0c8241] hover:text-white"
+      className={`flex items-center rounded-md p-2 text-white text-[17px] border-none shadow-none hover:bg-[#0c8241] hover:text-white ${productItems.some(({ link }) => isCurrentPage(link)) ? "bg-[#0c8241]" : ""}`}
       aria-expanded={isProductsHovered}
     >
       Products  
