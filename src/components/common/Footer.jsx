@@ -75,7 +75,7 @@ const MainFooter = () => {
             className="mb-3 text-xl font-semibold tracking-wider text-[#e20417] uppercase"
             style={{ fontFamily: "Bebas Neue, sans-serif" }}
           >
-            Use Links
+            Useful Links
           </p>
           <ul className="list-none">
             {aboutLinks.map((link, index) => (
