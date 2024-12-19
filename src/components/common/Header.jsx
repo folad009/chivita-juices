@@ -47,7 +47,7 @@ function ChivitaNavi() {
     target="blank"
     className="rounded-md p-2 text-white text-[17px] border-none shadow-none hover:bg-[#0c8241] hover:text-white focus:bg-[#0c8241]"
   >
-    The Company
+    Our Company
   </a>
   <a
     href="/our-story"
