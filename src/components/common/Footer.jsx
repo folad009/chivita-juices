@@ -97,7 +97,7 @@ const MainFooter = () => {
             className="mb-3 text-xl font-semibold tracking-wider text-[#e20417] uppercase"
             style={{ fontFamily: "Bebas Neue, sans-serif" }}
           >
-            Legal Links
+            Legal
           </p>
           {policyLinks.map((link, index) => (
             <a
