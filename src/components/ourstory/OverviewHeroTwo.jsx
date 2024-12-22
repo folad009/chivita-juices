@@ -66,7 +66,7 @@ const OverviewHeroTwo = () => {
         <div ref={textRef} className="py-5 px-5">
           <h1 className="block text-5xl font-bold text-gray-800 dark:text-white text-center" style={{ fontFamily: "Bebas Neue, sans-serif" }}>
             Quality has {" "}
-            <span className="bg-clip-text bg-gradient-to-tl from-[#e30417] to-[#e30417]/60 text-transparent">another name.</span>
+            <span className="bg-clip-text bg-gradient-to-tl from-[#e30417] to-[#e30417]/60 text-transparent">another name</span>
           </h1>
           <p className="mt-3 mb-5 text-[16px]  text-gray-800 dark:text-neutral-400 text-center" style={{ fontFamily: "Azo Sans, sans-serif", lineHeight: "1.8" }}>
             Incorporated in 1980, Chivita|Hollandia (CHI Limited) has grown to become a market

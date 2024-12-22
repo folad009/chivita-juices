@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-
 const products = [
   "Chivita Fruit Juice",
   "Chivita Active",
@@ -13,8 +12,9 @@ const products = [
 ];
 
 const aboutLinks = [
-  { name: "Our Story", href: "/our-story" },
-  { name: "Contact Us", href: "/contact" },
+  { name: "www.chivitahollandia.com", href: "https://www.chivitahollandia.com" },
+  { name: "www.chivitajuices.com", href: "https://www.chivitajuices.com" },
+  { name: "www.hollandiadairyng.com", href: "https://www.hollandiadairyng.com" },
 ];
 
 const policyLinks = [
@@ -26,12 +26,12 @@ const policyLinks = [
 const MainFooter = () => {
   return (
     <footer
-    className="px-4 py-12 mx-auto max-w-full border-t border-[#CA9920]"
-    style={{
-      backgroundImage: `url('/assets/images/chivita-green-golden-hill.svg')`,
-      backgroundSize: "cover",
-      backgroundRepeat: "no-repeat",
-    }}
+      className="px-4 py-12 mx-auto max-w-full border-t border-[#CA9920]"
+      style={{
+        backgroundImage: `url('/assets/images/chivita-green-golden-hill.svg')`,
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+      }}
     >
       <div className="grid grid-cols-1 gap-10 mb-3 md:grid-cols-3 lg:grid-cols-12 lg:gap-8">
         <div className="col-span-2">
@@ -46,43 +46,19 @@ const MainFooter = () => {
           </Link>
         </div>
 
-        <nav className="col-span-2">
+        <nav className="col-span-3">
           <p
             className="mb-3 text-xl font-semibold tracking-wider text-[#e20417] uppercase"
             style={{ fontFamily: "Bebas Neue, sans-serif" }}
           >
-            Products
-          </p>
-          <ul className="list-none">
-            {products.map((product, index) => (
-              <li key={index}>
-                <a
-                  href={`/products/${product
-                    .toLowerCase()
-                    .replace(/\s/g, "-")}`}
-                  className="flex mb-3 text-sm font-medium text-gray-800 transition md:mb-2 hover:text-[#0c8241]"
-                  style={{ fontFamily: "Azo Sans, sans-serif" }}
-                >
-                  {product}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </nav>
-
-        <nav className="col-span-2">
-          <p
-            className="mb-3 text-xl font-semibold tracking-wider text-[#e20417] uppercase"
-            style={{ fontFamily: "Bebas Neue, sans-serif" }}
-          >
-            Useful Links
+            Our Websites
           </p>
           <ul className="list-none">
             {aboutLinks.map((link, index) => (
               <li key={index}>
                 <a
                   href={link.href}
-                  className="flex mb-3 text-sm font-medium text-gray-800 transition md:mb-2 hover:text-[#0c8241]"
+                  className="flex mb-3 text-sm font-bold text-gray-800 transition md:mb-2 hover:text-[#0c8241]"
                   style={{ fontFamily: "Azo Sans, sans-serif" }}
                 >
                   {link.name}
@@ -92,18 +68,18 @@ const MainFooter = () => {
           </ul>
         </nav>
 
-        <nav className="col-span-2">
+        <nav className="col-span-3">
           <p
             className="mb-3 text-xl font-semibold tracking-wider text-[#e20417] uppercase"
             style={{ fontFamily: "Bebas Neue, sans-serif" }}
           >
-            Legal
+            Quick Links
           </p>
           {policyLinks.map((link, index) => (
             <a
               key={index}
               href={link.href}
-              className="flex mb-3 text-sm font-medium text-gray-800 transition md:mb-2 hover:text-[#0c8241]"
+              className="flex mb-3 text-sm font-bold text-gray-800 transition md:mb-2 hover:text-[#0c8241]"
               style={{ fontFamily: "Azo Sans, sans-serif" }}
             >
               {link.name}
@@ -145,7 +121,7 @@ const MainFooter = () => {
               </svg>
             </a>
             <a
-              className="size-10 inline-flex  items-center disabled:pointer-events-none"
+              className="size-10 inline-flex items-center disabled:pointer-events-none"
               href="https://www.youtube.com/user/chivitajuices/featured"
               target="_blank"
             >
@@ -174,7 +150,7 @@ const MainFooter = () => {
               </svg>
             </a>
             <a
-              className="size-10 inline-flex  items-center "
+              className="size-10 inline-flex items-center disabled:pointer-events-none"
               href="https://www.facebook.com/ChivitaJuices/"
               target="_blank"
             >
@@ -207,7 +183,8 @@ const MainFooter = () => {
 
         <div className="col-span-3">
           <p
-            className="mb-3 text-xl font-semibold tracking-wider text-[#e20417] uppercase" style={{ fontFamily: "Bebas Neue, sans-serif" }}
+            className="mb-3 text-xl font-semibold tracking-wider text-[#e20417] uppercase"
+            style={{ fontFamily: "Bebas Neue, sans-serif" }}
           >
             Subscribe to Our Newsletter
           </p>
@@ -222,7 +199,7 @@ const MainFooter = () => {
               className="flex-grow px-4 py-2 border border-gray-300 rounded-lg focus:ring-[#e20417] focus:border-[#e20417] text-sm"
               placeholder="Share your email address"
             />
-           <button
+            <button
               type="submit"
               className="px-6 py-2 text-sm font-medium text-white bg-[#e20417] rounded-lg hover:bg-[#c90315] transition-all"
             >
@@ -232,12 +209,20 @@ const MainFooter = () => {
         </div>
       </div>
 
-      <div className="flex flex-col items-center justify-center pt-10 mt-10 md:flex-row md:justify-center md:items-center">
+      <div className="flex flex-col items-center justify-center space-x-2 pt-10 mt-10 md:flex-row md:justify-center md:items-center">
+        <Image
+          src="/assets/images/chivita-logo-white.png"
+          width={70}
+          height={70}
+          alt="chivita juices logo"
+        />
+
         <p
-          className="mb-6 text-sm text-center text-white md:mb-0"
+          className="text-sm text-center text-white mt-3"
           style={{ fontFamily: "Azo Sans, sans-serif", fontWeight: "bold" }}
         >
-          © Copyright 2024 - Chivita Juices. All Rights Reserved.
+          {" "}
+          © Copyright 2024. All Rights Reserved.
         </p>
       </div>
     </footer>

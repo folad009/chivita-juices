@@ -41,31 +41,13 @@ const Overview = () => {
 
     </div>
   </div>
-  <div
-    className="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
-    style={{ height: "70px" }}
-  >
-    <svg
-      className="absolute bottom-0 overflow-hidden"
-      xmlns="http://www.w3.org/2000/svg"
-      preserveAspectRatio="none"
-      version="1.1"
-      viewBox="0 0 2560 100"
-      x="0"
-      y="0"
-    >
-      <polygon
-        className="text-white fill-current"
-        points="2560 0 2560 100 0 100"
-      ></polygon>
-    </svg>
-  </div>
+  
         </div>
         <section className="pb-5 bg-white -mt-24">
   <div className="container mx-auto px-4">
     <div className="flex flex-wrap items-stretch">
       {/* Box 1 */}
-      <div className="card lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+      <div className="card  w-full md:w-4/12 px-4 text-center">
         <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg h-full">
           <div className="px-4 py-5 flex-auto">
             <h6 className="text-4xl font-semibold text-[#e30417]" style={{ fontFamily: "Bebas Neue, sans-serif" }}>Our Brand Promise</h6>
@@ -77,8 +59,8 @@ const Overview = () => {
       </div>
 
       {/* Box 2 */}
-      <div className="card w-full md:w-4/12 px-4 mb-8 text-center">
-        <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 mt-6 shadow-lg rounded-lg h-full">
+      <div className="card w-full md:w-4/12 px-4 text-center">
+        <div className="relative flex flex-col min-w-0 break-words bg-white w-full  shadow-lg rounded-lg h-full">
           <div className="px-4 py-5 flex-auto">
             <h6 className="text-4xl font-semibold text-[#e30417]" style={{ fontFamily: "Bebas Neue, sans-serif" }}>Our Consumers</h6>
             <p className="mt-2 mb-4 text-gray-800" style={{ fontFamily: "Azo Sans, sans-serif" }}>
@@ -89,7 +71,7 @@ const Overview = () => {
       </div>
 
       {/* Box 3 */}
-      <div className="card pt-6 w-full md:w-4/12 px-4 text-center">
+      <div className="card w-full md:w-4/12 px-4 text-center">
         <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg h-full">
           <div className="px-4 py-5 flex-auto">
             <h6 className="text-4xl font-semibold text-[#e30417]" style={{ fontFamily: "Bebas Neue, sans-serif" }}>Our Category</h6>

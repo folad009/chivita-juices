@@ -2,9 +2,9 @@
     padding: 30px;
     background: #fff;
     border: 6px solid transparent;
-    border-image: linear-gradient(55deg, #FFFFFF, #007D26) 1;
-    box-shadow: 15px 15px 0 #007D26; 
-    transform: rotate(-2deg); 
+    border-image: linear-gradient(0deg, #FFFFFF, #007D26) 1;
+    
+    transform: rotate(0deg); 
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
@@ -17,24 +17,24 @@
   
   .ImageCard:active {
     animation: shake 0.5s ease-in-out;
-    transform: rotate(-2deg);
+    transform: rotate(0deg);
   }
   
   @keyframes shake {
     0% {
-      transform: translateX(0) rotate(-2deg); 
+      transform: translateX(0) rotate(0deg); 
     }
     25% {
-      transform: translateX(-5px) rotate(-4deg);
+      transform: translateX(-5px) rotate(0deg);
     }
     50% {
       transform: translateX(5px) rotate(0deg); 
     }
     75% {
-      transform: translateX(-5px) rotate(-4deg); 
+      transform: translateX(-5px) rotate(0deg); 
     }
     100% {
-      transform: translateX(0) rotate(-2deg); 
+      transform: translateX(0) rotate(0deg); 
     }
   }
   
@@ -188,3 +188,67 @@
     width: 80px;
   }
 }
+
+
+/*-------- custom styles --------------------------------*/
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.btn {
+  --color: #00A97F;
+  --color2: rgb(10, 25, 30);
+  padding: 0.8em 1.75em;
+  background-color: transparent;
+  border-radius: 6px;
+  border: .3px solid var(--color);
+  transition: .5s;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 1;
+  font-size: 15px;
+ 
+  text-transform: uppercase;
+  color: var(--color);
+ }
+
+ .btn::after, .btn::before {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  transform: skew(90deg) translate(-50%, -50%);
+  position: absolute;
+  inset: 50%;
+  left: 25%;
+  z-index: -1;
+  transition: .5s ease-out;
+  background-color: var(--color);
+ }
+
+ .btn::before {
+  top: -50%;
+  left: -25%;
+  transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+ }
+
+ .btn:hover::before {
+  transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+ }
+
+ .btn:hover::after {
+  transform: skew(45deg) translate(-50%, -50%);
+ }
+
+ .btn:hover {
+  color: var(--color2);
+ }
+
+ .btn:active {
+  filter: brightness(.7);
+  transform: scale(.98);
+ }

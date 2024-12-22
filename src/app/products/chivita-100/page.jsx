@@ -1,6 +1,9 @@
-import React from "react";
+
+import styles from "@/css/GeneralStyle.module.css"
 
 const Chivita100 = () => {
+
+
   return (
     <>
       <section className="bg-center bg-no-repeat bg-cover bg-[url('/assets/images/chivita-juices-bg-pages-1.jpg')] bg-gray-700 bg-blend-multiply">
@@ -36,6 +39,10 @@ const Chivita100 = () => {
               alt="Chivita Orange Juice"
               className="object-contain"
             />
+            <div className={styles.btnContainer}>
+              <button className={styles.btn}>Buy Now</button>
+            </div>
+            
           </div>
         </div>
 
@@ -130,6 +137,9 @@ const Chivita100 = () => {
               alt="Chivita Pinapple Juice"
               className="object-contain"
             />
+              <div className={styles.btnContainer}>
+              <button className={styles.btn}>Buy Now</button>
+            </div>
           </div>
         </div>
       </div>
@@ -142,6 +152,9 @@ const Chivita100 = () => {
               alt="Chivita Apple Juice"
               className="object-contain"
             />
+              <div className={styles.btnContainer}>
+              <button className={styles.btn}>Buy Now</button>
+            </div>
           </div>
         </div>
 
@@ -239,6 +252,9 @@ const Chivita100 = () => {
               alt="Chivita Grape Juice"
               className="object-contain"
             />
+              <div className={styles.btnContainer}>
+              <button className={styles.btn}>Buy Now</button>
+            </div>
           </div>
         </div>
       </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "@/css/GeneralStyle.module.css"
 
 const ChivitaIceTea = () => {
   return (
@@ -33,6 +34,9 @@ const ChivitaIceTea = () => {
               alt="Chivita Ice Tea"
               className="object-contain"
             />
+            <div className={styles.btnContainer}>
+              <button className={styles.btn}>Buy Now</button>
+            </div>
           </div>
         </div>
 

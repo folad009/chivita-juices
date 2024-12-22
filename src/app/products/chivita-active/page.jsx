@@ -1,5 +1,6 @@
 import React from "react";
 
+import styles from "@/css/GeneralStyle.module.css"
 const ChivitaActive = () => {
   return (
     <>
@@ -33,6 +34,9 @@ const ChivitaActive = () => {
               alt="Chivita Citrus Mix"
               className="object-contain"
             />
+              <div className={styles.btnContainer}>
+              <button className={styles.btn}>Buy Now</button>
+            </div>
           </div>
         </div>
 
@@ -123,6 +127,9 @@ const ChivitaActive = () => {
               alt="Chivita Orange Carrot"
               className="object-contain"
             />
+             <div className={styles.btnContainer}>
+              <button className={styles.btn}>Buy Now</button>
+            </div>
           </div>
         </div>
       </div>
@@ -135,6 +142,9 @@ const ChivitaActive = () => {
               alt="Chivita Zest"
               className="object-contain"
             />
+             <div className={styles.btnContainer}>
+              <button className={styles.btn}>Buy Now</button>
+            </div>
           </div>
         </div>
 

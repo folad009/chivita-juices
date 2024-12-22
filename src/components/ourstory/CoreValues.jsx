@@ -10,7 +10,7 @@ const CoreValues = () => {
             className="mb-2 mx-5 text-center text-5xl font-semibold text-[#e30417]"
             style={{ fontFamily: "Bebas Neue, sans-serif" }}
           >
-            We are leaders in the Fruit Juice Category in Nigeria.
+            We are leaders in the Fruit Juice Category in Nigeria
           </h2>
           <div className="mt-6 flex flex-col gap-6 lg:flex-row max-w-6xl">
             <div className="flex flex-col justify-between gap-14 lg:w-1/3">

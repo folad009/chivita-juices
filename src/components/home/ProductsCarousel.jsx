@@ -1,16 +1,16 @@
 "use client"
-import React from 'react';
-// Import Swiper React components
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
+import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 
 
 // import required modules
-import { Pagination, FreeMode } from 'swiper/modules';
+import { FreeMode, Navigation, Mousewheel, Keyboard } from 'swiper/modules';
 
 export default function ProductCarousel() {
   const prdPacks = [
@@ -27,9 +27,13 @@ export default function ProductCarousel() {
       <Swiper
         slidesPerView={3}
         spaceBetween={10}
+        cssMode={true}
         loop={true}
+        navigation={{clickable: true}}
         freeMode={true}
-        pagination={{ clickable: true }}
+        mousewheel={true}
+        keyboard={true}
+       
         
         breakpoints={{
           320: {
@@ -49,7 +53,7 @@ export default function ProductCarousel() {
             spaceBetween: 10,
           },
         }}
-        modules={[Pagination, FreeMode,]}
+        modules={[FreeMode, Navigation, Mousewheel, Keyboard]}
         className="mySwiper"
         style={{ width: '100%', maxWidth: '1700px', margin: '0 auto', paddingBottom: '40px' }}
       >
@@ -80,7 +84,7 @@ export default function ProductCarousel() {
                 borderRadius: '5px',
                 fontFamily: 'Bebas Neue, sans-serif',
                 fontSize: '1rem',
-              }} className=' hover:bg-[#007d26]'>Learn More</a>
+              }} className=' hover:bg-[#007d26]'>View Product</a>
             </div>
           </div>
         </SwiperSlide>
