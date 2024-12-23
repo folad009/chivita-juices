@@ -58,7 +58,7 @@ function ChivitaNavi() {
   const isCurrentPage = (path) => pathname === path;
 
   return (
-    <header className="sticky top-0 z-30 min-w-full px-2 py-6 bg-[#e30417] sm:px-4 border-b border-[#007D26] min-h-[7rem]">
+    <header className="sticky top-0 z-30 min-w-full px-2 py-3 bg-[#e30417] sm:px-4 border-b border-[#007D26] min-h-[5rem]">
       <div className="flex items-center justify-between mx-auto max-w-7xl">
         <a href="/" title="Home Page" className="flex items-center">
           <Image
@@ -66,7 +66,7 @@ function ChivitaNavi() {
             width={100}
             height={50}
             alt="chivita juices"
-            className="w-auto h-12"
+            className="w-auto h-9"
             priority
           />
         </a>

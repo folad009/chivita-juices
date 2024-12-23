@@ -17,7 +17,7 @@ export default function BreadcrumbRoundedElevatedTextIconPreview({ currentPage }
       {/* <!-- Component: Elevated breadcrumb with text & leading icon --> */}
       <nav aria-label="Breadcrumb">
         <ol 
-          className="flex h-28 list-none items-stretch gap-2 px-4 shadow-md shadow-slate-200" 
+          className="flex h-16 list-none items-stretch gap-2 px-4 shadow-md shadow-slate-200" 
           style={{
             backgroundImage: "url('/assets/images/chivita-breadcrumb.jpg')",
             backgroundSize: "cover",

@@ -2,19 +2,11 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-const products = [
-  "Chivita Fruit Juice",
-  "Chivita Active",
-  "Chivita Exotic",
-  "Chivita Ice Tea",
-  "Chivita Happy Hour",
-  "Chivita Smart Malt Drink",
-];
-
 const aboutLinks = [
-  { name: "www.chivitahollandia.com", href: "https://www.chivitahollandia.com" },
-  { name: "www.chivitajuices.com", href: "https://www.chivitajuices.com" },
-  { name: "www.hollandiadairyng.com", href: "https://www.hollandiadairyng.com" },
+  { name: "Our Story", href: "/our-story" },
+  { name: "Recipes", href: "/recipes" },
+  { name: "Journal", href: "/journal" },
+  { name: "Contact us", href: "/contact-us" },
 ];
 
 const policyLinks = [
@@ -26,39 +18,72 @@ const policyLinks = [
 const MainFooter = () => {
   return (
     <footer
-      className="px-4 py-12 mx-auto max-w-full border-t border-[#CA9920]"
+      className="px-4 py-8 mx-auto max-w-full border-t border-[#CA9920]"
       style={{
         backgroundImage: `url('/assets/images/chivita-green-golden-hill.svg')`,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
       }}
     >
-      <div className="grid grid-cols-1 gap-10 mb-3 md:grid-cols-3 lg:grid-cols-12 lg:gap-8">
-        <div className="col-span-2">
+      {/* Main Footer Row */}
+      <div className="flex flex-col lg:flex-row justify-between items-start lg:items-stretch space-y-8 lg:space-y-0">
+        {/* Logo Section */}
+        <div className="flex flex-col items-center lg:items-start">
           <Link href="/">
             <Image
               src="/assets/images/chivita-logo-red.svg"
-              width={200}
-              height={150}
-              alt="chivita logo red"
-              className="w-auto h-32"
+              width={150}
+              height={80}
+              alt="Chivita Logo"
+              className="mb-3 mt-10"
             />
           </Link>
         </div>
 
-        <nav className="col-span-3">
+        {/* Contact Section */}
+        <div className="flex flex-col items-center lg:items-start">
           <p
             className="mb-3 text-xl font-semibold tracking-wider text-[#e20417] uppercase"
             style={{ fontFamily: "Bebas Neue, sans-serif" }}
           >
-            Our Websites
+            Contact
           </p>
-          <ul className="list-none">
+          <div className="space-y-2">
+          <p className="text-sm text-gray-800 font-bold"
+            style={{ fontFamily: "Azo Sans, sans-serif" }}>
+          CHI Limited <br/>(Chivita|Hollandia) <br /> No 14, Chivita Avenue, <br /> Ajao
+          Estate, Lagos, Nigeria.
+          </p>
+          <p
+            className="text-sm text-gray-800 font-bold"
+            style={{ fontFamily: "Azo Sans, sans-serif" }}
+          >
+           <a href="mailto:chicares@chilimited.com">chicares@chilimited.com</a>
+          </p>
+          <p
+            className="text-sm text-gray-800 font-bold"
+            style={{ fontFamily: "Azo Sans, sans-serif" }}
+          >
+            <a href="tel:+2349033872113">+234 903 387 2113</a> <br/> <a href="tel:+2348097612000">+234 809 761 2000</a> <br/> <a href="tel:+2348002442273">+234 800 244 2273</a> (Toll Free)
+          </p>
+          </div>
+          
+        </div>
+
+        {/* Useful Links Section */}
+        <div className="flex flex-col items-center lg:items-start">
+          <p
+            className="mb-3 text-xl font-semibold tracking-wider text-[#e20417] uppercase"
+            style={{ fontFamily: "Bebas Neue, sans-serif" }}
+          >
+            Useful Links
+          </p>
+          <ul className="space-y-2">
             {aboutLinks.map((link, index) => (
               <li key={index}>
                 <a
                   href={link.href}
-                  className="flex mb-3 text-sm font-bold text-gray-800 transition md:mb-2 hover:text-[#0c8241]"
+                  className="text-sm font-bold text-gray-800 hover:text-[#0c8241] transition"
                   style={{ fontFamily: "Azo Sans, sans-serif" }}
                 >
                   {link.name}
@@ -66,28 +91,32 @@ const MainFooter = () => {
               </li>
             ))}
           </ul>
-        </nav>
+          
+        </div>
 
-        <nav className="col-span-3">
+        {/* Quick Links Section */}
+        <div className="flex flex-col items-center lg:items-start">
           <p
             className="mb-3 text-xl font-semibold tracking-wider text-[#e20417] uppercase"
             style={{ fontFamily: "Bebas Neue, sans-serif" }}
           >
             Quick Links
           </p>
-          {policyLinks.map((link, index) => (
-            <a
-              key={index}
-              href={link.href}
-              className="flex mb-3 text-sm font-bold text-gray-800 transition md:mb-2 hover:text-[#0c8241]"
-              style={{ fontFamily: "Azo Sans, sans-serif" }}
-            >
-              {link.name}
-            </a>
-          ))}
-
-          {/* Social Brands */}
-          <div>
+          <ul className="space-y-2">
+            {policyLinks.map((link, index) => (
+              <li key={index}>
+                <a
+                  href={link.href}
+                  className="text-sm font-bold text-gray-800 hover:text-[#0c8241] transition"
+                  style={{ fontFamily: "Azo Sans, sans-serif" }}
+                >
+                  {link.name}
+                </a>
+              </li>
+            ))}
+          </ul>
+           {/* Social Brands */}
+           <div className="mt-5">
             <a
               className="size-10 inline-flex items-center disabled:pointer-events-none"
               href="https://www.instagram.com/chivitajuices/"
@@ -179,36 +208,39 @@ const MainFooter = () => {
             </a>
           </div>
           {/* End Social Brands */}
-        </nav>
+        </div>
 
-        <div className="col-span-3">
-          <p
-            className="mb-3 text-xl font-semibold tracking-wider text-[#e20417] uppercase"
-            style={{ fontFamily: "Bebas Neue, sans-serif" }}
+        <div className="flex flex-col items-center lg:items-start">
+        <p
+          className="mb-3 text-xl font-semibold tracking-wider text-[#e20417] uppercase"
+          style={{ fontFamily: "Bebas Neue, sans-serif" }}
+        >
+          Subscribe to Our Newsletter
+        </p>
+        <form className="flex flex-col md:flex-row gap-3 w-full max-w-lg">
+          <label htmlFor="subscribe-email" className="sr-only">
+            Email Address
+          </label>
+          <input
+            type="email"
+            id="subscribe-email"
+            name="subscribe-email"
+            className="flex-grow px-4 py-2 text-gray-800 border border-gray-300 rounded-lg focus:ring-[#e20417] focus:border-[#e20417] text-sm"
+            placeholder="Share your email address"
+          />
+          <button
+            type="submit"
+            className="px-6 py-2 text-sm font-medium text-white bg-[#e20417] rounded-lg hover:bg-[#c90315] transition-all"
           >
-            Subscribe to Our Newsletter
-          </p>
-          <form className="flex flex-col md:flex-row gap-3">
-            <label htmlFor="subscribe-email" className="sr-only">
-              Email Address
-            </label>
-            <input
-              type="email"
-              id="subscribe-email"
-              name="subscribe-email"
-              className="flex-grow px-4 py-2 border border-gray-300 rounded-lg focus:ring-[#e20417] focus:border-[#e20417] text-sm"
-              placeholder="Share your email address"
-            />
-            <button
-              type="submit"
-              className="px-6 py-2 text-sm font-medium text-white bg-[#e20417] rounded-lg hover:bg-[#c90315] transition-all"
-            >
-              Subscribe
-            </button>
-          </form>
+            Subscribe
+          </button>
+        </form>
         </div>
       </div>
 
+    
+
+      {/* Footer Bottom Section */}
       <div className="flex flex-col items-center justify-center space-x-2 pt-10 mt-10 md:flex-row md:justify-center md:items-center">
         <Image
           src="/assets/images/chivita-logo-white.png"

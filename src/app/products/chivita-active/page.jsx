@@ -30,7 +30,7 @@ const ChivitaActive = () => {
         <div className="md:w-1/2 flex justify-center mb-6 md:mb-0 bg-white rounded-2xl">
           <div className="w-64 h-auto">
             <img
-              src="/assets/images/product-image-dp/chivita-citrus-mix.png"
+              src="/assets/images/product-image-dp/chivita-active-citrus-packs.png"
               alt="Chivita Citrus Mix"
               className="object-contain"
             />
@@ -123,7 +123,7 @@ const ChivitaActive = () => {
         <div className="md:w-1/2 flex justify-center mb-6 md:mb-0 bg-white rounded-2xl">
           <div className="w-64 h-auto">
             <img
-              src="/assets/images/product-image-dp/chivita-carrot-orange-1l.png"
+              src="/assets/images/product-image-dp/chivita-active-carrot-packs.png"
               alt="Chivita Orange Carrot"
               className="object-contain"
             />
@@ -138,7 +138,7 @@ const ChivitaActive = () => {
         <div className="md:w-1/2 flex justify-center mb-6 md:mb-0 bg-white rounded-2xl">
           <div className="w-64 h-auto">
             <img
-              src="/assets/images/product-image-dp/active-zest.png"
+              src="/assets/images/product-image-dp/chivita-active-zests-packs.png"
               alt="Chivita Zest"
               className="object-contain"
             />
@@ -182,25 +182,7 @@ const ChivitaActive = () => {
                 fontWeight: "bold",
               }}
             >
-              1 Litre | 125ml | 45ml
-            </div>
-          </div>
-
-          <div className="flex items-center">
-            <span
-              className="mr-3 font-bold"
-              style={{ fontFamily: "Bebas Neue, sans-serif" }}
-            >
-              Cans:
-            </span>
-            <div
-              className="relative"
-              style={{
-                fontFamily: "Azo Sans, sans-serif",
-                fontWeight: "bold",
-              }}
-            >
-              330ml
+              1 Litre | 330ml | 125ml | 45ml
             </div>
           </div>
 

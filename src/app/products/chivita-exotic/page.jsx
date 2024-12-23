@@ -34,7 +34,7 @@ const ChivitaExotic = () => {
         <div className="md:w-1/2 flex justify-center mb-6 md:mb-0 bg-white rounded-2xl">
           <div className="w-64 h-auto">
             <img
-              src="/assets/images/product-image-dp/chivita-exotic.png"
+              src="/assets/images/product-image-dp/chivita-exotic-packs.png"
               alt="Chivita Exotic Pineapple Coconut"
               className="object-contain"
             />
@@ -79,25 +79,7 @@ const ChivitaExotic = () => {
                 fontWeight: "bold",
               }}
             >
-              1 Litre | 500ml | 315ml | 125ml
-            </div>
-          </div>
-
-          <div className="flex items-center">
-            <span
-              className="mr-3 font-bold"
-              style={{ fontFamily: "Bebas Neue, sans-serif" }}
-            >
-              Cans:
-            </span>
-            <div
-              className="relative"
-              style={{
-                fontFamily: "Azo Sans, sans-serif",
-                fontWeight: "bold",
-              }}
-            >
-              330ml
+              1 Litre | 500ml | 330ml | 315ml | 125ml
             </div>
           </div>
         </div>
@@ -149,7 +131,7 @@ const ChivitaExotic = () => {
         <div className="md:w-1/2 flex justify-center mb-6 md:mb-0 bg-white rounded-2xl">
           <div className="w-64 h-auto">
             <img
-              src="/assets/images/product-image-dp/chivita-exotic-multifruita.png"
+              src="/assets/images/product-image-dp/chivita-exotic-multifruita-packs.png"
               alt="Chivita Exotic"
               className="object-contain"
             />

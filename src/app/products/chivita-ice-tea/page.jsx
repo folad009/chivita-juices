@@ -30,7 +30,7 @@ const ChivitaIceTea = () => {
         <div className="md:w-1/2 flex justify-center mb-6 md:mb-0 bg-white rounded-2xl">
           <div className="w-64 h-auto">
             <img
-              src="/assets/images/product-image-dp/chivita-ice-tea-neww.png"
+              src="/assets/images/product-image-dp/chivita-ice-tea-packs.png"
               alt="Chivita Ice Tea"
               className="object-contain"
             />
@@ -73,25 +73,7 @@ const ChivitaIceTea = () => {
                 fontWeight: "bold",
               }}
             >
-              1 Litre | 315ml | 125ml
-            </div>
-          </div>
-
-          <div className="flex items-center">
-            <span
-              className="mr-3 font-bold"
-              style={{ fontFamily: "Bebas Neue, sans-serif" }}
-            >
-              Cans:
-            </span>
-            <div
-              className="relative"
-              style={{
-                fontFamily: "Azo Sans, sans-serif",
-                fontWeight: "bold",
-              }}
-            >
-              330ml
+              1 Litre | 330ml | 315ml | 125ml
             </div>
           </div>
         </div>

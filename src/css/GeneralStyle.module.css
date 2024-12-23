@@ -199,7 +199,7 @@
 }
 
 .btn {
-  --color: #00A97F;
+  --color: #007d26;
   --color2: rgb(10, 25, 30);
   padding: 0.8em 1.75em;
   background-color: transparent;
@@ -210,10 +210,10 @@
   overflow: hidden;
   cursor: pointer;
   z-index: 1;
-  font-size: 15px;
- 
+  font-size: 13px;
   text-transform: uppercase;
   color: var(--color);
+  font-weight: 800;
  }
 
  .btn::after, .btn::before {
@@ -245,7 +245,7 @@
  }
 
  .btn:hover {
-  color: var(--color2);
+  color: #FFFFFF;
  }
 
  .btn:active {
