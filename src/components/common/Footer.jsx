@@ -10,7 +10,7 @@ const aboutLinks = [
 ];
 
 const policyLinks = [
-  { name: "Terms and Conditions", href: "/terms" },
+  { name: "FAQ", href: "/faqs" },
   { name: "Privacy Policy", href: "/privacy" },
   { name: "Cookies", href: "/cookies" },
 ];
