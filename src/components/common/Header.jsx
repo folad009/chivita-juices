@@ -97,6 +97,7 @@ function ChivitaNavi() {
           <div
             className="relative"
             onMouseEnter={() => setIsProductsHovered(true)}
+            onMouseOut={() => setIsProductsHovered(true)}
             onMouseLeave={() => setIsProductsHovered(false)}
           >
             <button
