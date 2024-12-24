@@ -6,7 +6,33 @@ const Chivita100 = () => {
 
   return (
     <>
-      <section className="bg-center bg-no-repeat bg-cover bg-[url('/assets/images/chivita-juices-bg-pages-1.jpg')] bg-gray-700 bg-blend-multiply">
+    <section className="relative py-10 overflow-hidden bg-black sm:py-16 lg:py-24 xl:py-32">
+    <div className="absolute inset-0">
+        <img className="object-cover w-full h-full md:object-right md:scale-100 md:origin-top-right" src="/assets/images/chivita-juices-bg-pages-1.jpg" alt="" />
+    </div>
+
+    <div className="absolute inset-0 hidden bg-gradient-to-r md:block from-[#007d26] to-transparent"></div>
+
+    <div className="absolute inset-0 block bg-[#007d26]/70 md:hidden"></div>
+
+    <div className="relative px-2 mx-8 sm:px-4 lg:px-2 max-w-5xl">
+        <div className="text-center md:w-2/3 lg:w-1/2 xl:w-1/2 md:text-left">
+            <h2 className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">Chivita Fruit Juice</h2>
+            <p className="mt-4 text-base text-gray-200">Chivita Fruit Juice is Mother Nature’s gift of juices made from
+            fresh fruits and packed in aseptic packaging. It is fruit juice in
+            its wholesome form, containing all the goodness and nutrients of
+            nature’s fruits with no preservatives, artificial colours,
+            artificial flavours, or added sugar. With Chivita every moment
+            becomes special, good living becomes achievable, and milestones
+            become memorable. With every sip, you're embracing a healthy
+            lifestyle and creating moments to cherish. Enjoy a glass of Chivita
+            Fruit Juice today!</p>
+
+        
+        </div>
+    </div>
+</section>
+      {/*<section className="bg-center bg-no-repeat bg-cover bg-[url('/assets/images/chivita-juices-bg-pages-1.jpg')] bg-gray-700 bg-blend-multiply">
         <div className="px-4  max-w-lg text-left py-24 lg:py-24">
           <h1
             className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl dark:text-white"
@@ -29,7 +55,7 @@ const Chivita100 = () => {
             Fruit Juice today!
           </p>
         </div>
-      </section>
+      </section>*/}
 
       <div className="flex flex-col md:flex-row items-center md:items-start bg-gray-50 p-6 md:p-12 ">
         <div className="md:w-1/2 flex justify-center mb-6 md:mb-0 bg-white rounded-2xl">

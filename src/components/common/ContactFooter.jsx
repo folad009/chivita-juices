@@ -3,10 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 
 const aboutLinks = [
-  { name: "Our Story", href: "/our-story" },
-  { name: "Recipes", href: "/recipes" },
-  { name: "Journal", href: "/journal" },
-  { name: "Contact us", href: "/contact-us" },
+  { name: "Chivita|Hollandia", href: "#" },
+  { name: "Hollandia Dairy", href: "#" },
 ];
 
 const policyLinks = [
@@ -15,7 +13,7 @@ const policyLinks = [
   { name: "Cookies", href: "/cookies" },
 ];
 
-const MainFooter = () => {
+const ContactFooter = () => {
   return (
     <footer
       className="px-4 py-8 mx-auto max-w-full border-t border-[#CA9920] bg-[#E30417]"
@@ -28,7 +26,7 @@ const MainFooter = () => {
       {/* Main Footer Row */}
       <div className="flex flex-col lg:flex-row justify-between items-start lg:items-stretch space-y-8 lg:space-y-0">
         {/* Logo Section */}
-        <div className="flex flex-col items-center lg:items-start">
+        {/*<div className="flex flex-col items-center lg:items-start">
           <Link href="/">
             <Image
               src="/assets/images/chivita-logo-white.png"
@@ -38,7 +36,7 @@ const MainFooter = () => {
               className="mb-3 mt-10"
             />
           </Link>
-        </div>
+        </div>*/}
 
         {/* Contact Section */}
         <div className="flex flex-col items-center lg:items-start">
@@ -362,4 +360,4 @@ const MainFooter = () => {
   );
 };
 
-export default MainFooter;
+export default ContactFooter;

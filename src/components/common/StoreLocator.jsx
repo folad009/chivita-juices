@@ -11,19 +11,19 @@ const StoreLocator = () => {
   const geocoderRef = useRef(null);
 
   const outlets = [
-    { name: "Abuja Retail Store", lat: 9.063593498830759, lng: 7.394575665829518 },
-    { name: "Ago Retail Store", lat: 6.502373949739234, lng: 3.30457123696112 },
-    { name: "Ajah Retail Store", lat: 6.4658830418171425, lng: 3.5598206523044253 },
-    { name: "Ajao Retail Store", lat: 6.543057890484462, lng: 3.3254382946333965 },
-    { name: "Apapa Retail Store", lat: 6.445556836009527, lng: 3.371603109976025 },
-    { name: "Festac Retail Store", lat: 6.462573564124769, lng: 3.2874732792888284 },
-    { name: "Gbagada Retail Store", lat: 6.555264295628385, lng: 3.3894335657975816 },
-    { name: "Ikeja Retail Store", lat: 6.5952815501416895, lng: 3.3561054927824805 },
-    { name: "Ikorodu Retail Store", lat: 6.6202633441640355, lng: 3.5104383087167923 },
-    { name: "Ikoyi Retail Store", lat: 6.4432670424316, lng: 3.420948894632309 },
-    { name: "Lekki Retail Store", lat: 6.448907669493031, lng: 3.4735432932044863 },
-    { name: "Ogudu Retail Store", lat: 6.57657905367744, lng: 3.390844485391692 },
-    { name: "Surulere Retail Store", lat: 6.4926513940454225, lng: 3.3565408946328454 },
+    { name: "Abuja Shoppe", lat: 9.063593498830759, lng: 7.394575665829518 },
+    { name: "Ago Shoppe", lat: 6.509313450511393, lng: 3.3056226707978653 }, 
+    { name: "Ajah Shoppe", lat: 6.473238802311059, lng: 3.560485848037415 }, 
+    { name: "Ajao Shoppe", lat: 6.547769189821159, lng: 3.3266649778098754 }, 
+    { name: "Apapa Shoppe", lat: 6.452177285007954, lng: 3.3702136557549713 },
+    { name: "Festac Shoppe", lat: 6.469566915472456, lng: 3.2885461707978725 },
+    { name: "Gbagada Shoppe", lat: 6.56279994111109, lng: 3.389599695424405 },
+    { name: "Ikeja Shoppe", lat: 6.59961115175215, lng: 3.3558474124489415 },
+    { name: "Ikorodu Shoppe", lat: 6.627254821477074, lng: 3.509752156995575 }, 
+    { name: "Ikoyi Shoppe", lat: 6.450502639432522, lng: 3.4216387480374055 }, 
+    { name: "Lekki Shoppe", lat: 6.455616363711553, lng: 3.474974270797866 },
+    { name: "Ogudu Shoppe", lat: 6.582377438592391, lng: 3.390630402516488 }, 
+    { name: "Surulere Shoppe", lat: 6.49788044339135, lng: 3.3565240773688734 },
   ];
 
 

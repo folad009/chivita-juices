@@ -1,7 +1,10 @@
+"use client"
 import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/common/Header";
 import MainFooter from "@/components/common/Footer";
+import { usePathname } from "next/navigation";
+import ContactFooter from "@/components/common/ContactFooter";
 
 const azoSans = localFont({
   src: "./fonts/AzoSansRegular.ttf",
@@ -14,12 +17,12 @@ const azoSansBold = localFont({
   weight: "100 900",
 });
 
-export const metadata = {
-  title: "Chivita Juices",
-  description: "We provide quality fruit juices for healthy living.",
-};
+
 
 export default function RootLayout({ children }) {
+  const pathname = usePathname();
+  const isContactPage = pathname === '/contact';
+
   return (
     <html lang="en">
       <body
@@ -27,7 +30,7 @@ export default function RootLayout({ children }) {
       >
         <Header />
         {children}
-        <MainFooter />
+        {isContactPage ? <ContactFooter/> : <MainFooter />}
       </body>
     </html>
   );
