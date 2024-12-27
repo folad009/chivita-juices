@@ -35,7 +35,7 @@ const ChivitaHappyHour = () => {
         <div className="md:w-1/2 flex justify-center mb-6 md:mb-0 bg-white rounded-2xl">
           <div className="w-64 h-auto">
             <img
-              src="/assets/images/product-image-dp/HappyHour.png"
+              src="/assets/images/product-image-dp/new-chivita-happy-hour-safari.png"
               alt="Chivita Happy Hour"
               className="object-contain"
             />
@@ -130,9 +130,9 @@ const ChivitaHappyHour = () => {
         <div className="md:w-1/2 flex justify-center mb-6 md:mb-0 bg-white rounded-2xl">
           <div className="w-64 h-auto">
             <img
-              src="/assets/images/product-image-dp/chivita-happy-hour-tango-pack.png"
+              src="/assets/images/product-image-dp/new-chivita-happy-hour-tango.png"
               alt="Chivita Happy Hour"
-              className="object-contain"
+              className="object-cover"
             />
             <div className={styles.btnContainer}>
               <button className={styles.btn}>Buy Now</button>
