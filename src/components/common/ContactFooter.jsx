@@ -3,8 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 
 const aboutLinks = [
-  { name: "Chivita|Hollandia", href: "#" },
-  { name: "Hollandia Dairy", href: "#" },
+  { name: "www.chivitahollandia.com", href: "#" },
+  { name: "www.hollandiadairyng.com", href: "#" },
 ];
 
 const policyLinks = [
@@ -26,7 +26,7 @@ const ContactFooter = () => {
       {/* Main Footer Row */}
       <div className="flex flex-col lg:flex-row justify-between items-start lg:items-stretch space-y-8 lg:space-y-0">
         {/* Logo Section */}
-        {/*<div className="flex flex-col items-center lg:items-start">
+       <div className="flex flex-col items-center lg:items-start">
           <Link href="/">
             <Image
               src="/assets/images/chivita-logo-white.png"
@@ -36,10 +36,10 @@ const ContactFooter = () => {
               className="mb-3 mt-10"
             />
           </Link>
-        </div>*/}
+        </div>
 
         {/* Contact Section */}
-        <div className="flex flex-col items-center lg:items-start">
+        {/*<div className="flex flex-col items-center lg:items-start">
           <p
             className="mb-3 text-xl font-semibold tracking-wider text-white uppercase"
             style={{ fontFamily: "Bebas Neue, sans-serif" }}
@@ -170,7 +170,7 @@ const ContactFooter = () => {
               
             </div>
           </div>
-        </div>
+        </div>*/}
 
         {/* Useful Links Section */}
         <div className="flex flex-col items-center lg:items-start">
