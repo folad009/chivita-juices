@@ -342,7 +342,7 @@ const ContactFooter = () => {
       </div>
 
       {/* Footer Bottom Section */}
-      <div className="flex flex-col items-center justify-center space-x-2  mt-20 md:flex-row md:justify-center md:items-center">
+      <div className="flex flex-col items-center justify-center space-x-2  mt-36 md:flex-row md:justify-center md:items-center">
         <Image
           src="/assets/images/chivita-logo-white.png"
           width={70}
