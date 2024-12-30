@@ -224,7 +224,7 @@ const ContactFooter = () => {
             className="mb-3 text-xl font-semibold tracking-wider text-white uppercase"
             style={{ fontFamily: "Bebas Neue, sans-serif" }}
           >
-            Get the Juices
+            Get the Juice
           </p>
           <form className="flex flex-col md:flex-row gap-3 w-full max-w-lg">
             <label htmlFor="subscribe-email" className="sr-only">
@@ -342,7 +342,7 @@ const ContactFooter = () => {
       </div>
 
       {/* Footer Bottom Section */}
-      <div className="flex flex-col items-center justify-center space-x-2  mt-20 md:flex-row md:justify-center md:items-center">
+      <div className="flex flex-col items-center justify-center space-x-2  mt-24 md:flex-row md:justify-center md:items-center">
         <Image
           src="/assets/images/chivita-logo-white.png"
           width={70}

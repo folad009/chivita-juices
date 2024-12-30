@@ -225,7 +225,7 @@ const MainFooter = () => {
             className="mb-3 text-xl font-semibold tracking-wider text-white uppercase"
             style={{ fontFamily: "Bebas Neue, sans-serif" }}
           >
-            Get the Juices
+            Get the Juice
           </p>
           <form className="flex flex-col md:flex-row gap-3 w-full max-w-lg">
             <label htmlFor="subscribe-email" className="sr-only">
