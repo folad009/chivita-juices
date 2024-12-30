@@ -41,12 +41,12 @@ const MainFooter = () => {
         {/* Contact Section */}
         <div className="flex flex-col items-center lg:items-start">
           <p
-            className="mb-3 text-xl font-semibold tracking-wider text-white uppercase"
+            className="mb-1 text-xl font-semibold tracking-wider text-white uppercase"
             style={{ fontFamily: "Bebas Neue, sans-serif" }}
           >
             Corporate Office
           </p>
-          <div className="space-y-2">
+          <div className="space-y-3">
             <div
               className="text-sm text-white font-bold flex items-center space-x-2"
             >
@@ -66,7 +66,7 @@ const MainFooter = () => {
                   fill="currentColor"
                 />
               </svg>
-              <span style={{ fontFamily: "Azo Sans, sans-serif" }}>CHI Limited <br /> 14, Chivita Avenue <br /> Ajao
+              <span style={{ fontFamily: "Azo Sans, sans-serif", fontSize:"15px" }}>CHI Limited <br /> 14, Chivita Avenue <br /> Ajao
               Estate, Lagos, Nigeria.</span>
             </div>
             <div className="text-sm text-white font-bold flex items-center space-x-2">
@@ -91,7 +91,7 @@ const MainFooter = () => {
                     fill="currentColor"
                   />
                 </svg>
-                <a href="tel:+2349033872113" style={{ fontFamily: "Azo Sans, sans-serif" }}>
+                <a href="tel:+2349033872113" style={{ fontFamily: "Azo Sans, sans-serif", fontSize:"15px" }}>
                   +234 903 387 2113
                 </a>
             </div>
@@ -117,7 +117,7 @@ const MainFooter = () => {
                     fill="currentColor"
                   />
                 </svg>
-                <a href="tel:+2348097612000" style={{ fontFamily: "Azo Sans, sans-serif" }}>
+                <a href="tel:+2348097612000" style={{ fontFamily: "Azo Sans, sans-serif", fontSize:"15px" }}>
                   +234 809 761 2000
                 </a>
             </div>
@@ -143,7 +143,7 @@ const MainFooter = () => {
                     fill="currentColor"
                   />
                 </svg> 
-                <a href="tel:+2348002442273" style={{ fontFamily: "Azo Sans, sans-serif" }}>
+                <a href="tel:+2348002442273" style={{ fontFamily: "Azo Sans, sans-serif", fontSize:"15px" }}>
                   +234 800 244 2273 (Toll Free)
                 </a>
               
@@ -166,7 +166,7 @@ const MainFooter = () => {
                         fill="currentColor"
                       />
                     </svg>
-              <a href="mailto:chicares@chilimited.com" style={{ fontFamily: "Azo Sans, sans-serif" }}>
+              <a href="mailto:chicares@chilimited.com" style={{ fontFamily: "Azo Sans, sans-serif", fontSize:"15px" }}>
                 chicares@chilimited.com
               </a>
             </div>
@@ -176,7 +176,7 @@ const MainFooter = () => {
         {/* Useful Links Section */}
         <div className="flex flex-col items-center lg:items-start">
           <p
-            className="mb-3 text-xl font-semibold tracking-wider text-white uppercase"
+            className="mb-1 text-xl font-semibold tracking-wider text-white uppercase"
             style={{ fontFamily: "Bebas Neue, sans-serif" }}
           >
             Our Websites
@@ -186,8 +186,8 @@ const MainFooter = () => {
               <li key={index}>
                 <a
                   href={link.href}
-                  className="text-sm font-bold text-white hover:text-[#0c8241] transition"
-                  style={{ fontFamily: "Azo Sans, sans-serif" }}
+                  className="text-sm font-bold text-white hover:text-[#f9f9f9] transition"
+                  style={{ fontFamily: "Azo Sans, sans-serif", fontSize:"15px" }}
                 >
                   {link.name}
                 </a>
@@ -199,7 +199,7 @@ const MainFooter = () => {
         {/* Quick Links Section */}
         <div className="flex flex-col items-center lg:items-start">
           <p
-            className="mb-3 text-xl font-semibold tracking-wider text-white uppercase"
+            className="mb-1 text-xl font-semibold tracking-wider text-white uppercase"
             style={{ fontFamily: "Bebas Neue, sans-serif" }}
           >
             Quick Links
@@ -209,16 +209,45 @@ const MainFooter = () => {
               <li key={index}>
                 <a
                   href={link.href}
-                  className="text-sm font-bold text-white hover:text-[#0c8241] transition"
-                  style={{ fontFamily: "Azo Sans, sans-serif" }}
+                  className="text-sm font-bold text-white hover:text-[#f9f9f9] transition"
+                  style={{ fontFamily: "Azo Sans, sans-serif", fontSize:"15px" }}
                 >
                   {link.name}
                 </a>
               </li>
             ))}
           </ul>
-          {/* Social Brands */}
-          <div className="mt-5">
+         
+        </div>
+
+        <div className="flex flex-col items-center lg:items-start">
+          <p
+            className="mb-3 text-xl font-semibold tracking-wider text-white uppercase"
+            style={{ fontFamily: "Bebas Neue, sans-serif" }}
+          >
+            Get the Juices
+          </p>
+          <form className="flex flex-col md:flex-row gap-3 w-full max-w-lg">
+            <label htmlFor="subscribe-email" className="sr-only">
+              Email Address
+            </label>
+            <input
+              type="email"
+              id="subscribe-email"
+              name="subscribe-email"
+              className="flex-grow px-4 py-2 text-gray-800 border border-gray-300 rounded-lg focus:ring-[#e20417] focus:border-[#e20417] text-sm"
+              placeholder="Share your email address"
+            />
+            <button
+              type="submit"
+              className="px-6 py-2 text-sm font-medium text-white bg-[#007D26] rounded-lg hover:bg-[#299248] transition-all"
+            >
+              Subscribe
+            </button>
+          </form>
+
+           {/* Social Brands */}
+           <div className="mt-5">
             <a
               className="size-10 inline-flex items-center disabled:pointer-events-none"
               href="https://www.instagram.com/chivitajuices/"
@@ -310,33 +339,6 @@ const MainFooter = () => {
             </a>
           </div>
           {/* End Social Brands */}
-        </div>
-
-        <div className="flex flex-col items-center lg:items-start">
-          <p
-            className="mb-3 text-xl font-semibold tracking-wider text-white uppercase"
-            style={{ fontFamily: "Bebas Neue, sans-serif" }}
-          >
-            Get the Juices
-          </p>
-          <form className="flex flex-col md:flex-row gap-3 w-full max-w-lg">
-            <label htmlFor="subscribe-email" className="sr-only">
-              Email Address
-            </label>
-            <input
-              type="email"
-              id="subscribe-email"
-              name="subscribe-email"
-              className="flex-grow px-4 py-2 text-gray-800 border border-gray-300 rounded-lg focus:ring-[#e20417] focus:border-[#e20417] text-sm"
-              placeholder="Share your email address"
-            />
-            <button
-              type="submit"
-              className="px-6 py-2 text-sm font-medium text-white bg-[#007D26] rounded-lg hover:bg-[#299248] transition-all"
-            >
-              Subscribe
-            </button>
-          </form>
         </div>
       </div>
 
