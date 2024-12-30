@@ -59,7 +59,7 @@ const ChivitaExotic = () => {
         <div className="md:w-1/2 flex justify-center mb-6 md:mb-0 bg-white rounded-2xl">
           <div className="w-64 h-auto">
             <img
-              src="/assets/images/product-image-dp/chivita-exotic-packs.png"
+              src="/assets/images/product-image-dp/chivita-exotic-packs-updated.png"
               alt="Chivita Exotic Pineapple Coconut"
               className="object-contain"
             />

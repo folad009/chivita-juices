@@ -6,15 +6,15 @@ const ChivitaIceTea = () => {
     <>
     <section className="relative py-10 overflow-hidden bg-black sm:py-16 lg:py-24 xl:py-32">
     <div className="absolute inset-0">
-        <img className="object-cover w-full h-full md:object-right md:scale-100 md:origin-top-right" src="/assets/images/chivita-icetea-bg-pg.jpg" alt="" />
+        <img className="object-cover w-full h-full md:object-right lg:scale-125 md:origin-top-right" src="/assets/images/chivita-icetea-bg-pg.jpg" alt="" />
     </div>
 
-    <div className="absolute inset-0 hidden bg-gradient-to-r md:block from-black to-transparent"></div>
+    <div className="absolute inset-0 hidden bg-gradient-to-l md:block from-black to-transparent"></div>
 
     <div className="absolute inset-0 block bg-black/70 md:hidden"></div>
 
-    <div className="relative px-2 mx-8 sm:px-4 lg:px-2 max-w-5xl">
-        <div className="text-center md:w-2/3 lg:w-1/2 xl:w-1/2 md:text-left">
+    <div className="relative px-2 mx-8 sm:px-4 lg:px-2 max-w-7xl">
+        <div className="text-center md:w-2/3 lg:w-1/2 xl:w-1/2 md:text-right ml-auto">
             <h2 className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">Chivita Ice Tea</h2>
             <p className="mt-4 text-base text-gray-200">Chivita Ice Tea Lemon is a blend of natural tea extracts with the
               fruity lemon flavour. Launched in 2009, Chivita Ice Tea is the
@@ -22,8 +22,6 @@ const ChivitaIceTea = () => {
               into the Nigerian market. When you need that pick-me-up
               rejuvenating drink with a natural zingy lemon taste, Chivita Ice
               Tea Lemon is your go-to drink.</p>
-
-        
         </div>
     </div>
 </section>
@@ -53,7 +51,7 @@ const ChivitaIceTea = () => {
         <div className="md:w-1/2 flex justify-center mb-6 md:mb-0 bg-white rounded-2xl">
           <div className="w-64 h-auto">
             <img
-              src="/assets/images/product-image-dp/chivita-ice-tea-packs.png"
+              src="/assets/images/product-image-dp/chivita-ice-tea-packs-updated.png"
               alt="Chivita Ice Tea"
               className="object-contain"
             />
