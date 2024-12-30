@@ -4,18 +4,19 @@ import styles from "@/css/GeneralStyle.module.css"
 const ChivitaSmartMalt = () => {
   return (
     <>
-     <section className="relative py-10 overflow-hidden bg-black sm:py-16 lg:py-24 xl:py-32">
+
+<section className="relative py-10 overflow-hidden bg-black sm:py-16 lg:py-24 xl:py-32">
     <div className="absolute inset-0">
-        <img className="object-cover w-full h-full md:object-right md:scale-100 md:origin-top-right" src="/assets/images/chivita-smart-malt-pg.jpg" alt="" />
+        <img className="object-cover w-full h-full md:object-right md:scale-125 md:origin-top-left" src="/assets/images/chivita-smart-malt-pg.jpg" alt="" />
     </div>
 
-    <div className="absolute inset-0 hidden bg-gradient-to-l md:block from-black to-transparent"></div>
+    <div className="absolute inset-0 hidden bg-gradient-to-r md:block from-black to-transparent"></div>
 
     <div className="absolute inset-0 block bg-black/70 md:hidden"></div>
 
-    <div className="relative px-2 mx-8 sm:px-4 lg:px-2 max-w-7xl">
-        <div className="text-center md:w-2/3 lg:w-1/2 xl:w-1/2 md:text-right ml-auto">
-            <h2 className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">Chivita Smart Malt Drink</h2>
+    <div className="relative px-2 mx-8 sm:px-4 lg:px-2 max-w-5xl">
+        <div className="text-center md:w-2/3 lg:w-1/2 xl:w-1/2 md:text-left">
+            <h2 className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-4xl">Chivita Smart Malt Drink</h2>
             <p className="mt-4 text-base text-gray-200">Chivita Smart Malt Drink is our new innovation and newest addition
               to the Chivita range. Packed with Vitamins A, E and the B-Vitamins
               from Malted Sorghum, Chivita Smart Malt is designed to help young
@@ -25,6 +26,8 @@ const ChivitaSmartMalt = () => {
               their smartest and achieve optimal physical, mental, emotional,
               and psychological growth and development. So be sure to get your
               pack of Energy to learn, work, and play.</p>
+
+        
         </div>
     </div>
 </section>

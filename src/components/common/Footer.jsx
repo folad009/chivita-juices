@@ -343,7 +343,7 @@ const MainFooter = () => {
       </div>
 
       {/* Footer Bottom Section */}
-      <div className="flex flex-col items-center justify-center space-x-2 pt-10 mt-10 md:flex-row md:justify-center md:items-center">
+      <div className="flex flex-col items-center justify-center space-x-2 mt-10 md:flex-row md:justify-center md:items-center">
         <Image
           src="/assets/images/chivita-logo-white.png"
           width={70}
