@@ -16,7 +16,7 @@ const policyLinks = [
 const ContactFooter = () => {
   return (
     <footer
-      className="px-4 py-8 mx-auto max-w-full border-t border-[#CA9920] bg-[#E30417]"
+      className="px-4 py-8 mx-auto max-w-full border-t border-[#CA9920] bg-[#E30417] h-[320px]"
       style={{
         backgroundImage: `url('/assets/images/chivita-green-golden-hill.svg')`,
         backgroundSize: "cover",
@@ -24,7 +24,7 @@ const ContactFooter = () => {
       }}
     >
       {/* Main Footer Row */}
-      <div className="flex flex-col lg:flex-row justify-between items-start lg:items-stretch space-y-3 lg:space-y-5">
+      <div className="flex flex-col lg:flex-row justify-between items-start lg:items-stretch lg:space-y-5">
         {/* Logo Section */}
        <div className="flex flex-col items-center lg:items-start">
           <Link href="/">
@@ -342,17 +342,17 @@ const ContactFooter = () => {
       </div>
 
       {/* Footer Bottom Section */}
-      <div className="flex flex-col items-center justify-center space-x-2  mt-36 md:flex-row md:justify-center md:items-center">
+      <div className="flex flex-col items-center justify-center space-x-2  mt-20 md:flex-row md:justify-center md:items-center">
         <Image
           src="/assets/images/chivita-logo-white.png"
           width={70}
           height={70}
           alt="chivita juices logo"
-          className="mt-3"
+         
         />
 
         <p
-          className="text-sm text-center text-white mt-6"
+          className="text-sm text-center text-white mt-2"
           style={{ fontFamily: "Azo Sans, sans-serif", fontWeight: "bold" }}
         >
           {" "}
