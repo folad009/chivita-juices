@@ -31,7 +31,7 @@ const StoreLocator = () => {
     const initMap = () => {
       const map = new window.google.maps.Map(mapRef.current, {
         zoom: 6,
-        center: { lat: 6.5244, lng: 3.3792 },
+        center: { lat: 6.59961115175215, lng: 3.3558474124489415 },
       });
       mapInstanceRef.current = map;
       geocoderRef.current = new window.google.maps.Geocoder(); // Initialize Geocoder
