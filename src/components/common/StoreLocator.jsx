@@ -11,21 +11,20 @@ const StoreLocator = () => {
   const geocoderRef = useRef(null);
 
   const outlets = [
-    { name: "Abuja Shoppe", lat: 9.063593498830759, lng: 7.394575665829518 },
-    { name: "Ago Shoppe", lat: 6.509313450511393, lng: 3.3056226707978653 }, 
-    { name: "Ajah Shoppe", lat: 6.473238802311059, lng: 3.560485848037415 }, 
-    { name: "Ajao Shoppe", lat: 6.547769189821159, lng: 3.3266649778098754 }, 
-    { name: "Apapa Shoppe", lat: 6.452177285007954, lng: 3.3702136557549713 },
-    { name: "Festac Shoppe", lat: 6.469566915472456, lng: 3.2885461707978725 },
-    { name: "Gbagada Shoppe", lat: 6.56279994111109, lng: 3.389599695424405 },
-    { name: "Ikeja Shoppe", lat: 6.59961115175215, lng: 3.3558474124489415 },
-    { name: "Ikorodu Shoppe", lat: 6.627254821477074, lng: 3.509752156995575 }, 
-    { name: "Ikoyi Shoppe", lat: 6.450502639432522, lng: 3.4216387480374055 }, 
-    { name: "Lekki Shoppe", lat: 6.455616363711553, lng: 3.474974270797866 },
-    { name: "Ogudu Shoppe", lat: 6.582377438592391, lng: 3.390630402516488 }, 
-    { name: "Surulere Shoppe", lat: 6.49788044339135, lng: 3.3565240773688734 },
+    { name: "Abuja Shoppe", address: "Surple Cube Mall, 110 3rd Ave, Gwarinpa Estate, Abuja" },
+    { name: "Ago Shoppe", address: "116, 118 Ago Palace Way, Oshodi-Isolo, Lagos, Lagos" },
+    { name: "Ajah Shoppe", address: "22 Aiyetoro St, Ajah, Lekki, Lagos" },
+    { name: "Ajao Shoppe", address: "5 Alaba Oniru Ave, Isolo, Ajao Estate, Lagos" },
+    { name: "Apapa Shoppe", address: "1 Kofo Abayomi Ave, Apapa Quays, Lagos" },
+    { name: "Festac Shoppe", address: "12 2nd Ave, Festac Town, Lagos" },
+    { name: "Gbagada Shoppe", address: "50 Diya St, Gbagada, Lagos" },
+    { name: "Ikeja Shoppe", address: "23, Opebi Road, Pentagon Plaza Ikeja, Lagos" },
+    { name: "Ikorodu Shoppe", address: "70 Ayongbure St, Ikorodu, Lagos" },
+    { name: "Ikoyi Shoppe", address: "97 Awolowo Rd, Ikoyi, Lagos" },
+    { name: "Lekki Shoppe", address: "23 Admiralty Wy, Lekki Phase I, Lagos" },
+    { name: "Ogudu Shoppe", address: "118 Ogudu Rd, Ogudu, Lagos" },
+    { name: "Surulere Shoppe", address: "80 Adeniran Ogunsanya St, Surulere, Lagos" },
   ];
-
 
   useEffect(() => {
     const initMap = () => {
@@ -56,32 +55,35 @@ const StoreLocator = () => {
 
     const outlet = outlets.find((o) => o.name === selectedName);
     if (outlet) {
-      const position = { lat: outlet.lat, lng: outlet.lng };
+      const address = outlet.address;
 
-      // Update the map
-      mapInstanceRef.current.setCenter(position);
-      mapInstanceRef.current.setZoom(16);
-
-      // Remove the previous marker if it exists
-      if (markerRef.current) {
-        markerRef.current.setMap(null);
-      }
-
-      // Add a new marker
-      markerRef.current = new window.google.maps.Marker({
-        position,
-        map: mapInstanceRef.current,
-      });
-
-      // Fetch and display the address
-      geocoderRef.current.geocode({ location: position }, (results, status) => {
+      // Use Geocoder to get coordinates for the address
+      geocoderRef.current.geocode({ address }, (results, status) => {
         if (status === "OK" && results[0]) {
+          const position = results[0].geometry.location;
+
+          // Update the map
+          mapInstanceRef.current.setCenter(position);
+          mapInstanceRef.current.setZoom(16);
+
+          // Remove the previous marker if it exists
+          if (markerRef.current) {
+            markerRef.current.setMap(null);
+          }
+
+          // Add a new marker
+          markerRef.current = new window.google.maps.Marker({
+            position,
+            map: mapInstanceRef.current,
+          });
+
+          // Display the address in an info window
           const infoWindow = new window.google.maps.InfoWindow({
-            content: `<div><strong>${selectedName}</strong><br/>${results[0].formatted_address}</div>`,
+            content: `<div><strong>${selectedName}</strong><br/>${address}</div>`,
           });
           infoWindow.open(mapInstanceRef.current, markerRef.current);
         } else {
-          setErrorMsg("Unable to fetch the address for the selected location.");
+          setErrorMsg("Unable to fetch the location for the selected address.");
         }
       });
     } else {
