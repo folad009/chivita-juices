@@ -33,7 +33,7 @@ const ContactFooter = () => {
               width={150}
               height={80}
               alt="Chivita Logo"
-              className="mb-3 mt-10"
+              className="mb-3 mt-10 mx-10 lg:mx-10"
             />
           </Link>
         </div>
@@ -178,7 +178,7 @@ const ContactFooter = () => {
             className="mb-3 text-xl font-semibold tracking-wider text-white uppercase"
             style={{ fontFamily: "Bebas Neue, sans-serif" }}
           >
-            Useful Links
+           Our Websites
           </p>
           <ul className="space-y-2">
             {aboutLinks.map((link, index) => (
@@ -346,10 +346,11 @@ const ContactFooter = () => {
           width={70}
           height={70}
           alt="chivita juices logo"
+          className="mt-3"
         />
 
         <p
-          className="text-sm text-center text-white mt-3"
+          className="text-sm text-center text-white mt-6"
           style={{ fontFamily: "Azo Sans, sans-serif", fontWeight: "bold" }}
         >
           {" "}

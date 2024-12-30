@@ -3,10 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 
 const aboutLinks = [
-  { name: "Our Story", href: "/our-story" },
-  { name: "Recipes", href: "/recipes" },
-  { name: "Journal", href: "/journal" },
-  { name: "Contact us", href: "/contact-us" },
+  { name: "www.chivitahollandia.com", href: "#" },
+  { name: "www.hollandiadairyng.com", href: "#" },
 ];
 
 const policyLinks = [
@@ -35,7 +33,7 @@ const MainFooter = () => {
               width={150}
               height={80}
               alt="Chivita Logo"
-              className="mb-3 mt-10"
+              className="mb-3 mt-10 mx-10 lg:mx-10"
             />
           </Link>
         </div>
@@ -68,7 +66,7 @@ const MainFooter = () => {
                   fill="currentColor"
                 />
               </svg>
-              <span style={{ fontFamily: "Azo Sans, sans-serif" }}>CHI Limited <br /> No 14, Chivita Avenue <br /> Ajao
+              <span style={{ fontFamily: "Azo Sans, sans-serif" }}>CHI Limited <br /> 14, Chivita Avenue <br /> Ajao
               Estate, Lagos, Nigeria.</span>
             </div>
             <div className="text-sm text-white font-bold flex items-center space-x-2">
@@ -181,7 +179,7 @@ const MainFooter = () => {
             className="mb-3 text-xl font-semibold tracking-wider text-white uppercase"
             style={{ fontFamily: "Bebas Neue, sans-serif" }}
           >
-            Useful Links
+            Our Websites
           </p>
           <ul className="space-y-2">
             {aboutLinks.map((link, index) => (

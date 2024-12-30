@@ -66,7 +66,7 @@ function ChivitaNavi() {
             width={100}
             height={50}
             alt="chivita juices"
-            className="w-auto h-9"
+            className="w-auto h-9 mx-6"
             priority
           />
         </a>
