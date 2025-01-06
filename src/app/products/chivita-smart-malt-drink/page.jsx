@@ -7,7 +7,7 @@ const ChivitaSmartMalt = () => {
 
 <section className="relative py-10 overflow-hidden bg-black sm:py-16 lg:py-24 xl:py-32">
     <div className="absolute inset-0">
-        <img className="object-cover w-full h-full md:object-right md:scale-125 md:origin-top-left" src="/assets/images/chivita-smart-malt-pg.jpg" alt="" />
+        <img className="object-cover w-full h-full md:object-right md:scale-100 md:origin-bottom-right" src="/assets/images/chivita-smart-malt-kids.jpg" alt="" />
     </div>
 
     <div className="absolute inset-0 hidden bg-gradient-to-r md:block from-black to-transparent"></div>

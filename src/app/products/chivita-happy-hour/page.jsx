@@ -5,18 +5,17 @@ import styles from "@/css/GeneralStyle.module.css"
 const ChivitaHappyHour = () => {
   return (
     <>
-
-<section className="relative py-10 overflow-hidden bg-black sm:py-16 lg:py-24 xl:py-32">
+ <section className="relative py-10 overflow-hidden bg-black sm:py-16 lg:py-24 xl:py-32">
     <div className="absolute inset-0">
-        <img className="object-cover w-full h-full md:object-right md:scale-100 md:origin-top-right" src="/assets/images/chivita-juices-bg-pages-1.jpg" alt="" />
+        <img className="object-cover w-full h-full md:object-right md:scale-100 md:origin-top-right" src="/assets/images/chivita-happy-hour-kids.jpg" alt="" />
     </div>
 
-    <div className="absolute inset-0 hidden bg-gradient-to-r md:block from-black to-transparent"></div>
+    <div className="absolute inset-0 hidden bg-gradient-to-l md:block from-black to-transparent"></div>
 
     <div className="absolute inset-0 block bg-black/70 md:hidden"></div>
 
-    <div className="relative px-2 mx-8 sm:px-4 lg:px-2 max-w-5xl">
-        <div className="text-center md:w-2/3 lg:w-1/2 xl:w-1/2 md:text-left">
+    <div className="relative px-2 mx-8 sm:px-4 lg:px-2 max-w-7xl">
+        <div className="text-center md:w-2/3 lg:w-1/2 xl:w-1/2 md:text-right ml-auto">
             <h2 className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">Chivita Happy Hour</h2>
             <p className="mt-4 text-base text-gray-200">Chivita Happy Hour is made for those who seek refreshment with a
               sweet fruity taste experience. Our Chivita Happy Hour products
@@ -26,14 +25,9 @@ const ChivitaHappyHour = () => {
               exceptionally happy times. So, whenever you want to get groovy and
               have fun, rock and enjoy the refreshing taste of Chivita Happy
               Hour.</p>
-
-        
         </div>
     </div>
 </section>
-  
-  
-
       <div className="flex flex-col md:flex-row items-center md:items-start bg-gray-50 p-6 md:p-12 ">
         <div className="md:w-1/2 flex justify-center mb-6 md:mb-0 bg-white rounded-2xl">
           <div className="w-64 h-auto">
