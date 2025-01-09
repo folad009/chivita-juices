@@ -43,7 +43,7 @@ const ContactPage = () => {
                     style={{ fontFamily: "Azo Sans, sans-serif" }}
                   >
                     CHI Limited (Chivita|Hollandia)<br/>
-                    No 14 Chivita Avenue, <br /> Ajao Estate, Lagos
+                    14, Chivita Avenue, <br /> Ajao Estate, Lagos
                     Nigeria.
                   </span>
                 </p>

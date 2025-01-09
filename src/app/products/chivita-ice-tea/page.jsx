@@ -6,7 +6,7 @@ const ChivitaIceTea = () => {
     <>
     <section className="relative py-10 overflow-hidden bg-black sm:py-16 lg:py-24 xl:py-32">
     <div className="absolute inset-0">
-        <img className="object-cover w-full h-full md:object-right lg:scale-125 md:origin-top-right" src="/assets/images/chivita-icetea-bg-pg.jpg" alt="" />
+        <img className="object-cover w-full h-full md:object-right lg:scale-95 md:origin-top-right" src="/assets/images/chivita-ice-tea-bg.jpg" alt="chivita ice tea" />
     </div>
 
     <div className="absolute inset-0 hidden bg-gradient-to-l md:block from-black to-transparent"></div>
