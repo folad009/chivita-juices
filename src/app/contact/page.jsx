@@ -119,7 +119,7 @@ const ContactPage = () => {
                     className="mx-2 text-[#f9f9f9] truncate w-72  text-[18px]"
                     style={{ fontFamily: "Azo Sans, sans-serif" }}
                   >
-                    <a href="tel:+2348002442273">+234 800 244 2273</a> (TOLL FREE)
+                    <a href="tel:+2348002442273">+234 800 244 2273</a> (Toll Free)
                   </span>
                 </p>
 

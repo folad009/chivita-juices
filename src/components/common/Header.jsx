@@ -97,7 +97,6 @@ function ChivitaNavi() {
           <div
             className="relative"
             onMouseEnter={() => setIsProductsHovered(true)}
-            onMouseOut={() => setIsProductsHovered(true)}
             onMouseLeave={() => setIsProductsHovered(false)}
           >
             <button
@@ -106,7 +105,6 @@ function ChivitaNavi() {
                   ? "bg-[#0c8241]"
                   : ""
               }`}
-              aria-expanded={isProductsHovered}
             >
               Products
             </button>
