@@ -12,16 +12,16 @@ const StoreLocator = () => {
 
   const outlets = [
     { name: "Abuja Shoppe", address: "Surple Cube Mall, 110 3rd Ave, Gwarinpa Estate, Abuja" },
-    { name: "Ago Shoppe", address: "116, 118 Ago Palace Way, Oshodi-Isolo, Lagos, Lagos" },
+    { name: "Ago Shoppe", address: "116-118 Ago Palace Way, Isolo, Lagos" },
     { name: "Ajah Shoppe", address: "22 Aiyetoro St, Ajah, Lekki, Lagos" },
-    { name: "Ajao Shoppe", address: "5 Alaba Oniru Ave, Isolo, Ajao Estate, Lagos" },
+    { name: "Ajao Shoppe", address: "5 Alaba Oniru Ave, Ajao Estate, Lagos" },
     { name: "Apapa Shoppe", address: "1 Kofo Abayomi Ave, Apapa Quays, Lagos" },
-    { name: "Festac Shoppe", address: "12 2nd Ave, Festac Town, Lagos" },
+    { name: "Festac Shoppe", address: "12, 2nd Ave, Festac Town, Lagos" },
     { name: "Gbagada Shoppe", address: "50 Diya St, Gbagada, Lagos" },
-    { name: "Ikeja Shoppe", address: "23, Opebi Road, Pentagon Plaza Ikeja, Lagos" },
+    { name: "Ikeja Shoppe", address: "23 Opebi Road, Pentagon Plaza, Ikeja, Lagos" },
     { name: "Ikorodu Shoppe", address: "70 Ayongbure St, Ikorodu, Lagos" },
     { name: "Ikoyi Shoppe", address: "97 Awolowo Rd, Ikoyi, Lagos" },
-    { name: "Lekki Shoppe", address: "23 Admiralty Wy, Lekki Phase I, Lagos" },
+    { name: "Lekki Shoppe", address: "23 Admiralty Way, Lekki Phase I, Lagos" },
     { name: "Ogudu Shoppe", address: "118 Ogudu Rd, Ogudu, Lagos" },
     { name: "Surulere Shoppe", address: "80 Adeniran Ogunsanya St, Surulere, Lagos" },
   ];
@@ -109,7 +109,7 @@ const StoreLocator = () => {
       >
         <label
           htmlFor="storeSelect"
-          className="text-xl font-bold text-[#e30417] font-sans"
+          className="text-xl font-bold text-[#e30417] font-sans text-center"
         >
           Chivita|Hollandia Shoppe Locator
         </label>

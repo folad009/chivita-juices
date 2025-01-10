@@ -179,7 +179,7 @@ const MainFooter = () => {
             className="mb-1 text-xl font-semibold tracking-wider text-white uppercase"
             style={{ fontFamily: "Bebas Neue, sans-serif" }}
           >
-            Our Websites
+            Other Websites
           </p>
           <ul className="space-y-2">
             {aboutLinks.map((link, index) => (

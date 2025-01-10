@@ -15,7 +15,7 @@ const ChivitaActive = () => {
 
     <div className="relative px-2 mx-8 sm:px-4 lg:px-2 max-w-7xl">
         <div className="text-center md:w-2/3 lg:w-1/2 xl:w-1/2 md:text-right ml-auto">
-            <h2 className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">Chivita Fruit Juice</h2>
+            <h2 className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">Chivita Active</h2>
             <p className="mt-4 text-base text-gray-200">Chivita Active is our innovative masterstroke, launched in 2010 as a
             unique fruit juice blend of six citrus fruits. We extended the brand
             in 2016 with the launch of a Fruit + Vegetable combo, Carrot &

@@ -23,7 +23,7 @@ const ChivitaHappyHour = () => {
               less intense, yet hydrating fruity beverage. Chivita Happy Hour is
               your best choice to turn ordinary everyday moments into
               exceptionally happy times. So, whenever you want to get groovy and
-              have fun, rock and enjoy the refreshing taste of Chivita Happy
+              have fun, enjoy the refreshing taste of Chivita Happy
               Hour.</p>
         </div>
     </div>
