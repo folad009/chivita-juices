@@ -3,8 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 
 const aboutLinks = [
-  { name: "www.chivitahollandia.com", href: "#" },
-  { name: "www.hollandiadairyng.com", href: "#" },
+  { name: "www.chivitahollandia.com", href: "https://chivitahollandia.com" },
+  { name: "www.hollandiadairyng.com", href: "https://chihollandia.com" },
 ];
 
 const policyLinks = [
