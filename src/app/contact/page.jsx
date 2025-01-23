@@ -69,7 +69,7 @@ const ContactPage = () => {
                     className="mx-2 text-[#f9f9f9] truncate  text-[18px]"
                     style={{ fontFamily: "Azo Sans, sans-serif" }}
                   >
-                    <a href="tel:+2349033872113">+234 903 387 2113</a>  
+                    <a href="tel:+234014662300">+234 01 466 2300</a>  
                   </span>
                 </p>
 
@@ -95,7 +95,7 @@ const ContactPage = () => {
                     className="mx-2 text-[#f9f9f9] truncate  text-[18px]"
                     style={{ fontFamily: "Azo Sans, sans-serif" }}
                   >
-                     <a href="tel:+2348097612000">+234 809 761 2000</a>
+                     <a href="tel:+234017000890">+234 01 700 0890</a>
                   </span>
                 </p>
 
@@ -119,7 +119,31 @@ const ContactPage = () => {
                     className="mx-2 text-[#f9f9f9] truncate w-72  text-[18px]"
                     style={{ fontFamily: "Azo Sans, sans-serif" }}
                   >
-                    <a href="tel:+2348002442273">+234 800 244 2273</a> (Toll Free)
+                    <a href="tel:+2349062875224">+234 906 287 5224</a>
+                  </span>
+                </p>
+
+                 <p className="flex items-start -mx-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="w-6 h-6 mx-2"
+                    fill="#f9f9f9"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                    />
+                  </svg>
+
+                  <span
+                    className="mx-2 text-[#f9f9f9] truncate w-72  text-[18px]"
+                    style={{ fontFamily: "Azo Sans, sans-serif" }}
+                  >
+                    <a href="https://wa.link/7s14am">+234 916 997 9519 (WhatsApp)</a>
                   </span>
                 </p>
 
