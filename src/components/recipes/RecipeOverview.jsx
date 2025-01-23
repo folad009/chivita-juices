@@ -57,42 +57,6 @@ const RecipeOverview = () => {
       ingredients: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae. Sed ut perspiciatis unde.',
      
     },
-     {
-      imgSrc: '/assets/images/chivita-recipes-3.webp',
-      title: 'Recipe 4',
-      ingredients: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae. Sed ut perspiciatis unde.',
-      
-    },
-    {
-     imgSrc: '/assets/images/chivita-recipes-3.webp',
-     title: 'Recipe 5',
-     ingredients: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae. Sed ut perspiciatis unde.',
-    
-   },
-   {
-    imgSrc: '/assets/images/chivita-recipes-3.webp',
-    title: 'Recipe 6',
-    ingredients: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae. Sed ut perspiciatis unde.',
-    
-  },
-  {
-   imgSrc: '/assets/images/chivita-recipes-3.webp',
-   title: 'Recipe 7',
-   ingredients: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae. Sed ut perspiciatis unde.',
-  
- },
- {
-  imgSrc: '/assets/images/chivita-recipes-3.webp',
-  title: 'Recipe 8',
-  ingredients: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae. Sed ut perspiciatis unde.',
-  
-},
-{
- imgSrc: '/assets/images/chivita-recipes-3.webp',
- title: 'Recipe 9',
- ingredients: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae. Sed ut perspiciatis unde.',
- 
-}
   ];
 
   return (
