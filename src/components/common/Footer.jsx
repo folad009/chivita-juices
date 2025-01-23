@@ -189,6 +189,7 @@ const MainFooter = () => {
                   href={link.href}
                   className="text-sm font-bold text-white hover:text-[#f9f9f9] transition"
                   style={{ fontFamily: "Azo Sans, sans-serif", fontSize:"15px" }}
+                  target="_blank"
                 >
                   {link.name}
                 </a>
