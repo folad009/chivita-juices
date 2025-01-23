@@ -42,7 +42,7 @@ const ContactPage = () => {
                     className="mx-2 text-[#f9f9f9] truncate w-72 text-[18px]"
                     style={{ fontFamily: "Azo Sans, sans-serif" }}
                   >
-                    CHI Limited (Chivita|Hollandia)<br/>
+                    Chivita|Hollandia<br/>
                     14, Chivita Avenue, <br /> Ajao Estate, Lagos
                     Nigeria.
                   </span>
