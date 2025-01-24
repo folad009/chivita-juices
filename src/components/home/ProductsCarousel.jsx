@@ -18,7 +18,7 @@ export default function ProductCarousel() {
       link: "/products/chivita-100",
     },
     {
-      img: "/assets/images/products-packs/Product-DPs-Chivita-Active-xxl.png",
+      img: "/assets/images/products-packs/Product-DPs-Chivita-Active-xxl-new.png",
       name: "Chivita Active",
       link: "/products/chivita-active",
     },
