@@ -18,7 +18,7 @@ function ChivitaNavi() {
       {
         name: "Chivita Fruit Juice",
         image:
-          "/assets/images/products-navs-thumbnails/chivita-navigation-thumbnails-1.png",
+          "/assets/images/products-navs-thumbnails/chivita-navigation-thumbnails-1ii.png",
         link: "/products/chivita-100",
       },
       {

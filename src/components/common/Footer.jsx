@@ -33,7 +33,7 @@ const MainFooter = () => {
               width={150}
               height={80}
               alt="Chivita Logo"
-              className="mb-3 mt-10 mx-10 lg:mx-10"
+              className="mb-3 mt-10 mx-4 lg:mx-4"
             />
           </Link>
         </div>
@@ -229,24 +229,24 @@ const MainFooter = () => {
           >
             Get the Juice
           </p>
-          <form className="flex flex-col md:flex-row gap-3 w-full max-w-lg">
-            <label htmlFor="subscribe-email" className="sr-only">
-              Email Address
-            </label>
-            <input
-              type="email"
-              id="subscribe-email"
-              name="subscribe-email"
-              className="flex-grow px-4 py-2 text-gray-800 border border-gray-300 rounded-lg focus:ring-[#e20417] focus:border-[#e20417] text-sm"
-              placeholder="Share your email address"
-            />
-            <button
-              type="submit"
-              className="px-6 py-2 text-sm font-medium text-white bg-[#007D26] rounded-lg hover:bg-[#299248] transition-all"
-            >
-              Subscribe
-            </button>
-          </form>
+          <form className="flex flex-col gap-3 w-full max-w-lg">
+  <label htmlFor="subscribe-email" className="sr-only">
+    Email Address
+  </label>
+  <input
+    type="email"
+    id="subscribe-email"
+    name="subscribe-email"
+    className="px-4 py-2 text-gray-800 border border-gray-300 rounded-lg focus:ring-[#e20417] focus:border-[#e20417] text-sm"
+    placeholder="Share your email address"
+  />
+  <button
+    type="submit"
+    className="px-6 py-2 text-sm font-medium text-white bg-[#007D26] rounded-lg hover:bg-[#299248] transition-all"
+  >
+    Subscribe
+  </button>
+</form>
 
            {/* Social Brands */}
            <div className="mt-5">
@@ -358,7 +358,7 @@ const MainFooter = () => {
           style={{ fontFamily: "Azo Sans, sans-serif", fontWeight: "bold" }}
         >
           {" "}
-          © Copyright 2024. All Rights Reserved.
+          © Copyright {new Date().getFullYear()}. All Rights Reserved.
         </p>
       </div>
     </footer>

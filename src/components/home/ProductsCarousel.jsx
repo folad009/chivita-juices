@@ -37,11 +37,11 @@ export default function ProductCarousel() {
       name: "Chivita Happy Hour",
       link: "/products/chivita-happy-hour",
     },
-     {
-      img: "/assets/images/products-packs/Product-DPs-Chivita-Smart-Malt-xxl-new.png",
-      name: "Chivita Smart Malt",
-      link: "/products/chivita-smart-malt",
-    },
+    // {
+      //       img: "/assets/images/products-packs/Product-DPs-Chivita-Smart-Malt-xxl-new.png",
+      //       name: "Chivita Smart Malt",
+      //       link: "/products/chivita-smart-malt",
+      // },
   ];
 
   return (

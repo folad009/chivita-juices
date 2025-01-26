@@ -24,9 +24,10 @@ export default function RootLayout({ children }) {
   const isContactPage = pathname === '/contact';
 
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
         className={`${azoSans.variable} ${azoSansBold.variable} antialiased`}
+        suppressHydrationWarning
       >
         <Header />
         {children}

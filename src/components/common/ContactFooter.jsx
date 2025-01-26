@@ -16,7 +16,7 @@ const policyLinks = [
 const ContactFooter = () => {
   return (
     <footer
-      className="px-4 py-8 mx-auto max-w-full border-t border-[#CA9920] bg-[#E30417] h-[320px]"
+      className="px-4 py-8 mx-auto max-w-full border-t border-[#CA9920] bg-[#E30417]"
       style={{
         backgroundImage: `url('/assets/images/chivita-green-golden-hill.svg')`,
         backgroundSize: "cover",
@@ -227,24 +227,24 @@ const ContactFooter = () => {
           >
             Get the Juice
           </p>
-          <form className="flex flex-col md:flex-row gap-3 w-full max-w-lg">
-            <label htmlFor="subscribe-email" className="sr-only">
-              Email Address
-            </label>
-            <input
-              type="email"
-              id="subscribe-email"
-              name="subscribe-email"
-              className="flex-grow px-4 py-2 text-gray-800 border border-gray-300 rounded-lg focus:ring-[#e20417] focus:border-[#e20417] text-sm"
-              placeholder="Share your email address"
-            />
-            <button
-              type="submit"
-              className="px-6 py-2 text-sm font-medium text-white bg-[#007D26] rounded-lg hover:bg-[#299248] transition-all"
-            >
-              Subscribe
-            </button>
-          </form>
+          <form className="flex flex-col gap-3 w-full max-w-lg">
+  <label htmlFor="subscribe-email" className="sr-only">
+    Email Address
+  </label>
+  <input
+    type="email"
+    id="subscribe-email"
+    name="subscribe-email"
+    className="px-4 py-2 text-gray-800 border border-gray-300 rounded-lg focus:ring-[#e20417] focus:border-[#e20417] text-sm"
+    placeholder="Share your email address"
+  />
+  <button
+    type="submit"
+    className="px-6 py-2 text-sm font-medium text-white bg-[#007D26] rounded-lg hover:bg-[#299248] transition-all"
+  >
+    Subscribe
+  </button>
+</form>
 
            {/* Social Brands */}
            <div className="mt-5">
@@ -343,7 +343,7 @@ const ContactFooter = () => {
       </div>
 
       {/* Footer Bottom Section */}
-      <div className="flex flex-col items-center justify-center space-x-2  mt-24 md:flex-row md:justify-center md:items-center">
+      <div className="flex flex-col items-center justify-center space-x-2 pt-10 mt-10 md:flex-row md:justify-center md:items-center">
         <Image
           src="/assets/images/chivita-logo-white.png"
           width={70}
@@ -357,7 +357,7 @@ const ContactFooter = () => {
           style={{ fontFamily: "Azo Sans, sans-serif", fontWeight: "bold" }}
         >
           {" "}
-          © Copyright 2024. All Rights Reserved.
+          © Copyright {new Date().getFullYear()}. All Rights Reserved.
         </p>
       </div>
     </footer>
