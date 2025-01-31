@@ -6,6 +6,8 @@ import HomeProducts from "@/components/home/HomeProducts";
 import HomeSlider from "@/components/home/HomeSlider";
 import LoadingScreen from "@/components/common/LoadingScreen";
 import ProductCarousel from '@/components/home/ProductsCarousel';
+import NewInstagramFeeds from '@/components/common/NewInstagramFeeds';
+import ShortcodeRendering from '@/components/common/ShortcodeRendering';
 
 export default function Home() {
   const [loading, setLoading] = useState(true); 
@@ -24,7 +26,7 @@ export default function Home() {
       <HomeProducts />
       <ProductCarousel />
       <ChivitaTrads />
-      <InstagramGallery />
+      <ShortcodeRendering shortcode="[insta-gallery id='0']" />
     </>
   );
 }

@@ -2,9 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Azo+Sans&display=swap');
+
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --font-primary: 'Bebas Neue', sans-serif;
+  --font-secondary: 'Azo Sans', sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,7 +22,11 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-secondary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-primary);
 }
 
 .swiper {

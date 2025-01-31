@@ -7,12 +7,12 @@ import { usePathname } from "next/navigation";
 import ContactFooter from "@/components/common/ContactFooter";
 
 const azoSans = localFont({
-  src: "./fonts/AzoSansRegular.ttf",
+  src: "/fonts/AzoSansRegular.ttf",
   variable: "--font-azo-sans",
   weight: "100 900",
 });
 const azoSansBold = localFont({
-  src: "./fonts/AzoSansBold.ttf",
+  src: "/fonts/AzoSansBold.ttf",
   variable: "--font-azosans-bold",
   weight: "100 900",
 });
