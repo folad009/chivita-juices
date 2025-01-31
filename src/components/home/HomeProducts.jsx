@@ -59,7 +59,7 @@ const HomeProducts = () => {
   return (
     <>
      <section className="py-20 relative overflow-hidden">
-      <div className="container text-center">
+      <div className="text-center">
         <div className="mx-auto flex max-w-screen-xl flex-col items-center gap-6">
           <img src="/assets/images/the-chivita-brand.png" className="w-[300px] items-center" />
           <p className="text-balance text-zinc-600 lg:text-lg" style={{ fontFamily: "Azo Sans, sans-serif"}}>
