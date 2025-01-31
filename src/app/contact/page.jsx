@@ -10,7 +10,7 @@ const ContactPage = () => {
     <>
       <section className="min-h-screen">
         <div
-          className="container flex flex-col min-h-screen px-6 py-12 mx-auto relative"
+          className="flex flex-col min-h-screen px-6 py-12 mx-auto relative"
           style={{ backgroundImage: "url(/assets/images/chivita-web-background.jpg)", backgroundRepeat: "no-repeat", backgroundSize: "cover" }}
         >
             <div className="absolute inset-0 bg-black bg-opacity-70"></div>
