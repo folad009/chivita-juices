@@ -50,7 +50,11 @@ const InstagramEmbed = () => {
                         autoplay={{ delay: 3000, disableOnInteraction: false }}
                         modules={[Navigation, Autoplay]}
                         spaceBetween={10}
-                        slidesPerView={4}
+                        breakpoints={{
+                            640: { slidesPerView: 1 },
+                            768: { slidesPerView: 2 },
+                            1024: { slidesPerView: 4 },
+                        }}
                         className='w-full'
                     >
                         {instagramFeed.data.map((post) => (
