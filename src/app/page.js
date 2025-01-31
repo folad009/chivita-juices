@@ -26,7 +26,7 @@ export default function Home() {
       <HomeProducts />
       <ProductCarousel />
       <ChivitaTrads />
-      <ShortcodeRendering shortcode="[insta-gallery id='0']" />
+      <InstagramGallery />
     </>
   );
 }
