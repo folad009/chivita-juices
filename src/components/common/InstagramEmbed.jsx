@@ -76,8 +76,8 @@ const InstagramEmbed = () => {
                                             src={post.media_url}
                                             alt={post.caption ?? ''}
                                             className='object-cover w-full h-full'
-                                            width={300}
-                                            height={300}
+                                            width={400}
+                                            height={400}
                                         />
                                     )}
                                 </Link>
