@@ -71,9 +71,89 @@ function ChivitaNavi() {
           />
         </a>
 
-        {/* Navigation Bar */}
-        <nav
-          className="relative hidden md:inline-flex space-x-9 font-bold py-4"
+        <div className="flex items-center space-x-1">
+         {/* <a
+            href="/storelocator"
+            className={styles.CustomButton}
+            style={{ fontFamily: "Bebas Neue, sans-serif" }}
+          >
+            <span className={styles.span}>Find our stores</span>
+          </a>*/}
+
+          {/* Mobile Menu Toggle */}
+          <button
+            onClick={toggleMobileMenu}
+            className="inline-flex md:hidden px-2 btn btn-sm"
+            aria-label="Open Menu"
+            aria-expanded={isMobileMenuOpen}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              className="text-white"
+              viewBox="0 0 24 24"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M4 6h16M8 12h8M6 18h12" />
+            </svg>
+          </button>
+
+          {isMobileMenuOpen && (
+            <div className="absolute top-0 left-0 right-0 z-50 flex flex-col p-2 m-2 space-y-1 bg-white rounded shadow">
+              <button
+                onClick={toggleMobileMenu}
+                className="self-end flex-none btn btn-link"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  className="text-[#e30417]"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M18 6L6 18M6 6l12 12" />
+                </svg>
+              </button>
+              {/* Mobile Links */}
+              {["Our Story", "Recipes", "Journal", "Contact"].map(
+                (link, idx) => (
+                  <a
+                    key={idx}
+                    href={`/${link.replace(/\s+/g, "-").toLowerCase()}`}
+                    className="px-3 py-2 text-[15px] transition rounded hover:bg-gray-200 hover:text-[#e30417]"
+                  >
+                    {link}
+                  </a>
+                )
+              )}
+              <p className="pl-3 text-xs font-semibold text-gray-500 uppercase">
+                Products
+              </p>
+              <div className="grid grid-cols-2 gap-1">
+                {productItems.map(({ name, link }, idx) => (
+                  <a
+                    key={idx}
+                    href={link}
+                    className="px-3 py-2 text-[15px] transition rounded hover:bg-gray-200"
+                  >
+                    {name}
+                  </a>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+
+          {/* Navigation Bar */}
+          <nav
+          className="relative flex space-x-9 font-bold py-4 justify-end"
           style={{ fontFamily: "Bebas Neue, sans-serif" }}
         >
           {/* Static Links */}
@@ -158,86 +238,6 @@ function ChivitaNavi() {
             Contact us
           </a>
         </nav>
-
-        <div className="flex items-center space-x-1">
-          <a
-            href="/storelocator"
-            className={styles.CustomButton}
-            style={{ fontFamily: "Bebas Neue, sans-serif" }}
-          >
-            <span className={styles.span}>Find our stores</span>
-          </a>
-
-          {/* Mobile Menu Toggle */}
-          <button
-            onClick={toggleMobileMenu}
-            className="inline-flex md:hidden px-2 btn btn-sm"
-            aria-label="Open Menu"
-            aria-expanded={isMobileMenuOpen}
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              className="text-white"
-              viewBox="0 0 24 24"
-            >
-              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-              <path d="M4 6h16M8 12h8M6 18h12" />
-            </svg>
-          </button>
-
-          {isMobileMenuOpen && (
-            <div className="absolute top-0 left-0 right-0 z-50 flex flex-col p-2 m-2 space-y-1 bg-white rounded shadow">
-              <button
-                onClick={toggleMobileMenu}
-                className="self-end flex-none btn btn-link"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  className="text-[#e30417]"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M18 6L6 18M6 6l12 12" />
-                </svg>
-              </button>
-              {/* Mobile Links */}
-              {["Our Story", "Recipes", "Journal", "Contact"].map(
-                (link, idx) => (
-                  <a
-                    key={idx}
-                    href={`/${link.replace(/\s+/g, "-").toLowerCase()}`}
-                    className="px-3 py-2 text-[15px] transition rounded hover:bg-gray-200 hover:text-[#e30417]"
-                  >
-                    {link}
-                  </a>
-                )
-              )}
-              <p className="pl-3 text-xs font-semibold text-gray-500 uppercase">
-                Products
-              </p>
-              <div className="grid grid-cols-2 gap-1">
-                {productItems.map(({ name, link }, idx) => (
-                  <a
-                    key={idx}
-                    href={link}
-                    className="px-3 py-2 text-[15px] transition rounded hover:bg-gray-200"
-                  >
-                    {name}
-                  </a>
-                ))}
-              </div>
-            </div>
-          )}
-        </div>
       </div>
     </header>
   );
