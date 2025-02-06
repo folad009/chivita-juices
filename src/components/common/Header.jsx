@@ -221,14 +221,14 @@ function ChivitaNavi() {
           >
             Recipes
           </a>
-          <a
+          {/*<a
             href="/journal"
             className={`rounded-md p-2 text-white text-[17px] border-none shadow-none hover:bg-[#0c8241] hover:text-white ${
               isCurrentPage("/journal") ? "bg-[#0c8241]" : ""
             }`}
           >
             Journal
-          </a>
+          </a>*/}
           <a
             href="/contact"
             className={`rounded-md p-2 text-white text-[17px] border-none shadow-none hover:bg-[#0c8241] hover:text-white ${
