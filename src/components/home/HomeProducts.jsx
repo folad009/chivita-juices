@@ -69,6 +69,7 @@ const HomeProducts = () => {
         </div>
         <a
           href="/storelocator"
+          ref={buttonRef}
           style={{ fontFamily: 'Bebas Neue, sans-serif' }}
           className="inline-flex items-center justify-center whitespace-nowrap text-[20px] font-bold ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-[#e30417]  text-white hover:bg-[#007d26] h-11 rounded-md px-8 mt-10"
         >
