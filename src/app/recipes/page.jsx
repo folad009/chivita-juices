@@ -4,11 +4,7 @@ import RecipeOverview from "@/components/recipes/RecipeOverview";
 const RecipePage = () => {
 
   return (
-    <>
-    
     <RecipeOverview />
-    </>
-    
   );
 };
 

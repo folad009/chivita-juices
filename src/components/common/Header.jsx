@@ -58,8 +58,8 @@ function ChivitaNavi() {
   const isCurrentPage = (path) => pathname === path;
 
   return (
-    <header className="sticky top-0 z-30 min-w-full px-2 py-3 bg-[#e30417] sm:px-4 border-b border-[#007D26] min-h-[5rem]">
-      <div className="flex items-center justify-between mx-auto max-w-7xl">
+    <header className="sticky top-0 z-30 min-w-full px-2 py-3 bg-[#e30417] sm:px-4 border-b border-[#007D26] min-h-[5rem] container">
+      <div className="flex items-center justify-between mx-auto max-w-6xl">
         <a href="/" title="Home Page" className="flex items-center">
           <Image
             src="/assets/images/chivita-logo-white.png"
@@ -190,7 +190,7 @@ function ChivitaNavi() {
             </button>
 
             {isProductsHovered && (
-              <div className="absolute z-50 w-screen max-w-4xl p-2 mt-1 -left-48 bg-white rounded shadow">
+              <div className="absolute z-50 w-screen max-w-4xl p-2 mt-1 -left-[30rem] bg-white rounded shadow">
                 <div className="grid grid-cols-6 gap-2">
                   {productItems.map(({ name, image, link }, idx) => (
                     <a
