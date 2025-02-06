@@ -44,7 +44,7 @@ const InstagramEmbed = () => {
         <>
             {error && <p className='text-red-500'>{error}</p>}
             {instagramFeed && (
-                <section className='w-full flex flex-col justify-center items-center my-10'>
+                <section className='w-full flex flex-col justify-center items-center mb-10'>
                     <Swiper
                         navigation={true}
                         autoplay={{ delay: 3000, disableOnInteraction: false }}
