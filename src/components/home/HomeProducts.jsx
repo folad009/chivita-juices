@@ -67,13 +67,13 @@ const HomeProducts = () => {
             There’s a tempting option for everyone, with exciting flavours and family favourites too.
           </p>
         </div>
-        <button
-          ref={buttonRef}
+        <a
+          href="/storelocator"
           style={{ fontFamily: 'Bebas Neue, sans-serif' }}
           className="inline-flex items-center justify-center whitespace-nowrap text-[20px] font-bold ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-[#e30417]  text-white hover:bg-[#007d26] h-11 rounded-md px-8 mt-10"
         >
-          Discover all our products
-        </button>
+          Find our stores
+        </a>
       </div>
 
       {/* Floating SVG elements */}
