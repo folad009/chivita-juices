@@ -190,7 +190,7 @@ function ChivitaNavi() {
             </button>
 
             {isProductsHovered && (
-              <div className="absolute z-50 w-screen max-w-4xl p-2 mt-1 -left-[30rem] bg-white rounded shadow">
+              <div className="absolute z-50 w-screen max-w-4xl p-2 mt-1 -left-[35rem] bg-white rounded shadow">
                 <div className="grid grid-cols-6 gap-2">
                   {productItems.map(({ name, image, link }, idx) => (
                     <a

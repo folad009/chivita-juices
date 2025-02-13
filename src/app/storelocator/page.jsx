@@ -1,11 +1,12 @@
 import StoreLocator from '@/components/common/StoreLocator'
-import React from 'react'
+import { NextSeo } from 'next-seo'
+
 
 const StoreLocatorPage = () => {
   return (
-    <div>
+    <>
       <StoreLocator />
-    </div>
+    </>
   )
 }
 

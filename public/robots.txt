@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://chivitajuices.com
+
+# Sitemaps
+Sitemap: https://chivitajuices.com/sitemap.xml
